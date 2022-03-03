@@ -1,0 +1,5967 @@
+Model {
+  Name			  "pidcontroller"
+  Version		  8.9
+  SavedCharacterEncoding  "windows-1252"
+  GraphicalInterface {
+    NumRootInports	    0
+    NumRootOutports	    0
+    ParameterArgumentNames  ""
+    ComputedModelVersion    "1.12"
+    NumModelReferences	    0
+    NumTestPointedSignals   0
+    NumProvidedFunctions    0
+    NumRequiredFunctions    0
+    NumResetEvents	    0
+    HasInitializeEvent	    0
+    HasTerminateEvent	    0
+    IsExportFunctionModel   0
+    NumParameterArguments   0
+    OrderedModelArguments   1
+  }
+  SLCCPlugin		  "on"
+  LogicAnalyzerPlugin	  "on"
+  DiagnosticSuppressor	  "on"
+  slprops.hdlmdlprops {
+    $PropName		    "HDLParams"
+    $ObjectID		    1
+    Array {
+      Type		      "Cell"
+      Dimension		      2
+      Cell		      "HDLSubsystem"
+      Cell		      "$bdroot"
+      PropName		      "mdlProps"
+    }
+  }
+  ScopeRefreshTime	  0.035000
+  OverrideScopeRefreshTime on
+  DisableAllScopes	  off
+  DataTypeOverride	  "UseLocalSettings"
+  DataTypeOverrideAppliesTo "AllNumericTypes"
+  MinMaxOverflowLogging	  "UseLocalSettings"
+  MinMaxOverflowArchiveMode "Overwrite"
+  FPTRunName		  "Run 1"
+  MaxMDLFileLineLength	  120
+  UserBdParams		  "PhysicalModelingChecksum;PhysicalModelingParameterChecksum;PhysicalModelingProducts"
+  LastSavedArchitecture	  "win64"
+  Object {
+    $PropName		    "BdWindowsInfo"
+    $ObjectID		    2
+    $ClassName		    "Simulink.BDWindowsInfo"
+    Object {
+      $PropName		      "WindowsInfo"
+      $ObjectID		      3
+      $ClassName	      "Simulink.WindowInfo"
+      IsActive		      [1]
+      Location		      [-8.0, -8.0, 1382.0, 743.0]
+      Object {
+	$PropName		"ModelBrowserInfo"
+	$ObjectID		4
+	$ClassName		"Simulink.ModelBrowserInfo"
+	Visible			[1]
+	DockPosition		"Left"
+	Width			[50]
+	Height			[50]
+	Filter			[9]
+      }
+      Object {
+	$PropName		"ExplorerBarInfo"
+	$ObjectID		5
+	$ClassName		"Simulink.ExplorerBarInfo"
+	Visible			[1]
+      }
+      Array {
+	Type			"Simulink.EditorInfo"
+	Dimension		9
+	Object {
+	  $ObjectID		  6
+	  IsActive		  [1]
+	  ViewObjType		  "SimulinkTopLevel"
+	  LoadSaveID		  "0"
+	  Extents		  [1266.0, 501.0]
+	  ZoomFactor		  [0.5]
+	  Offset		  [-1347.9770833333309, -146.533341487249]
+	}
+	Object {
+	  $ObjectID		  7
+	  IsActive		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "43"
+	  Extents		  [1266.0, 502.0]
+	  ZoomFactor		  [0.57]
+	  Offset		  [-885.52631578947376, -337.71947368421053]
+	}
+	Object {
+	  $ObjectID		  8
+	  IsActive		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "83"
+	  Extents		  [1266.0, 502.0]
+	  ZoomFactor		  [1.25]
+	  Offset		  [-274.6, -77.768596491228067]
+	}
+	Object {
+	  $ObjectID		  9
+	  IsActive		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "35"
+	  Extents		  [1266.0, 502.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-387.49999999999989, -63.000200000000007]
+	}
+	Object {
+	  $ObjectID		  10
+	  IsActive		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "56"
+	  Extents		  [1266.0, 502.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-292.5, -50.000200000000063]
+	}
+	Object {
+	  $ObjectID		  11
+	  IsActive		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "74"
+	  Extents		  [1266.0, 502.0]
+	  ZoomFactor		  [0.57]
+	  Offset		  [-893.02631578947376, -345.61421052631579]
+	}
+	Object {
+	  $ObjectID		  12
+	  IsActive		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "39"
+	  Extents		  [1266.0, 502.0]
+	  ZoomFactor		  [0.57]
+	  Offset		  [-893.02631578947376, -345.61421052631579]
+	}
+	Object {
+	  $ObjectID		  13
+	  IsActive		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "65"
+	  Extents		  [1266.0, 502.0]
+	  ZoomFactor		  [0.57]
+	  Offset		  [-893.02631578947376, -345.61421052631579]
+	}
+	Object {
+	  $ObjectID		  14
+	  IsActive		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "47"
+	  Extents		  [1266.0, 502.0]
+	  ZoomFactor		  [1.25]
+	  Offset		  [-293.271929824561, -73.014210526315878]
+	}
+	PropName		"EditorsInfo"
+      }
+      Array {
+	Type			"Simulink.DockComponentInfo"
+	Dimension		1
+	Object {
+	  $ObjectID		  16
+	  Type			  "GLUE2:PropertyInspector"
+	  ID			  "Property Inspector"
+	  Visible		  [1]
+	  CreateCallback	  ""
+	  UserData		  ""
+	  Floating		  [0]
+	  DockPosition		  "Right"
+	  Width			  [640]
+	  Height		  [480]
+	}
+	PropName		"DockComponentsInfo"
+      }
+      WindowState	      "AAAA/wAAAAD9AAAAAgAAAAAAAAC9AAAB+PwCAAAABPsAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAA"
+      "AAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0Ac"
+      "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAABjAP////sAAABgAFMAaQBtAHUAb"
+      "ABpAG4AawA6AEUAZABpAHQAbwByADoAUgBlAGYAZQByAGUAbgBjAGUAZABGAGkAbABlAHMALwBSAGUAZgBlAHIAZQBuAGMAZQBkACAARgBpAGwAZ"
+      "QBzAAAAAAD/////AAAAjAD///8AAAABAAAAAAAAAAD8AgAAAAH7AAAAVABHAEwAVQBFADIAOgBQAHIAbwBwAGUAcgB0AHkASQBuAHMAcABlAGMAd"
+      "ABvAHIALwBQAHIAbwBwAGUAcgB0AHkAIABJAG4AcwBwAGUAYwB0AG8AcgAAAAAA/////wAAAawA////AAAFGAAAAjIAAAABAAAAAgAAAAEAAAAC/"
+      "AAAAAMAAAAAAAAAAQAAADYAYwBvAGwAbABhAHAAcwBpAGIAbABlAFAAYQBuAGUAbABUAG8AbwBsAEIAYQByAEwAZQBmAHQDAAAAAP////8AAAAAA"
+      "AAAAAAAAAEAAAABAAAAOABjAG8AbABsAGEAcABzAGkAYgBsAGUAUABhAG4AZQBsAFQAbwBvAGwAQgBhAHIAUgBpAGcAaAB0AwAAAAD/////AAAAA"
+      "AAAAAAAAAADAAAAAQAAADoAYwBvAGwAbABhAHAAcwBpAGIAbABlAFAAYQBuAGUAbABUAG8AbwBsAEIAYQByAEIAbwB0AHQAbwBtAAAAAAD/////A"
+      "AAAAAAAAAA="
+    }
+  }
+  HideAutomaticNames	  on
+  PhysicalModelingChecksum "4202182029"
+  PhysicalModelingParameterChecksum "1404539947"
+  PhysicalModelingProducts "Power_System_Blocks|Simscape"
+  Created		  "Sun Aug 15 14:58:07 2021"
+  Creator		  "Udara"
+  ModifiedByFormat	  "%<Auto>"
+  LastModifiedBy	  "Udara"
+  ModifiedDateFormat	  "%<Auto>"
+  LastModifiedDate	  "Fri Aug 20 14:08:17 2021"
+  RTWModifiedTimeStamp	  551369297
+  ModelVersionFormat	  "1.%<AutoIncrement:0>"
+  SampleTimeColors	  off
+  SampleTimeAnnotations	  off
+  LibraryLinkDisplay	  "disabled"
+  WideLines		  off
+  ShowLineDimensions	  off
+  ShowPortDataTypes	  off
+  PortDataTypeDisplayFormat "AliasTypeOnly"
+  ShowEditTimeErrors	  on
+  ShowEditTimeWarnings	  on
+  ShowEditTimeAdvisorChecks off
+  ShowPortUnits		  off
+  ShowDesignRanges	  off
+  ShowLoopsOnError	  on
+  IgnoreBidirectionalLines off
+  ShowStorageClass	  off
+  ShowTestPointIcons	  on
+  ShowSignalResolutionIcons on
+  ShowViewerIcons	  on
+  VariantCondition	  off
+  ShowLinearizationAnnotations on
+  ShowVisualizeInsertedRTB on
+  ShowMarkup		  on
+  BlockNameDataTip	  off
+  BlockParametersDataTip  off
+  BlockDescriptionStringDataTip	off
+  ToolBar		  on
+  StatusBar		  on
+  BrowserShowLibraryLinks off
+  FunctionConnectors	  off
+  BrowserLookUnderMasks	  off
+  SimulationMode	  "normal"
+  PauseTimes		  "5"
+  NumberOfSteps		  1
+  SnapshotBufferSize	  10
+  SnapshotInterval	  10
+  NumberOfLastSnapshots	  0
+  LinearizationMsg	  "none"
+  Profile		  off
+  ParamWorkspaceSource	  "MATLABWorkspace"
+  AccelSystemTargetFile	  "accel.tlc"
+  AccelTemplateMakefile	  "accel_default_tmf"
+  AccelMakeCommand	  "make_rtw"
+  TryForcingSFcnDF	  off
+  Object {
+    $PropName		    "DataLoggingOverride"
+    $ObjectID		    17
+    $ClassName		    "Simulink.SimulationData.ModelLoggingInfo"
+    model_		    "pidcontroller"
+    overrideMode_	    [0.0]
+    Array {
+      Type		      "Cell"
+      Dimension		      1
+      Cell		      "pidcontroller"
+      PropName		      "logAsSpecifiedByModels_"
+    }
+    Array {
+      Type		      "Cell"
+      Dimension		      1
+      Cell		      []
+      PropName		      "logAsSpecifiedByModelsSSIDs_"
+    }
+  }
+  ExtModeBatchMode	  off
+  ExtModeEnableFloating	  on
+  ExtModeTrigType	  "manual"
+  ExtModeTrigMode	  "normal"
+  ExtModeTrigPort	  "1"
+  ExtModeTrigElement	  "any"
+  ExtModeTrigDuration	  1000
+  ExtModeTrigDurationFloating "auto"
+  ExtModeTrigHoldOff	  0
+  ExtModeTrigDelay	  0
+  ExtModeTrigDirection	  "rising"
+  ExtModeTrigLevel	  0
+  ExtModeArchiveMode	  "off"
+  ExtModeAutoIncOneShot	  off
+  ExtModeIncDirWhenArm	  off
+  ExtModeAddSuffixToVar	  off
+  ExtModeWriteAllDataToWs off
+  ExtModeArmWhenConnect	  on
+  ExtModeSkipDownloadWhenConnect off
+  ExtModeLogAll		  on
+  ExtModeAutoUpdateStatusClock on
+  ShowModelReferenceBlockVersion off
+  ShowModelReferenceBlockIO off
+  OrderedModelArguments	  on
+  Array {
+    Type		    "Handle"
+    Dimension		    1
+    Simulink.ConfigSet {
+      $ObjectID		      18
+      Version		      "1.17.0"
+      DisabledProps	      []
+      Description	      ""
+      Array {
+	Type			"Handle"
+	Dimension		11
+	Simulink.SolverCC {
+	  $ObjectID		  19
+	  Version		  "1.17.0"
+	  DisabledProps		  []
+	  Description		  ""
+	  Components		  []
+	  StartTime		  "0.0"
+	  StopTime		  "10.0"
+	  AbsTol		  "auto"
+	  FixedStep		  "auto"
+	  InitialStep		  "auto"
+	  MaxOrder		  5
+	  ZcThreshold		  "auto"
+	  ConsecutiveZCsStepRelTol "10*128*eps"
+	  MaxConsecutiveZCs	  "1000"
+	  ExtrapolationOrder	  4
+	  NumberNewtonIterations  1
+	  MaxStep		  "auto"
+	  MinStep		  "auto"
+	  MaxConsecutiveMinStep	  "1"
+	  RelTol		  "1e-3"
+	  EnableMultiTasking	  off
+	  EnableConcurrentExecution off
+	  ConcurrentTasks	  off
+	  SolverName		  "VariableStepAuto"
+	  SolverJacobianMethodControl "auto"
+	  ShapePreserveControl	  "DisableAll"
+	  ZeroCrossControl	  "UseLocalSettings"
+	  ZeroCrossAlgorithm	  "Nonadaptive"
+	  AlgebraicLoopSolver	  "TrustRegion"
+	  SolverInfoToggleStatus  off
+	  IsAutoAppliedInSIP	  off
+	  SolverResetMethod	  "Fast"
+	  PositivePriorityOrder	  off
+	  AutoInsertRateTranBlk	  off
+	  SampleTimeConstraint	  "Unconstrained"
+	  InsertRTBMode		  "Whenever possible"
+	  SampleTimeProperty	  []
+	  Solver		  VariableStepAuto
+	}
+	Simulink.DataIOCC {
+	  $ObjectID		  20
+	  Version		  "1.17.0"
+	  DisabledProps		  []
+	  Description		  ""
+	  Components		  []
+	  Decimation		  "1"
+	  ExternalInput		  "[t, u]"
+	  FinalStateName	  "xFinal"
+	  InitialState		  "xInitial"
+	  LimitDataPoints	  off
+	  MaxDataPoints		  "1000"
+	  LoadExternalInput	  off
+	  LoadInitialState	  off
+	  SaveFinalState	  off
+	  SaveCompleteFinalSimState off
+	  SaveFormat		  "Dataset"
+	  SignalLoggingSaveFormat "Dataset"
+	  SaveOutput		  on
+	  SaveState		  off
+	  SignalLogging		  on
+	  DSMLogging		  on
+	  InspectSignalLogs	  off
+	  VisualizeSimOutput	  on
+	  StreamToWorkspace	  off
+	  StreamVariableName	  "streamout"
+	  SaveTime		  on
+	  ReturnWorkspaceOutputs  on
+	  StateSaveName		  "xout"
+	  TimeSaveName		  "tout"
+	  OutputSaveName	  "yout"
+	  SignalLoggingName	  "logsout"
+	  DSMLoggingName	  "dsmout"
+	  OutputOption		  "RefineOutputTimes"
+	  OutputTimes		  "[]"
+	  ReturnWorkspaceOutputsName "out"
+	  Refine		  "1"
+	  LoggingToFile		  off
+	  DatasetSignalFormat	  "timeseries"
+	  LoggingFileName	  "out.mat"
+	  LoggingIntervals	  "[-inf, inf]"
+	}
+	Simulink.OptimizationCC {
+	  $ObjectID		  21
+	  Version		  "1.17.0"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    9
+	    Cell		    "BooleansAsBitfields"
+	    Cell		    "PassReuseOutputArgsAs"
+	    Cell		    "PassReuseOutputArgsThreshold"
+	    Cell		    "ZeroExternalMemoryAtStartup"
+	    Cell		    "ZeroInternalMemoryAtStartup"
+	    Cell		    "OptimizeModelRefInitCode"
+	    Cell		    "NoFixptDivByZeroProtection"
+	    Cell		    "UseSpecifiedMinMax"
+	    Cell		    "EfficientTunableParamExpr"
+	    PropName		    "DisabledProps"
+	  }
+	  Description		  ""
+	  Components		  []
+	  BlockReduction	  on
+	  BooleanDataType	  on
+	  ConditionallyExecuteInputs on
+	  DefaultParameterBehavior "Tunable"
+	  UseDivisionForNetSlopeComputation "off"
+	  UseFloatMulNetSlope	  off
+	  DefaultUnderspecifiedDataType	"double"
+	  UseSpecifiedMinMax	  off
+	  InlineInvariantSignals  off
+	  OptimizeBlockIOStorage  on
+	  BufferReuse		  on
+	  EnhancedBackFolding	  off
+	  CachingGlobalReferences off
+	  GlobalBufferReuse	  on
+	  StrengthReduction	  off
+	  AdvancedOptControl	  ""
+	  ExpressionFolding	  on
+	  BooleansAsBitfields	  off
+	  BitfieldContainerType	  "uint_T"
+	  EnableMemcpy		  on
+	  MemcpyThreshold	  64
+	  PassReuseOutputArgsAs	  "Structure reference"
+	  PassReuseOutputArgsThreshold 12
+	  ExpressionDepthLimit	  128
+	  LocalBlockOutputs	  on
+	  RollThreshold		  5
+	  StateBitsets		  off
+	  DataBitsets		  off
+	  ActiveStateOutputEnumStorageType "Native Integer"
+	  ZeroExternalMemoryAtStartup on
+	  ZeroInternalMemoryAtStartup on
+	  InitFltsAndDblsToZero	  off
+	  NoFixptDivByZeroProtection off
+	  EfficientFloat2IntCast  off
+	  EfficientMapNaN2IntZero on
+	  LifeSpan		  "auto"
+	  MaxStackSize		  "Inherit from target"
+	  BufferReusableBoundary  on
+	  SimCompilerOptimization "off"
+	  AccelVerboseBuild	  off
+	  OptimizeBlockOrder	  "off"
+	  OptimizeDataStoreBuffers on
+	  BusAssignmentInplaceUpdate on
+	}
+	Simulink.DebuggingCC {
+	  $ObjectID		  22
+	  Version		  "1.17.0"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    1
+	    Cell		    "UseOnlyExistingSharedCode"
+	    PropName		    "DisabledProps"
+	  }
+	  Description		  ""
+	  Components		  []
+	  RTPrefix		  "error"
+	  ConsistencyChecking	  "none"
+	  ArrayBoundsChecking	  "none"
+	  SignalInfNanChecking	  "none"
+	  SignalRangeChecking	  "none"
+	  ReadBeforeWriteMsg	  "UseLocalSettings"
+	  WriteAfterWriteMsg	  "UseLocalSettings"
+	  WriteAfterReadMsg	  "UseLocalSettings"
+	  AlgebraicLoopMsg	  "warning"
+	  ArtificialAlgebraicLoopMsg "warning"
+	  SaveWithDisabledLinksMsg "warning"
+	  SaveWithParameterizedLinksMsg	"warning"
+	  CheckSSInitialOutputMsg on
+	  UnderspecifiedInitializationDetection	"Simplified"
+	  MergeDetectMultiDrivingBlocksExec "error"
+	  CheckExecutionContextPreStartOutputMsg off
+	  SignalResolutionControl "UseLocalSettings"
+	  BlockPriorityViolationMsg "warning"
+	  MinStepSizeMsg	  "warning"
+	  TimeAdjustmentMsg	  "none"
+	  MaxConsecutiveZCsMsg	  "error"
+	  MaskedZcDiagnostic	  "warning"
+	  IgnoredZcDiagnostic	  "warning"
+	  SolverPrmCheckMsg	  "none"
+	  InheritedTsInSrcMsg	  "warning"
+	  MultiTaskDSMMsg	  "error"
+	  MultiTaskCondExecSysMsg "error"
+	  MultiTaskRateTransMsg	  "error"
+	  SingleTaskRateTransMsg  "none"
+	  TasksWithSamePriorityMsg "warning"
+	  SigSpecEnsureSampleTimeMsg "warning"
+	  CheckMatrixSingularityMsg "none"
+	  IntegerOverflowMsg	  "warning"
+	  Int32ToFloatConvMsg	  "warning"
+	  ParameterDowncastMsg	  "error"
+	  ParameterOverflowMsg	  "error"
+	  ParameterUnderflowMsg	  "none"
+	  ParameterPrecisionLossMsg "warning"
+	  ParameterTunabilityLossMsg "warning"
+	  FixptConstUnderflowMsg  "none"
+	  FixptConstOverflowMsg	  "none"
+	  FixptConstPrecisionLossMsg "none"
+	  UnderSpecifiedDataTypeMsg "none"
+	  UnnecessaryDatatypeConvMsg "none"
+	  VectorMatrixConversionMsg "none"
+	  FcnCallInpInsideContextMsg "error"
+	  SignalLabelMismatchMsg  "none"
+	  UnconnectedInputMsg	  "warning"
+	  UnconnectedOutputMsg	  "warning"
+	  UnconnectedLineMsg	  "warning"
+	  UseOnlyExistingSharedCode "error"
+	  SFcnCompatibilityMsg	  "none"
+	  FrameProcessingCompatibilityMsg "error"
+	  UniqueDataStoreMsg	  "none"
+	  BusObjectLabelMismatch  "warning"
+	  RootOutportRequireBusObject "warning"
+	  AssertControl		  "UseLocalSettings"
+	  AllowSymbolicDim	  on
+	  RowMajorDimensionSupport off
+	  ModelReferenceIOMsg	  "none"
+	  ModelReferenceMultiInstanceNormalModeStructChecksumCheck "error"
+	  ModelReferenceVersionMismatchMessage "none"
+	  ModelReferenceIOMismatchMessage "none"
+	  UnknownTsInhSupMsg	  "warning"
+	  ModelReferenceDataLoggingMessage "warning"
+	  ModelReferenceSymbolNameMessage "warning"
+	  ModelReferenceExtraNoncontSigs "error"
+	  StateNameClashWarn	  "none"
+	  SimStateInterfaceChecksumMismatchMsg "warning"
+	  SimStateOlderReleaseMsg "error"
+	  InitInArrayFormatMsg	  "warning"
+	  StrictBusMsg		  "ErrorLevel1"
+	  BusNameAdapt		  "WarnAndRepair"
+	  NonBusSignalsTreatedAsBus "none"
+	  SymbolicDimMinMaxWarning "warning"
+	  LossOfSymbolicDimsSimulationWarning "warning"
+	  LossOfSymbolicDimsCodeGenerationWarning "error"
+	  SymbolicDimsDataTypeCodeGenerationDiagnostic "error"
+	  BlockIODiagnostic	  "none"
+	  SFUnusedDataAndEventsDiag "warning"
+	  SFUnexpectedBacktrackingDiag "error"
+	  SFInvalidInputDataAccessInChartInitDiag "warning"
+	  SFNoUnconditionalDefaultTransitionDiag "error"
+	  SFTransitionOutsideNaturalParentDiag "warning"
+	  SFUnreachableExecutionPathDiag "warning"
+	  SFUndirectedBroadcastEventsDiag "warning"
+	  SFTransitionActionBeforeConditionDiag	"warning"
+	  SFOutputUsedAsStateInMooreChartDiag "error"
+	  SFTemporalDelaySmallerThanSampleTimeDiag "warning"
+	  SFSelfTransitionDiag	  "warning"
+	  SFExecutionAtInitializationDiag "warning"
+	  SFMachineParentedDataDiag "error"
+	  IntegerSaturationMsg	  "warning"
+	  AllowedUnitSystems	  "all"
+	  UnitsInconsistencyMsg	  "warning"
+	  AllowAutomaticUnitConversions	on
+	  UnitDatabase		  ""
+	}
+	Simulink.HardwareCC {
+	  $ObjectID		  23
+	  Version		  "1.17.0"
+	  DisabledProps		  []
+	  Description		  ""
+	  Components		  []
+	  ProdBitPerChar	  8
+	  ProdBitPerShort	  16
+	  ProdBitPerInt		  32
+	  ProdBitPerLong	  32
+	  ProdBitPerLongLong	  64
+	  ProdBitPerFloat	  32
+	  ProdBitPerDouble	  64
+	  ProdBitPerPointer	  64
+	  ProdBitPerSizeT	  64
+	  ProdBitPerPtrDiffT	  64
+	  ProdLargestAtomicInteger "Char"
+	  ProdLargestAtomicFloat  "Float"
+	  ProdIntDivRoundTo	  "Zero"
+	  ProdEndianess		  "LittleEndian"
+	  ProdWordSize		  64
+	  ProdShiftRightIntArith  on
+	  ProdLongLongMode	  off
+	  ProdHWDeviceType	  "Intel->x86-64 (Windows64)"
+	  TargetBitPerChar	  8
+	  TargetBitPerShort	  16
+	  TargetBitPerInt	  32
+	  TargetBitPerLong	  32
+	  TargetBitPerLongLong	  64
+	  TargetBitPerFloat	  32
+	  TargetBitPerDouble	  64
+	  TargetBitPerPointer	  32
+	  TargetBitPerSizeT	  32
+	  TargetBitPerPtrDiffT	  32
+	  TargetLargestAtomicInteger "Char"
+	  TargetLargestAtomicFloat "None"
+	  TargetShiftRightIntArith on
+	  TargetLongLongMode	  off
+	  TargetIntDivRoundTo	  "Undefined"
+	  TargetEndianess	  "Unspecified"
+	  TargetWordSize	  32
+	  TargetPreprocMaxBitsSint 32
+	  TargetPreprocMaxBitsUint 32
+	  TargetHWDeviceType	  "Specified"
+	  TargetUnknown		  off
+	  ProdEqTarget		  on
+	  UseEmbeddedCoderFeatures on
+	  UseSimulinkCoderFeatures on
+	}
+	Simulink.ModelReferenceCC {
+	  $ObjectID		  24
+	  Version		  "1.17.0"
+	  DisabledProps		  []
+	  Description		  ""
+	  Components		  []
+	  UpdateModelReferenceTargets "IfOutOfDateOrStructuralChange"
+	  EnableRefExpFcnMdlSchedulingChecks on
+	  CheckModelReferenceTargetMessage "error"
+	  EnableParallelModelReferenceBuilds off
+	  ParallelModelReferenceErrorOnInvalidPool on
+	  ParallelModelReferenceMATLABWorkerInit "None"
+	  ModelReferenceNumInstancesAllowed "Multi"
+	  PropagateVarSize	  "Infer from blocks in model"
+	  ModelDependencies	  ""
+	  ModelReferencePassRootInputsByReference on
+	  ModelReferenceMinAlgLoopOccurrences off
+	  PropagateSignalLabelsOutOfModel on
+	  SupportModelReferenceSimTargetCustomCode off
+	}
+	Simulink.SFSimCC {
+	  $ObjectID		  25
+	  Version		  "1.17.0"
+	  DisabledProps		  []
+	  Description		  ""
+	  Components		  []
+	  SimCustomSourceCode	  ""
+	  SimCustomHeaderCode	  ""
+	  SimCustomInitializer	  ""
+	  SimCustomTerminator	  ""
+	  SimReservedNameArray	  []
+	  SimUserSources	  ""
+	  SimUserIncludeDirs	  ""
+	  SimUserLibraries	  ""
+	  SimUserDefines	  ""
+	  SimCustomCompilerFlags  ""
+	  SimCustomLinkerFlags	  ""
+	  SFSimEcho		  on
+	  SimCtrlC		  on
+	  SimIntegrity		  on
+	  SimUseLocalCustomCode	  on
+	  SimParseCustomCode	  on
+	  SimGenImportedTypeDefs  off
+	  ModelFunctionsGlobalVisibility "on"
+	  CompileTimeRecursionLimit 50
+	  EnableRuntimeRecursion  on
+	  MATLABDynamicMemAlloc	  on
+	  MATLABDynamicMemAllocThreshold 65536
+	}
+	Simulink.RTWCC {
+	  $BackupClass		  "Simulink.RTWCC"
+	  $ObjectID		  26
+	  Version		  "1.17.0"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    16
+	    Cell		    "IncludeHyperlinkInReport"
+	    Cell		    "GenerateTraceInfo"
+	    Cell		    "GenerateTraceReport"
+	    Cell		    "GenerateTraceReportSl"
+	    Cell		    "GenerateTraceReportSf"
+	    Cell		    "GenerateTraceReportEml"
+	    Cell		    "PortableWordSizes"
+	    Cell		    "GenerateWebview"
+	    Cell		    "GenerateCodeMetricsReport"
+	    Cell		    "GenerateCodeReplacementReport"
+	    Cell		    "GenerateMissedCodeReplacementReport"
+	    Cell		    "GenerateErtSFunction"
+	    Cell		    "CreateSILPILBlock"
+	    Cell		    "CodeExecutionProfiling"
+	    Cell		    "CodeProfilingSaveOptions"
+	    Cell		    "CodeProfilingInstrumentation"
+	    PropName		    "DisabledProps"
+	  }
+	  Description		  ""
+	  SystemTargetFile	  "grt.tlc"
+	  HardwareBoard		  "None"
+	  TLCOptions		  ""
+	  GenCodeOnly		  off
+	  MakeCommand		  "make_rtw"
+	  GenerateMakefile	  on
+	  PackageGeneratedCodeAndArtifacts off
+	  PackageName		  ""
+	  TemplateMakefile	  "grt_default_tmf"
+	  PostCodeGenCommand	  ""
+	  GenerateReport	  off
+	  RTWVerbose		  on
+	  RetainRTWFile		  off
+	  RTWBuildHooks		  []
+	  ProfileTLC		  off
+	  TLCDebug		  off
+	  TLCCoverage		  off
+	  TLCAssert		  off
+	  RTWUseLocalCustomCode	  on
+	  RTWUseSimCustomCode	  off
+	  CustomSourceCode	  ""
+	  CustomHeaderCode	  ""
+	  CustomInclude		  ""
+	  CustomSource		  ""
+	  CustomLibrary		  ""
+	  CustomDefine		  ""
+	  CustomLAPACKCallback	  ""
+	  CustomInitializer	  ""
+	  CustomTerminator	  ""
+	  Toolchain		  "Automatically locate an installed toolchain"
+	  BuildConfiguration	  "Faster Builds"
+	  CustomToolchainOptions  []
+	  IncludeHyperlinkInReport off
+	  LaunchReport		  off
+	  PortableWordSizes	  off
+	  CreateSILPILBlock	  "None"
+	  CodeExecutionProfiling  off
+	  CodeExecutionProfileVariable "executionProfile"
+	  CodeProfilingSaveOptions "SummaryOnly"
+	  CodeProfilingInstrumentation off
+	  SILDebugging		  off
+	  TargetLang		  "C"
+	  IncludeBusHierarchyInRTWFileBlockHierarchyMap	off
+	  GenerateTraceInfo	  off
+	  GenerateTraceReport	  off
+	  GenerateTraceReportSl	  off
+	  GenerateTraceReportSf	  off
+	  GenerateTraceReportEml  off
+	  GenerateWebview	  off
+	  GenerateCodeMetricsReport off
+	  GenerateCodeReplacementReport	off
+	  GenerateMissedCodeReplacementReport off
+	  RTWCompilerOptimization "off"
+	  ObjectivePriorities	  []
+	  RTWCustomCompilerOptimizations ""
+	  CheckMdlBeforeBuild	  "Off"
+	  SharedConstantsCachingThreshold 1024
+	  Array {
+	    Type		    "Handle"
+	    Dimension		    2
+	    Simulink.CodeAppCC {
+	      $ObjectID		      27
+	      Version		      "1.17.0"
+	      Array {
+		Type			"Cell"
+		Dimension		28
+		Cell			"IgnoreCustomStorageClasses"
+		Cell			"IgnoreTestpoints"
+		Cell			"BlockCommentType"
+		Cell			"InsertBlockDesc"
+		Cell			"InsertPolySpaceComments"
+		Cell			"SFDataObjDesc"
+		Cell			"MATLABFcnDesc"
+		Cell			"SimulinkDataObjDesc"
+		Cell			"DefineNamingRule"
+		Cell			"SignalNamingRule"
+		Cell			"ParamNamingRule"
+		Cell			"InternalIdentifier"
+		Cell			"InlinedPrmAccess"
+		Cell			"CustomSymbolStr"
+		Cell			"CustomSymbolStrGlobalVar"
+		Cell			"CustomSymbolStrType"
+		Cell			"CustomSymbolStrField"
+		Cell			"CustomSymbolStrFcn"
+		Cell			"CustomSymbolStrModelFcn"
+		Cell			"CustomSymbolStrFcnArg"
+		Cell			"CustomSymbolStrBlkIO"
+		Cell			"CustomSymbolStrTmpVar"
+		Cell			"CustomSymbolStrMacro"
+		Cell			"CustomSymbolStrUtil"
+		Cell			"CustomSymbolStrEmxType"
+		Cell			"CustomSymbolStrEmxFcn"
+		Cell			"CustomUserTokenString"
+		Cell			"ReqsInCode"
+		PropName		"DisabledProps"
+	      }
+	      Description	      ""
+	      Components	      []
+	      Comment		      ""
+	      ForceParamTrailComments off
+	      GenerateComments	      on
+	      CommentStyle	      "Auto"
+	      IgnoreCustomStorageClasses on
+	      IgnoreTestpoints	      off
+	      MaxIdLength	      31
+	      PreserveName	      off
+	      PreserveNameWithParent  off
+	      ShowEliminatedStatement off
+	      OperatorAnnotations     off
+	      SimulinkDataObjDesc     off
+	      SFDataObjDesc	      off
+	      MATLABFcnDesc	      off
+	      MangleLength	      1
+	      CustomSymbolStrGlobalVar "$R$N$M"
+	      CustomSymbolStrType     "$N$R$M_T"
+	      CustomSymbolStrField    "$N$M"
+	      CustomSymbolStrFcn      "$R$N$M$F"
+	      CustomSymbolStrModelFcn "$R$N"
+	      CustomSymbolStrFcnArg   "rt$I$N$M"
+	      CustomSymbolStrBlkIO    "rtb_$N$M"
+	      CustomSymbolStrTmpVar   "$N$M"
+	      CustomSymbolStrMacro    "$R$N$M"
+	      CustomSymbolStrUtil     "$N$C"
+	      CustomSymbolStrEmxType  "emxArray_$M$N"
+	      CustomSymbolStrEmxFcn   "emx$M$N"
+	      CustomUserTokenString   ""
+	      CustomCommentsFcn	      ""
+	      DefineNamingRule	      "None"
+	      DefineNamingFcn	      ""
+	      ParamNamingRule	      "None"
+	      ParamNamingFcn	      ""
+	      SignalNamingRule	      "None"
+	      SignalNamingFcn	      ""
+	      InsertBlockDesc	      off
+	      InsertPolySpaceComments off
+	      SimulinkBlockComments   on
+	      MATLABSourceComments    off
+	      EnableCustomComments    off
+	      InternalIdentifierFile  ""
+	      InternalIdentifier      "Shortened"
+	      InlinedPrmAccess	      "Literals"
+	      ReqsInCode	      off
+	      UseSimReservedNames     off
+	      ReservedNameArray	      []
+	    }
+	    Simulink.GRTTargetCC {
+	      $BackupClass	      "Simulink.TargetCC"
+	      $ObjectID		      28
+	      Version		      "1.17.0"
+	      Array {
+		Type			"Cell"
+		Dimension		16
+		Cell			"IncludeMdlTerminateFcn"
+		Cell			"SuppressErrorStatus"
+		Cell			"ERTCustomFileBanners"
+		Cell			"GenerateSampleERTMain"
+		Cell			"ExistingSharedCode"
+		Cell			"GenerateTestInterfaces"
+		Cell			"ModelStepFunctionPrototypeControlCompliant"
+		Cell			"GenerateAllocFcn"
+		Cell			"PurelyIntegerCode"
+		Cell			"SupportComplex"
+		Cell			"SupportAbsoluteTime"
+		Cell			"SupportContinuousTime"
+		Cell			"SupportNonInlinedSFcns"
+		Cell			"RemoveDisableFunc"
+		Cell			"RemoveResetFunc"
+		Cell			"PreserveStateflowLocalDataDimensions"
+		PropName		"DisabledProps"
+	      }
+	      Description	      ""
+	      Components	      []
+	      TargetFcnLib	      "ansi_tfl_table_tmw.mat"
+	      TargetLibSuffix	      ""
+	      TargetPreCompLibLocation ""
+	      GenFloatMathFcnCalls    "NOT IN USE"
+	      TargetLangStandard      "C99 (ISO)"
+	      CodeReplacementLibrary  "None"
+	      UtilityFuncGeneration   "Auto"
+	      MultiwordTypeDef	      "System defined"
+	      MultiwordLength	      2048
+	      GenerateFullHeader      on
+	      InferredTypesCompatibility off
+	      ExistingSharedCode      ""
+	      GenerateSampleERTMain   off
+	      GenerateTestInterfaces  off
+	      ModelReferenceCompliant on
+	      ParMdlRefBuildCompliant on
+	      CompOptLevelCompliant   on
+	      ConcurrentExecutionCompliant on
+	      IncludeMdlTerminateFcn  on
+	      CombineOutputUpdateFcns on
+	      CombineSignalStateStructs	off
+	      SuppressErrorStatus     off
+	      IncludeFileDelimiter    "Auto"
+	      ERTCustomFileBanners    off
+	      SupportAbsoluteTime     on
+	      LogVarNameModifier      "rt_"
+	      MatFileLogging	      on
+	      CodeInterfacePackaging  "Nonreusable function"
+	      SupportNonFinite	      on
+	      SupportComplex	      on
+	      PurelyIntegerCode	      off
+	      SupportContinuousTime   on
+	      SupportNonInlinedSFcns  on
+	      RemoveDisableFunc	      off
+	      RemoveResetFunc	      off
+	      SupportVariableSizeSignals off
+	      ParenthesesLevel	      "Nominal"
+	      CastingMode	      "Nominal"
+	      MATLABClassNameForMDSCustomization "Simulink.SoftwareTarget.GRTCustomization"
+	      ModelStepFunctionPrototypeControlCompliant off
+	      CPPClassGenCompliant    on
+	      AutosarCompliant	      off
+	      MDXCompliant	      off
+	      GRTInterface	      off
+	      GenerateAllocFcn	      off
+	      UseToolchainInfoCompliant	on
+	      GenerateSharedConstants on
+	      CoderGroups	      []
+	      AccessMethods	      []
+	      LookupTableObjectStructAxisOrder "1,2,3,4,..."
+	      UseMalloc		      off
+	      ExtMode		      off
+	      ExtModeStaticAlloc      off
+	      ExtModeTesting	      off
+	      ExtModeStaticAllocSize  1000000
+	      ExtModeTransport	      0
+	      ExtModeMexFile	      "ext_comm"
+	      ExtModeMexArgs	      ""
+	      ExtModeIntrfLevel	      "Level1"
+	      RTWCAPISignals	      off
+	      RTWCAPIParams	      off
+	      RTWCAPIStates	      off
+	      RTWCAPIRootIO	      off
+	      GenerateASAP2	      off
+	      MultiInstanceErrorCode  "Error"
+	    }
+	    PropName		    "Components"
+	  }
+	}
+	SlCovCC.ConfigComp {
+	  $ObjectID		  29
+	  Version		  "1.17.0"
+	  DisabledProps		  []
+	  Description		  "Simulink Coverage Configuration Component"
+	  Components		  []
+	  Name			  "Simulink Coverage"
+	  CovEnable		  off
+	  CovScope		  "EntireSystem"
+	  CovIncludeTopModel	  on
+	  RecordCoverage	  off
+	  CovPath		  "/"
+	  CovSaveName		  "covdata"
+	  CovCompData		  ""
+	  CovMetricSettings	  "dwe"
+	  CovFilter		  ""
+	  CovHTMLOptions	  ""
+	  CovNameIncrementing	  off
+	  CovForceBlockReductionOff on
+	  CovEnableCumulative	  on
+	  CovSaveCumulativeToWorkspaceVar off
+	  CovSaveSingleToWorkspaceVar off
+	  CovCumulativeVarName	  "covCumulativeData"
+	  CovCumulativeReport	  off
+	  CovSaveOutputData	  on
+	  CovOutputDir		  "slcov_output/$ModelName$"
+	  CovDataFileName	  "$ModelName$_cvdata"
+	  CovReportOnPause	  on
+	  CovModelRefEnable	  "off"
+	  CovModelRefExcluded	  ""
+	  CovExternalEMLEnable	  on
+	  CovSFcnEnable		  on
+	  CovBoundaryAbsTol	  1e-05
+	  CovBoundaryRelTol	  0.01
+	  CovUseTimeInterval	  off
+	  CovStartTime		  0
+	  CovStopTime		  0
+	  CovMcdcMode		  "Masking"
+	}
+	hdlcoderui.hdlcc {
+	  $ObjectID		  30
+	  Version		  "1.17.0"
+	  DisabledProps		  []
+	  Description		  "HDL Coder custom configuration component"
+	  Components		  []
+	  Name			  "HDL Coder"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    1
+	    Cell		    " "
+	    PropName		    "HDLConfigFile"
+	  }
+	  HDLCActiveTab		  "0"
+	}
+	SSC.SimscapeCC {
+	  $ObjectID		  31
+	  Version		  "1.17.0"
+	  DisabledProps		  []
+	  Description		  ""
+	  Array {
+	    Type		    "Handle"
+	    Dimension		    1
+	    simmechanics.ConfigurationSet {
+	      $ObjectID		      32
+	      Version		      "1.17.0"
+	      DisabledProps	      []
+	      Description	      "Simscape Multibody"
+	      Array {
+		Type			"Handle"
+		Dimension		2
+		simmechanics.DiagnosticsConfigSet {
+		  $ObjectID		  33
+		  Version		  "21.0.0"
+		  DisabledProps		  []
+		  Description		  "Diagnostics"
+		  Components		  []
+		  Name			  "DiagnosticsConfigSet"
+		  SimMechanicsInvalidVisualProperty "warning"
+		  SimMechanicsCrossSectionNullEdge "warning"
+		  SimMechanicsUnconnectedFramePorts "warning"
+		  SimMechanicsUnconnectedGeometryPorts "warning"
+		  SimMechanicsRedundantBlock "warning"
+		  SimMechanicsConflictingReferenceFrames "warning"
+		  SimMechanicsRigidlyBoundBlock	"error"
+		  SimMechanicsUnsatisfiedHighPriorityTargets "warning"
+		  SimMechanicsJointTargetOverSpecification "error"
+		}
+		simmechanics.ExplorerConfigSet {
+		  $ObjectID		  34
+		  Version		  "21.0.0"
+		  DisabledProps		  []
+		  Description		  "Explorer"
+		  Components		  []
+		  Name			  "ExplorerConfigSet"
+		  SimMechanicsOpenEditorOnUpdate on
+		  InternalSimMechanicsExplorerSettings ""
+		}
+		PropName		"Components"
+	      }
+	      Name		      "SimscapeMultibody"
+	    }
+	    PropName		    "Components"
+	  }
+	  Name			  "Simscape"
+	  EditingMode		  "Full"
+	  ExplicitSolverDiagnosticOptions "warning"
+	  GlobalZcOffDiagnosticOptions "warning"
+	  SimscapeNormalizeSystem on
+	  SimscapeNominalValues	  "[{\"value\":\"1\",\"unit\":\"A\"},{\"value\":\"1\",\"unit\":\"bar\"},{\"value\":\"1\",\"un"
+	  "it\":\"cm^2\"},{\"value\":\"1\",\"unit\":\"cm^3/s\"},{\"value\":\"1\",\"unit\":\"kJ/kg\"},{\"value\":\"1\",\"unit\""
+	  ":\"kW\"},{\"value\":\"1\",\"unit\":\"l\"},{\"value\":\"1\",\"unit\":\"N\"},{\"value\":\"1\",\"unit\":\"N*m\"},{\"va"
+	  "lue\":\"1\",\"unit\":\"V\"}]"
+	  SimscapeLogType	  "none"
+	  SimscapeLogSimulationStatistics off
+	  SimscapeLogToSDI	  off
+	  SimscapeLogOpenViewer	  off
+	  SimscapeLogName	  "simlog"
+	  SimscapeLogDecimation	  1
+	  SimscapeLogLimitData	  on
+	  SimscapeLogDataHistory  5000
+	  SimscapeUseOperatingPoints off
+	  SimscapeOperatingPoint  ""
+	  SelectedTab		  ""
+	}
+	PropName		"Components"
+      }
+      Name		      "Configuration"
+      CurrentDlgPage	      "Solver"
+      ConfigPrmDlgPosition    [ 0, 0, 0, 0 ]
+      ExtraOptions	      ""
+    }
+    PropName		    "ConfigurationSets"
+  }
+  Simulink.ConfigSet {
+    $PropName		    "ActiveConfigurationSet"
+    $ObjectID		    18
+  }
+  Object {
+    $PropName		    "DataTransfer"
+    $ObjectID		    35
+    $ClassName		    "Simulink.GlobalDataTransfer"
+    DefaultTransitionBetweenSyncTasks "Ensure deterministic transfer (maximum delay)"
+    DefaultTransitionBetweenAsyncTasks "Ensure data integrity only"
+    DefaultTransitionBetweenContTasks "Ensure deterministic transfer (minimum delay)"
+    DefaultExtrapolationMethodBetweenContTasks "None"
+  }
+  ExplicitPartitioning	  off
+  BlockDefaults {
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    NamePlacement	    "normal"
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    ShowName		    on
+    HideAutomaticName	    on
+    BlockRotation	    0
+    BlockMirror		    off
+  }
+  AnnotationDefaults {
+    HorizontalAlignment	    "left"
+    VerticalAlignment	    "top"
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    UseDisplayTextAsClickCallback off
+  }
+  LineDefaults {
+    FontName		    "Helvetica"
+    FontSize		    9
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+  }
+  MaskDefaults {
+    SelfModifiable	    "off"
+    IconFrame		    "on"
+    IconOpaque		    "opaque"
+    RunInitForIconRedraw    "analyze"
+    IconRotate		    "none"
+    PortRotate		    "default"
+    IconUnits		    "autoscale"
+  }
+  MaskParameterDefaults {
+    Evaluate		    "on"
+    Tunable		    "on"
+    NeverSave		    "off"
+    Internal		    "off"
+    ReadOnly		    "off"
+    Enabled		    "on"
+    Visible		    "on"
+    ToolTip		    "on"
+  }
+  BlockParameterDefaults {
+    Block {
+      BlockType		      Constant
+      Value		      "1"
+      VectorParams1D	      on
+      SamplingMode	      "Sample based"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: Inherit from 'Constant value'"
+      LockScale		      off
+      SampleTime	      "inf"
+      FramePeriod	      "inf"
+      PreserveConstantTs      off
+    }
+    Block {
+      BlockType		      PMIOPort
+      Port		      "1"
+    }
+    Block {
+      BlockType		      Scope
+      DefaultConfigurationName "Simulink.scopes.TimeScopeBlockCfg"
+    }
+    Block {
+      BlockType		      Step
+      Time		      "1"
+      Before		      "0"
+      After		      "1"
+      SampleTime	      "-1"
+      VectorParams1D	      on
+      ZeroCross		      on
+    }
+    Block {
+      BlockType		      SubSystem
+      ShowPortLabels	      "FromPortIcon"
+      Permissions	      "ReadWrite"
+      PermitHierarchicalResolution "All"
+      TreatAsAtomicUnit	      off
+      MinAlgLoopOccurrences   off
+      SystemSampleTime	      "-1"
+      RTWSystemCode	      "Auto"
+      RTWFcnNameOpts	      "Auto"
+      RTWFileNameOpts	      "Auto"
+      FunctionInterfaceSpec   "void_void"
+      FunctionWithSeparateData off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      SimViewingDevice	      off
+      DataTypeOverride	      "UseLocalSettings"
+      DataTypeOverrideAppliesTo	"AllNumericTypes"
+      MinMaxOverflowLogging   "UseLocalSettings"
+      Opaque		      off
+      MaskHideContents	      off
+      SFBlockType	      "NONE"
+      Variant		      off
+      GeneratePreprocessorConditionals off
+      PropagateVariantConditions off
+      TreatAsGroupedWhenPropagatingVariantConditions on
+      ContentPreviewEnabled   off
+      IsWebBlock	      off
+    }
+  }
+  System {
+    Name		    "pidcontroller"
+    Location		    [-8, -8, 1374, 735]
+    Open		    off
+    PortBlocksUseCompactNotation off
+    ModelBrowserVisibility  on
+    ModelBrowserWidth	    200
+    ScreenColor		    "white"
+    PaperOrientation	    "landscape"
+    PaperPositionMode	    "auto"
+    PaperType		    "usletter"
+    PaperUnits		    "inches"
+    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+    TiledPageScale	    1
+    ShowPageBoundaries	    off
+    ZoomFactor		    "50"
+    ReportName		    "simulink-default.rpt"
+    SIDHighWatermark	    "142"
+    Block {
+      BlockType		      Reference
+      Name		      "Capacitor"
+      SID		      "124"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [520, 250, 560, 290]
+      ZOrder		      276
+      BlockRotation	      90
+      NamePlacement	      "alternate"
+      LibraryVersion	      "10003000.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Elements/Capacitor"
+      SourceType	      "Capacitor"
+      SourceProductBaseCode   "SS"
+      LogSimulationData	      off
+      SourceFile	      "foundation.electrical.elements.capacitor"
+      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"p\",\"label\":\"+\",\"type\":\"foundation."
+      "electrical.electrical\"}],\"Right\":[{\"id\":\"n\",\"label\":\"-\",\"type\":\"foundation.electrical.electrical\""
+      "}],\"Top\":[]}"
+      ComponentPath	      "foundation.electrical.elements.capacitor"
+      ComponentVariants	      "[\"foundation.electrical.elements.capacitor\"]"
+      ComponentVariantNames   "[\"capacitor\"]"
+      ClassName		      "capacitor"
+      SchemaVersion	      "1"
+      c			      "2"
+      c_unit		      "uF"
+      c_conf		      "compiletime"
+      r			      "1e-6"
+      r_unit		      "Ohm"
+      r_conf		      "compiletime"
+      g			      "0"
+      g_unit		      "1/Ohm"
+      g_conf		      "compiletime"
+      i_specify		      off
+      i_priority	      "None"
+      i			      "0"
+      i_unit		      "A"
+      i_nominal_specify	      off
+      i_nominal_unit	      "A"
+      i_nominal_value	      "1"
+      v_specify		      off
+      v_priority	      "None"
+      v			      "0"
+      v_unit		      "V"
+      v_nominal_specify	      off
+      v_nominal_unit	      "V"
+      v_nominal_value	      "1"
+      vc_specify	      off
+      vc_priority	      "High"
+      vc		      "0"
+      vc_unit		      "V"
+      vc_nominal_specify      off
+      vc_nominal_unit	      "V"
+      vc_nominal_value	      "1"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Capacitor1"
+      SID		      "125"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [545, 80, 585, 120]
+      ZOrder		      277
+      BlockMirror	      on
+      LibraryVersion	      "10003000.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Elements/Capacitor"
+      SourceType	      "Capacitor"
+      SourceProductBaseCode   "SS"
+      LogSimulationData	      off
+      SourceFile	      "foundation.electrical.elements.capacitor"
+      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"p\",\"label\":\"+\",\"type\":\"foundation."
+      "electrical.electrical\"}],\"Right\":[{\"id\":\"n\",\"label\":\"-\",\"type\":\"foundation.electrical.electrical\""
+      "}],\"Top\":[]}"
+      ComponentPath	      "foundation.electrical.elements.capacitor"
+      ComponentVariants	      "[\"foundation.electrical.elements.capacitor\"]"
+      ComponentVariantNames   "[\"capacitor\"]"
+      ClassName		      "capacitor"
+      SchemaVersion	      "1"
+      c			      "2"
+      c_unit		      "uF"
+      c_conf		      "compiletime"
+      r			      "1e-6"
+      r_unit		      "Ohm"
+      r_conf		      "compiletime"
+      g			      "0"
+      g_unit		      "1/Ohm"
+      g_conf		      "compiletime"
+      i_specify		      off
+      i_priority	      "None"
+      i			      "0"
+      i_unit		      "A"
+      i_nominal_specify	      off
+      i_nominal_unit	      "A"
+      i_nominal_value	      "1"
+      v_specify		      off
+      v_priority	      "None"
+      v			      "0"
+      v_unit		      "V"
+      v_nominal_specify	      off
+      v_nominal_unit	      "V"
+      v_nominal_value	      "1"
+      vc_specify	      off
+      vc_priority	      "High"
+      vc		      "0"
+      vc_unit		      "V"
+      vc_nominal_specify      off
+      vc_nominal_unit	      "V"
+      vc_nominal_value	      "1"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Controlled Voltage\nSource"
+      SID		      "138"
+      Ports		      [0, 0, 0, 0, 0, 1, 2]
+      Position		      [-1090, 235, -1050, 275]
+      ZOrder		      292
+      BlockRotation	      270
+      BlockMirror	      on
+      LibraryVersion	      "10003000.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Sources/Controlled Voltage\nSource"
+      SourceType	      "Controlled Voltage\nSource"
+      SourceProductBaseCode   "SS"
+      LogSimulationData	      off
+      SourceFile	      "foundation.electrical.sources.controlled_voltage"
+      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"p\",\"label\":\"\",\"type\":\"foundation.e"
+      "lectrical.electrical\"}],\"Right\":[{\"id\":\"vT\",\"label\":\"\",\"type\":\"input\"},{\"id\":\"n\",\"label\":\""
+      "\",\"type\":\"foundation.electrical.electrical\"}],\"Top\":[]}"
+      ComponentPath	      "foundation.electrical.sources.controlled_voltage"
+      ComponentVariants	      "[\"foundation.electrical.sources.controlled_voltage\"]"
+      ComponentVariantNames   "[\"controlled_voltage\"]"
+      ClassName		      "controlled_voltage"
+      SchemaVersion	      "1"
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "Differentiator"
+      SID		      "43"
+      Ports		      [0, 0, 0, 0, 0, 2, 1]
+      Position		      [-240, 550, -145, 610]
+      ZOrder		      243
+      RequestExecContextInheritance off
+      ContentPreviewEnabled   on
+      System {
+	Name			"Differentiator"
+	Location		[-8, -8, 1374, 736]
+	Open			off
+	PortBlocksUseCompactNotation off
+	ModelBrowserVisibility	on
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"57"
+	Block {
+	  BlockType		  Reference
+	  Name			  "Capacitor1"
+	  SID			  "20"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [80, 90, 120, 130]
+	  ZOrder		  230
+	  LibraryVersion	  "10003000.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Capacitor"
+	  SourceType		  "Capacitor"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.electrical.elements.capacitor"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"p\",\"label\":\"+\",\"type\":\"foundation.ele"
+	  "ctrical.electrical\"}],\"Right\":[{\"id\":\"n\",\"label\":\"-\",\"type\":\"foundation.electrical.electrical\"}],\"T"
+	  "op\":[]}"
+	  ComponentPath		  "foundation.electrical.elements.capacitor"
+	  ComponentVariants	  "[\"foundation.electrical.elements.capacitor\"]"
+	  ComponentVariantNames	  "[\"capacitor\"]"
+	  ClassName		  "capacitor"
+	  SchemaVersion		  "1"
+	  c			  "100"
+	  c_unit		  "uF"
+	  c_conf		  "compiletime"
+	  r			  "1e-6"
+	  r_unit		  "Ohm"
+	  r_conf		  "compiletime"
+	  g			  "0"
+	  g_unit		  "1/Ohm"
+	  g_conf		  "compiletime"
+	  i_specify		  off
+	  i_priority		  "None"
+	  i			  "0"
+	  i_unit		  "A"
+	  i_nominal_specify	  off
+	  i_nominal_unit	  "A"
+	  i_nominal_value	  "1"
+	  v_specify		  off
+	  v_priority		  "None"
+	  v			  "0"
+	  v_unit		  "V"
+	  v_nominal_specify	  off
+	  v_nominal_unit	  "V"
+	  v_nominal_value	  "1"
+	  vc_specify		  off
+	  vc_priority		  "High"
+	  vc			  "0"
+	  vc_unit		  "V"
+	  vc_nominal_specify	  off
+	  vc_nominal_unit	  "V"
+	  vc_nominal_value	  "1"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Electrical Reference2"
+	  SID			  "22"
+	  Ports			  [0, 0, 0, 0, 0, 1]
+	  Position		  [180, 165, 200, 185]
+	  ZOrder		  232
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  LibraryVersion	  "10003000.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Electrical Reference"
+	  SourceType		  "Electrical Reference"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.electrical.elements.reference"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"V\",\"label\":\"\",\"type\":\"foundation.elec"
+	  "trical.electrical\"}],\"Right\":[],\"Top\":[]}"
+	  ComponentPath		  "foundation.electrical.elements.reference"
+	  ComponentVariants	  "[\"foundation.electrical.elements.reference\"]"
+	  ComponentVariantNames	  "[\"reference\"]"
+	  ClassName		  "reference"
+	  SchemaVersion		  "1"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Op-Amp2"
+	  SID			  "19"
+	  Ports			  [0, 0, 0, 0, 0, 2, 1]
+	  Position		  [200, 99, 275, 141]
+	  ZOrder		  229
+	  LibraryVersion	  "10003000.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Op-Amp"
+	  SourceType		  "Op-Amp"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.electrical.elements.op_amp"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"p\",\"label\":\"+\",\"type\":\"foundation.ele"
+	  "ctrical.electrical\"},{\"id\":\"n\",\"label\":\"-\",\"type\":\"foundation.electrical.electrical\"}],\"Right\":[{\"i"
+	  "d\":\"out\",\"label\":\"\",\"type\":\"foundation.electrical.electrical\"}],\"Top\":[]}"
+	  ComponentPath		  "foundation.electrical.elements.op_amp"
+	  ComponentVariants	  "[\"foundation.electrical.elements.op_amp\"]"
+	  ComponentVariantNames	  "[\"op_amp\"]"
+	  ClassName		  "op_amp"
+	  SchemaVersion		  "1"
+	  outI_specify		  off
+	  outI_priority		  "None"
+	  outI			  "0"
+	  outI_unit		  "A"
+	  outI_nominal_specify	  off
+	  outI_nominal_unit	  "A"
+	  outI_nominal_value	  "1"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Resistor3"
+	  SID			  "23"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [330, 106, 370, 134]
+	  ZOrder		  233
+	  LibraryVersion	  "10003000.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Resistor"
+	  SourceType		  "Resistor"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.electrical.elements.resistor"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"p\",\"label\":\"+\",\"type\":\"foundation.ele"
+	  "ctrical.electrical\"}],\"Right\":[{\"id\":\"n\",\"label\":\"-\",\"type\":\"foundation.electrical.electrical\"}],\"T"
+	  "op\":[]}"
+	  ComponentPath		  "foundation.electrical.elements.resistor"
+	  ComponentVariants	  "[\"foundation.electrical.elements.resistor\"]"
+	  ComponentVariantNames	  "[\"resistor\"]"
+	  ClassName		  "resistor"
+	  SchemaVersion		  "1"
+	  R			  "1"
+	  R_unit		  "kOhm"
+	  R_conf		  "compiletime"
+	  i_specify		  off
+	  i_priority		  "None"
+	  i			  "0"
+	  i_unit		  "A"
+	  i_nominal_specify	  off
+	  i_nominal_unit	  "A"
+	  i_nominal_value	  "1"
+	  v_specify		  off
+	  v_priority		  "None"
+	  v			  "0"
+	  v_unit		  "V"
+	  v_nominal_specify	  off
+	  v_nominal_unit	  "V"
+	  v_nominal_value	  "1"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Variable Resistor2"
+	  SID			  "21"
+	  Ports			  [0, 0, 0, 0, 0, 2, 1]
+	  Position		  [200, 20, 260, 60]
+	  ZOrder		  231
+	  LibraryVersion	  "10003000.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Variable Resistor"
+	  SourceType		  "Variable Resistor"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.electrical.elements.variable_resistor"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"R\",\"label\":\"R\",\"type\":\"input\"},{\"id"
+	  "\":\"p\",\"label\":\"+\",\"type\":\"foundation.electrical.electrical\"}],\"Right\":[{\"id\":\"n\",\"label\":\"-\",\""
+	  "type\":\"foundation.electrical.electrical\"}],\"Top\":[]}"
+	  ComponentPath		  "foundation.electrical.elements.variable_resistor"
+	  ComponentVariants	  "[\"foundation.electrical.elements.variable_resistor\"]"
+	  ComponentVariantNames	  "[\"variable_resistor\"]"
+	  ClassName		  "variable_resistor"
+	  SchemaVersion		  "1"
+	  Rmin			  "1"
+	  Rmin_unit		  "kOhm"
+	  Rmin_conf		  "compiletime"
+	  i_specify		  off
+	  i_priority		  "None"
+	  i			  "0"
+	  i_unit		  "A"
+	  i_nominal_specify	  off
+	  i_nominal_unit	  "A"
+	  i_nominal_value	  "1"
+	  v_specify		  off
+	  v_priority		  "None"
+	  v			  "0"
+	  v_unit		  "V"
+	  v_nominal_specify	  off
+	  v_nominal_unit	  "V"
+	  v_nominal_value	  "1"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "Conn1"
+	  SID			  "44"
+	  Position		  [125, 23, 155, 37]
+	  ZOrder		  234
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "Conn2"
+	  SID			  "45"
+	  Position		  [20, 103, 50, 117]
+	  ZOrder		  235
+	  Port			  "2"
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "Conn3"
+	  SID			  "46"
+	  Position		  [400, 113, 430, 127]
+	  ZOrder		  236
+	  BlockMirror		  on
+	  Port			  "3"
+	  Side			  "Right"
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  33
+	  SrcBlock		  "Variable Resistor2"
+	  SrcPort		  RConn1
+	  Points		  [15, 0; 0, 80]
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "Resistor3"
+	    SrcPort		    LConn1
+	    Points		    [-25, 0]
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "Op-Amp2"
+	    DstPort		    RConn1
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  30
+	  SrcBlock		  "Op-Amp2"
+	  SrcPort		  LConn1
+	  Points		  [-20, 0]
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "Variable Resistor2"
+	    SrcPort		    LConn2
+	    Points		    [-20, 0; 0, 60]
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "Capacitor1"
+	    DstPort		    RConn1
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  36
+	  SrcBlock		  "Electrical Reference2"
+	  SrcPort		  LConn1
+	  Points		  [0, -20]
+	  DstBlock		  "Op-Amp2"
+	  DstPort		  LConn2
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  81
+	  SrcBlock		  "Variable Resistor2"
+	  SrcPort		  LConn1
+	  DstBlock		  "Conn1"
+	  DstPort		  RConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  82
+	  SrcBlock		  "Capacitor1"
+	  SrcPort		  LConn1
+	  DstBlock		  "Conn2"
+	  DstPort		  RConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  83
+	  SrcBlock		  "Resistor3"
+	  SrcPort		  RConn1
+	  DstBlock		  "Conn3"
+	  DstPort		  RConn1
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "Differentiator1"
+      SID		      "83"
+      Ports		      [0, 0, 0, 0, 0, 2, 1]
+      Position		      [-240, 300, -145, 360]
+      ZOrder		      248
+      RequestExecContextInheritance off
+      ContentPreviewEnabled   on
+      System {
+	Name			"Differentiator1"
+	Location		[-8, -8, 1374, 736]
+	Open			off
+	PortBlocksUseCompactNotation off
+	ModelBrowserVisibility	on
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"125"
+	Block {
+	  BlockType		  Reference
+	  Name			  "Capacitor1"
+	  SID			  "84"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [80, 90, 120, 130]
+	  ZOrder		  230
+	  LibraryVersion	  "10003000.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Capacitor"
+	  SourceType		  "Capacitor"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.electrical.elements.capacitor"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"p\",\"label\":\"+\",\"type\":\"foundation.ele"
+	  "ctrical.electrical\"}],\"Right\":[{\"id\":\"n\",\"label\":\"-\",\"type\":\"foundation.electrical.electrical\"}],\"T"
+	  "op\":[]}"
+	  ComponentPath		  "foundation.electrical.elements.capacitor"
+	  ComponentVariants	  "[\"foundation.electrical.elements.capacitor\"]"
+	  ComponentVariantNames	  "[\"capacitor\"]"
+	  ClassName		  "capacitor"
+	  SchemaVersion		  "1"
+	  c			  "100"
+	  c_unit		  "uF"
+	  c_conf		  "compiletime"
+	  r			  "1e-6"
+	  r_unit		  "Ohm"
+	  r_conf		  "compiletime"
+	  g			  "0"
+	  g_unit		  "1/Ohm"
+	  g_conf		  "compiletime"
+	  i_specify		  off
+	  i_priority		  "None"
+	  i			  "0"
+	  i_unit		  "A"
+	  i_nominal_specify	  off
+	  i_nominal_unit	  "A"
+	  i_nominal_value	  "1"
+	  v_specify		  off
+	  v_priority		  "None"
+	  v			  "0"
+	  v_unit		  "V"
+	  v_nominal_specify	  off
+	  v_nominal_unit	  "V"
+	  v_nominal_value	  "1"
+	  vc_specify		  off
+	  vc_priority		  "High"
+	  vc			  "0"
+	  vc_unit		  "V"
+	  vc_nominal_specify	  off
+	  vc_nominal_unit	  "V"
+	  vc_nominal_value	  "1"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Electrical Reference2"
+	  SID			  "85"
+	  Ports			  [0, 0, 0, 0, 0, 1]
+	  Position		  [180, 165, 200, 185]
+	  ZOrder		  232
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  LibraryVersion	  "10003000.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Electrical Reference"
+	  SourceType		  "Electrical Reference"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.electrical.elements.reference"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"V\",\"label\":\"\",\"type\":\"foundation.elec"
+	  "trical.electrical\"}],\"Right\":[],\"Top\":[]}"
+	  ComponentPath		  "foundation.electrical.elements.reference"
+	  ComponentVariants	  "[\"foundation.electrical.elements.reference\"]"
+	  ComponentVariantNames	  "[\"reference\"]"
+	  ClassName		  "reference"
+	  SchemaVersion		  "1"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Op-Amp2"
+	  SID			  "86"
+	  Ports			  [0, 0, 0, 0, 0, 2, 1]
+	  Position		  [200, 99, 275, 141]
+	  ZOrder		  229
+	  LibraryVersion	  "10003000.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Op-Amp"
+	  SourceType		  "Op-Amp"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.electrical.elements.op_amp"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"p\",\"label\":\"+\",\"type\":\"foundation.ele"
+	  "ctrical.electrical\"},{\"id\":\"n\",\"label\":\"-\",\"type\":\"foundation.electrical.electrical\"}],\"Right\":[{\"i"
+	  "d\":\"out\",\"label\":\"\",\"type\":\"foundation.electrical.electrical\"}],\"Top\":[]}"
+	  ComponentPath		  "foundation.electrical.elements.op_amp"
+	  ComponentVariants	  "[\"foundation.electrical.elements.op_amp\"]"
+	  ComponentVariantNames	  "[\"op_amp\"]"
+	  ClassName		  "op_amp"
+	  SchemaVersion		  "1"
+	  outI_specify		  off
+	  outI_priority		  "None"
+	  outI			  "0"
+	  outI_unit		  "A"
+	  outI_nominal_specify	  off
+	  outI_nominal_unit	  "A"
+	  outI_nominal_value	  "1"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Resistor3"
+	  SID			  "87"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [330, 106, 370, 134]
+	  ZOrder		  233
+	  LibraryVersion	  "10003000.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Resistor"
+	  SourceType		  "Resistor"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.electrical.elements.resistor"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"p\",\"label\":\"+\",\"type\":\"foundation.ele"
+	  "ctrical.electrical\"}],\"Right\":[{\"id\":\"n\",\"label\":\"-\",\"type\":\"foundation.electrical.electrical\"}],\"T"
+	  "op\":[]}"
+	  ComponentPath		  "foundation.electrical.elements.resistor"
+	  ComponentVariants	  "[\"foundation.electrical.elements.resistor\"]"
+	  ComponentVariantNames	  "[\"resistor\"]"
+	  ClassName		  "resistor"
+	  SchemaVersion		  "1"
+	  R			  "1"
+	  R_unit		  "kOhm"
+	  R_conf		  "compiletime"
+	  i_specify		  off
+	  i_priority		  "None"
+	  i			  "0"
+	  i_unit		  "A"
+	  i_nominal_specify	  off
+	  i_nominal_unit	  "A"
+	  i_nominal_value	  "1"
+	  v_specify		  off
+	  v_priority		  "None"
+	  v			  "0"
+	  v_unit		  "V"
+	  v_nominal_specify	  off
+	  v_nominal_unit	  "V"
+	  v_nominal_value	  "1"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Variable Resistor2"
+	  SID			  "88"
+	  Ports			  [0, 0, 0, 0, 0, 2, 1]
+	  Position		  [200, 20, 260, 60]
+	  ZOrder		  231
+	  LibraryVersion	  "10003000.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Variable Resistor"
+	  SourceType		  "Variable Resistor"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.electrical.elements.variable_resistor"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"R\",\"label\":\"R\",\"type\":\"input\"},{\"id"
+	  "\":\"p\",\"label\":\"+\",\"type\":\"foundation.electrical.electrical\"}],\"Right\":[{\"id\":\"n\",\"label\":\"-\",\""
+	  "type\":\"foundation.electrical.electrical\"}],\"Top\":[]}"
+	  ComponentPath		  "foundation.electrical.elements.variable_resistor"
+	  ComponentVariants	  "[\"foundation.electrical.elements.variable_resistor\"]"
+	  ComponentVariantNames	  "[\"variable_resistor\"]"
+	  ClassName		  "variable_resistor"
+	  SchemaVersion		  "1"
+	  Rmin			  "1"
+	  Rmin_unit		  "kOhm"
+	  Rmin_conf		  "compiletime"
+	  i_specify		  off
+	  i_priority		  "None"
+	  i			  "0"
+	  i_unit		  "A"
+	  i_nominal_specify	  off
+	  i_nominal_unit	  "A"
+	  i_nominal_value	  "1"
+	  v_specify		  off
+	  v_priority		  "None"
+	  v			  "0"
+	  v_unit		  "V"
+	  v_nominal_specify	  off
+	  v_nominal_unit	  "V"
+	  v_nominal_value	  "1"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "Conn1"
+	  SID			  "89"
+	  Position		  [125, 23, 155, 37]
+	  ZOrder		  234
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "Conn2"
+	  SID			  "90"
+	  Position		  [20, 103, 50, 117]
+	  ZOrder		  235
+	  Port			  "2"
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "Conn3"
+	  SID			  "91"
+	  Position		  [400, 113, 430, 127]
+	  ZOrder		  236
+	  BlockMirror		  on
+	  Port			  "3"
+	  Side			  "Right"
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  1
+	  SrcBlock		  "Variable Resistor2"
+	  SrcPort		  RConn1
+	  Points		  [15, 0; 0, 80]
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "Resistor3"
+	    SrcPort		    LConn1
+	    Points		    [-25, 0]
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "Op-Amp2"
+	    DstPort		    RConn1
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  4
+	  SrcBlock		  "Op-Amp2"
+	  SrcPort		  LConn1
+	  Points		  [-20, 0]
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "Variable Resistor2"
+	    SrcPort		    LConn2
+	    Points		    [-20, 0; 0, 60]
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "Capacitor1"
+	    DstPort		    RConn1
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  7
+	  SrcBlock		  "Electrical Reference2"
+	  SrcPort		  LConn1
+	  Points		  [0, -20]
+	  DstBlock		  "Op-Amp2"
+	  DstPort		  LConn2
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  8
+	  SrcBlock		  "Variable Resistor2"
+	  SrcPort		  LConn1
+	  DstBlock		  "Conn1"
+	  DstPort		  RConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  9
+	  SrcBlock		  "Capacitor1"
+	  SrcPort		  LConn1
+	  DstBlock		  "Conn2"
+	  DstPort		  RConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  10
+	  SrcBlock		  "Resistor3"
+	  SrcPort		  RConn1
+	  DstBlock		  "Conn3"
+	  DstPort		  RConn1
+	}
+      }
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Electrical Reference"
+      SID		      "99"
+      Ports		      [0, 0, 0, 0, 0, 1]
+      Position		      [-770, 280, -750, 300]
+      ZOrder		      252
+      BlockRotation	      270
+      BlockMirror	      on
+      LibraryVersion	      "10003000.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Elements/Electrical Reference"
+      SourceType	      "Electrical Reference"
+      SourceProductBaseCode   "SS"
+      LogSimulationData	      off
+      SourceFile	      "foundation.electrical.elements.reference"
+      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"V\",\"label\":\"\",\"type\":\"foundation.e"
+      "lectrical.electrical\"}],\"Right\":[],\"Top\":[]}"
+      ComponentPath	      "foundation.electrical.elements.reference"
+      ComponentVariants	      "[\"foundation.electrical.elements.reference\"]"
+      ComponentVariantNames   "[\"reference\"]"
+      ClassName		      "reference"
+      SchemaVersion	      "1"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Electrical Reference1"
+      SID		      "131"
+      Ports		      [0, 0, 0, 0, 0, 1]
+      Position		      [530, 335, 550, 355]
+      ZOrder		      283
+      BlockRotation	      270
+      BlockMirror	      on
+      LibraryVersion	      "10003000.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Elements/Electrical Reference"
+      SourceType	      "Electrical Reference"
+      SourceProductBaseCode   "SS"
+      LogSimulationData	      off
+      SourceFile	      "foundation.electrical.elements.reference"
+      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"V\",\"label\":\"\",\"type\":\"foundation.e"
+      "lectrical.electrical\"}],\"Right\":[],\"Top\":[]}"
+      ComponentPath	      "foundation.electrical.elements.reference"
+      ComponentVariants	      "[\"foundation.electrical.elements.reference\"]"
+      ComponentVariantNames   "[\"reference\"]"
+      ClassName		      "reference"
+      SchemaVersion	      "1"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Electrical Reference2"
+      SID		      "132"
+      Ports		      [0, 0, 0, 0, 0, 1]
+      Position		      [585, 335, 605, 355]
+      ZOrder		      284
+      BlockRotation	      270
+      BlockMirror	      on
+      LibraryVersion	      "10003000.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Elements/Electrical Reference"
+      SourceType	      "Electrical Reference"
+      SourceProductBaseCode   "SS"
+      LogSimulationData	      off
+      SourceFile	      "foundation.electrical.elements.reference"
+      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"V\",\"label\":\"\",\"type\":\"foundation.e"
+      "lectrical.electrical\"}],\"Right\":[],\"Top\":[]}"
+      ComponentPath	      "foundation.electrical.elements.reference"
+      ComponentVariants	      "[\"foundation.electrical.elements.reference\"]"
+      ComponentVariantNames   "[\"reference\"]"
+      ClassName		      "reference"
+      SchemaVersion	      "1"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Electrical Reference3"
+      SID		      "33"
+      Ports		      [0, 0, 0, 0, 0, 1]
+      Position		      [265, 295, 285, 315]
+      ZOrder		      239
+      BlockRotation	      270
+      BlockMirror	      on
+      LibraryVersion	      "10003000.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Elements/Electrical Reference"
+      SourceType	      "Electrical Reference"
+      SourceProductBaseCode   "SS"
+      LogSimulationData	      off
+      SourceFile	      "foundation.electrical.elements.reference"
+      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"V\",\"label\":\"\",\"type\":\"foundation.e"
+      "lectrical.electrical\"}],\"Right\":[],\"Top\":[]}"
+      ComponentPath	      "foundation.electrical.elements.reference"
+      ComponentVariants	      "[\"foundation.electrical.elements.reference\"]"
+      ComponentVariantNames   "[\"reference\"]"
+      ClassName		      "reference"
+      SchemaVersion	      "1"
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "Integrator"
+      SID		      "35"
+      Ports		      [0, 0, 0, 0, 0, 2, 1]
+      Position		      [-240, 390, -145, 450]
+      ZOrder		      241
+      RequestExecContextInheritance off
+      ContentPreviewEnabled   on
+      System {
+	Name			"Integrator"
+	Location		[-8, -8, 1374, 736]
+	Open			off
+	PortBlocksUseCompactNotation off
+	ModelBrowserVisibility	on
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  Reference
+	  Name			  "Capacitor"
+	  SID			  "1"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [250, 20, 290, 60]
+	  ZOrder		  41
+	  LibraryVersion	  "10003000.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Capacitor"
+	  SourceType		  "Capacitor"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.electrical.elements.capacitor"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"p\",\"label\":\"+\",\"type\":\"foundation.ele"
+	  "ctrical.electrical\"}],\"Right\":[{\"id\":\"n\",\"label\":\"-\",\"type\":\"foundation.electrical.electrical\"}],\"T"
+	  "op\":[]}"
+	  ComponentPath		  "foundation.electrical.elements.capacitor"
+	  ComponentVariants	  "[\"foundation.electrical.elements.capacitor\"]"
+	  ComponentVariantNames	  "[\"capacitor\"]"
+	  ClassName		  "capacitor"
+	  SchemaVersion		  "1"
+	  c			  "1"
+	  c_unit		  "uF"
+	  c_conf		  "compiletime"
+	  r			  "1e-6"
+	  r_unit		  "Ohm"
+	  r_conf		  "compiletime"
+	  g			  "0"
+	  g_unit		  "1/Ohm"
+	  g_conf		  "compiletime"
+	  i_specify		  off
+	  i_priority		  "None"
+	  i			  "0"
+	  i_unit		  "A"
+	  i_nominal_specify	  off
+	  i_nominal_unit	  "A"
+	  i_nominal_value	  "1"
+	  v_specify		  off
+	  v_priority		  "None"
+	  v			  "0"
+	  v_unit		  "V"
+	  v_nominal_specify	  off
+	  v_nominal_unit	  "V"
+	  v_nominal_value	  "1"
+	  vc_specify		  off
+	  vc_priority		  "High"
+	  vc			  "0"
+	  vc_unit		  "V"
+	  vc_nominal_specify	  off
+	  vc_nominal_unit	  "V"
+	  vc_nominal_value	  "1"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Electrical Reference"
+	  SID			  "5"
+	  Ports			  [0, 0, 0, 0, 0, 1]
+	  Position		  [210, 200, 230, 220]
+	  ZOrder		  74
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  LibraryVersion	  "10003000.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Electrical Reference"
+	  SourceType		  "Electrical Reference"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.electrical.elements.reference"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"V\",\"label\":\"\",\"type\":\"foundation.elec"
+	  "trical.electrical\"}],\"Right\":[],\"Top\":[]}"
+	  ComponentPath		  "foundation.electrical.elements.reference"
+	  ComponentVariants	  "[\"foundation.electrical.elements.reference\"]"
+	  ComponentVariantNames	  "[\"reference\"]"
+	  ClassName		  "reference"
+	  SchemaVersion		  "1"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Op-Amp"
+	  SID			  "2"
+	  Ports			  [0, 0, 0, 0, 0, 2, 1]
+	  Position		  [225, 96, 315, 154]
+	  ZOrder		  49
+	  LibraryVersion	  "10003000.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Op-Amp"
+	  SourceType		  "Op-Amp"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.electrical.elements.op_amp"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"p\",\"label\":\"+\",\"type\":\"foundation.ele"
+	  "ctrical.electrical\"},{\"id\":\"n\",\"label\":\"-\",\"type\":\"foundation.electrical.electrical\"}],\"Right\":[{\"i"
+	  "d\":\"out\",\"label\":\"\",\"type\":\"foundation.electrical.electrical\"}],\"Top\":[]}"
+	  ComponentPath		  "foundation.electrical.elements.op_amp"
+	  ComponentVariants	  "[\"foundation.electrical.elements.op_amp\"]"
+	  ComponentVariantNames	  "[\"op_amp\"]"
+	  ClassName		  "op_amp"
+	  SchemaVersion		  "1"
+	  outI_specify		  off
+	  outI_priority		  "None"
+	  outI			  "0"
+	  outI_unit		  "A"
+	  outI_nominal_specify	  off
+	  outI_nominal_unit	  "A"
+	  outI_nominal_value	  "1"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Resistor"
+	  SID			  "4"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [385, 111, 425, 139]
+	  ZOrder		  73
+	  LibraryVersion	  "10003000.3"
+	  SourceBlock		  "ee_lib/Passive/Resistor"
+	  SourceType		  "Resistor"
+	  SourceProductBaseCode	  "PS"
+	  LogSimulationData	  off
+	  SourceFile		  "ee.passive.resistor"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"p\",\"label\":\"+\",\"type\":\"foundation.ele"
+	  "ctrical.electrical\"}],\"Right\":[{\"id\":\"n\",\"label\":\"-\",\"type\":\"foundation.electrical.electrical\"}],\"T"
+	  "op\":[]}"
+	  ComponentPath		  "ee.passive.resistor"
+	  ComponentVariants	  "[\"ee.passive.resistor\",\"ee.passive.resistor_thermal\"]"
+	  ComponentVariantNames	  "[\"physmod:ee:library:comments:passive:resistor_sscx:noThermalPort\",\"physmod:ee:library:"
+	  "comments:passive:resistor_sscx:showThermalPort\"]"
+	  ClassName		  "Simscape variant"
+	  SchemaVersion		  "1"
+	  R			  "1"
+	  R_unit		  "kOhm"
+	  R_conf		  "compiletime"
+	  R_tol			  "5"
+	  R_tol_unit		  "1"
+	  R_tol_conf		  "compiletime"
+	  enable_R_tol		  "0"
+	  enable_R_tol_unit	  "1"
+	  enable_R_tol_conf	  "compiletime"
+	  tol_distribution	  "1"
+	  tol_distribution_unit	  "1"
+	  tol_distribution_conf	  "compiletime"
+	  nSigma		  "4"
+	  nSigma_unit		  "1"
+	  nSigma_conf		  "compiletime"
+	  enable_operating_limits "0"
+	  enable_operating_limits_unit "1"
+	  enable_operating_limits_conf "compiletime"
+	  operating_limit_action  "2"
+	  operating_limit_action_unit "1"
+	  operating_limit_action_conf "compiletime"
+	  max_working_voltage	  "100"
+	  max_working_voltage_unit "V"
+	  max_working_voltage_conf "compiletime"
+	  power_rating		  "1"
+	  power_rating_unit	  "W"
+	  power_rating_conf	  "compiletime"
+	  enable_faults		  "0"
+	  enable_faults_unit	  "1"
+	  enable_faults_conf	  "compiletime"
+	  fault_action		  "1"
+	  fault_action_unit	  "1"
+	  fault_action_conf	  "compiletime"
+	  R_faulted		  "inf"
+	  R_faulted_unit	  "Ohm"
+	  R_faulted_conf	  "compiletime"
+	  enable_temporal_fault	  "0"
+	  enable_temporal_fault_unit "1"
+	  enable_temporal_fault_conf "compiletime"
+	  t_fault		  "1"
+	  t_fault_unit		  "s"
+	  t_fault_conf		  "compiletime"
+	  enable_behavioral_fault "0"
+	  enable_behavioral_fault_unit "1"
+	  enable_behavioral_fault_conf "compiletime"
+	  max_permissible_current "1"
+	  max_permissible_current_unit "A"
+	  max_permissible_current_conf "compiletime"
+	  t_fail_on_current	  "1"
+	  t_fail_on_current_unit  "s"
+	  t_fail_on_current_conf  "compiletime"
+	  noise_mode		  "0"
+	  noise_mode_unit	  "1"
+	  noise_mode_conf	  "compiletime"
+	  sample_time		  "1e-3"
+	  sample_time_unit	  "s"
+	  sample_time_conf	  "compiletime"
+	  repeatability		  "1"
+	  repeatability_unit	  "1"
+	  repeatability_conf	  "compiletime"
+	  auto_seed		  "3499211588"
+	  auto_seed_unit	  "1"
+	  auto_seed_conf	  "compiletime"
+	  user_seed		  "0"
+	  user_seed_unit	  "1"
+	  user_seed_conf	  "compiletime"
+	  Tdevice		  "25"
+	  Tdevice_unit		  "degC"
+	  Tdevice_conf		  "compiletime"
+	  alpha			  "3.93e-3"
+	  alpha_unit		  "1/K"
+	  alpha_conf		  "compiletime"
+	  Tmeas			  "25"
+	  Tmeas_unit		  "degC"
+	  Tmeas_conf		  "compiletime"
+	  thermal_mass		  "100"
+	  thermal_mass_unit	  "J/K"
+	  thermal_mass_conf	  "compiletime"
+	  power_derating_T1	  "70"
+	  power_derating_T1_unit  "degC"
+	  power_derating_T1_conf  "compiletime"
+	  power_derating_T2	  "155"
+	  power_derating_T2_unit  "degC"
+	  power_derating_T2_conf  "compiletime"
+	  operating_temperature_range_vec "[-50, 150]"
+	  operating_temperature_range_vec_unit "degC"
+	  operating_temperature_range_vec_conf "compiletime"
+	  temperature_specify	  off
+	  temperature_priority	  "High"
+	  temperature		  "298.15"
+	  temperature_unit	  "K"
+	  temperature_nominal_specify off
+	  temperature_nominal_unit "K"
+	  temperature_nominal_value "1"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Variable Resistor"
+	  SID			  "3"
+	  Ports			  [0, 0, 0, 0, 0, 2, 1]
+	  Position		  [95, 90, 155, 130]
+	  ZOrder		  57
+	  LibraryVersion	  "10003000.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Variable Resistor"
+	  SourceType		  "Variable Resistor"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.electrical.elements.variable_resistor"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"R\",\"label\":\"R\",\"type\":\"input\"},{\"id"
+	  "\":\"p\",\"label\":\"+\",\"type\":\"foundation.electrical.electrical\"}],\"Right\":[{\"id\":\"n\",\"label\":\"-\",\""
+	  "type\":\"foundation.electrical.electrical\"}],\"Top\":[]}"
+	  ComponentPath		  "foundation.electrical.elements.variable_resistor"
+	  ComponentVariants	  "[\"foundation.electrical.elements.variable_resistor\"]"
+	  ComponentVariantNames	  "[\"variable_resistor\"]"
+	  ClassName		  "variable_resistor"
+	  SchemaVersion		  "1"
+	  Rmin			  "1"
+	  Rmin_unit		  "kOhm"
+	  Rmin_conf		  "compiletime"
+	  i_specify		  off
+	  i_priority		  "None"
+	  i			  "0"
+	  i_unit		  "A"
+	  i_nominal_specify	  off
+	  i_nominal_unit	  "A"
+	  i_nominal_value	  "1"
+	  v_specify		  off
+	  v_priority		  "None"
+	  v			  "0"
+	  v_unit		  "V"
+	  v_nominal_specify	  off
+	  v_nominal_unit	  "V"
+	  v_nominal_value	  "1"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "Conn1"
+	  SID			  "36"
+	  Position		  [20, 73, 50, 87]
+	  ZOrder		  75
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "Conn2"
+	  SID			  "37"
+	  Position		  [35, 113, 65, 127]
+	  ZOrder		  76
+	  Port			  "2"
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "Conn3"
+	  SID			  "38"
+	  Position		  [455, 118, 485, 132]
+	  ZOrder		  77
+	  BlockMirror		  on
+	  Port			  "3"
+	  Side			  "Right"
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  4
+	  SrcBlock		  "Capacitor"
+	  SrcPort		  RConn1
+	  Points		  [25, 0; 0, 85]
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "Resistor"
+	    SrcPort		    LConn1
+	    Points		    [-40, 0]
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "Op-Amp"
+	    DstPort		    RConn1
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  1
+	  SrcBlock		  "Variable Resistor"
+	  SrcPort		  RConn1
+	  Points		  [40, 0]
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    Points		    [0, -70]
+	    DstBlock		    "Capacitor"
+	    DstPort		    LConn1
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "Op-Amp"
+	    DstPort		    LConn1
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  7
+	  SrcBlock		  "Electrical Reference"
+	  SrcPort		  LConn1
+	  Points		  [0, -45]
+	  DstBlock		  "Op-Amp"
+	  DstPort		  LConn2
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  79
+	  SrcBlock		  "Resistor"
+	  SrcPort		  RConn1
+	  DstBlock		  "Conn3"
+	  DstPort		  RConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  77
+	  SrcBlock		  "Variable Resistor"
+	  SrcPort		  LConn1
+	  Points		  [-7, 0; 0, -20]
+	  DstBlock		  "Conn1"
+	  DstPort		  RConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  78
+	  SrcBlock		  "Variable Resistor"
+	  SrcPort		  LConn2
+	  DstBlock		  "Conn2"
+	  DstPort		  RConn1
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "Integrator1"
+      SID		      "56"
+      Ports		      [0, 0, 0, 0, 0, 2, 1]
+      Position		      [-240, 45, -145, 105]
+      ZOrder		      245
+      RequestExecContextInheritance off
+      ContentPreviewEnabled   on
+      System {
+	Name			"Integrator1"
+	Location		[-8, -8, 1374, 736]
+	Open			off
+	PortBlocksUseCompactNotation off
+	ModelBrowserVisibility	on
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"100"
+	Block {
+	  BlockType		  Reference
+	  Name			  "Capacitor"
+	  SID			  "57"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [250, 20, 290, 60]
+	  ZOrder		  41
+	  LibraryVersion	  "10003000.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Capacitor"
+	  SourceType		  "Capacitor"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.electrical.elements.capacitor"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"p\",\"label\":\"+\",\"type\":\"foundation.ele"
+	  "ctrical.electrical\"}],\"Right\":[{\"id\":\"n\",\"label\":\"-\",\"type\":\"foundation.electrical.electrical\"}],\"T"
+	  "op\":[]}"
+	  ComponentPath		  "foundation.electrical.elements.capacitor"
+	  ComponentVariants	  "[\"foundation.electrical.elements.capacitor\"]"
+	  ComponentVariantNames	  "[\"capacitor\"]"
+	  ClassName		  "capacitor"
+	  SchemaVersion		  "1"
+	  c			  "1"
+	  c_unit		  "uF"
+	  c_conf		  "compiletime"
+	  r			  "1e-6"
+	  r_unit		  "Ohm"
+	  r_conf		  "compiletime"
+	  g			  "0"
+	  g_unit		  "1/Ohm"
+	  g_conf		  "compiletime"
+	  i_specify		  off
+	  i_priority		  "None"
+	  i			  "0"
+	  i_unit		  "A"
+	  i_nominal_specify	  off
+	  i_nominal_unit	  "A"
+	  i_nominal_value	  "1"
+	  v_specify		  off
+	  v_priority		  "None"
+	  v			  "0"
+	  v_unit		  "V"
+	  v_nominal_specify	  off
+	  v_nominal_unit	  "V"
+	  v_nominal_value	  "1"
+	  vc_specify		  off
+	  vc_priority		  "High"
+	  vc			  "0"
+	  vc_unit		  "V"
+	  vc_nominal_specify	  off
+	  vc_nominal_unit	  "V"
+	  vc_nominal_value	  "1"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Electrical Reference"
+	  SID			  "58"
+	  Ports			  [0, 0, 0, 0, 0, 1]
+	  Position		  [210, 200, 230, 220]
+	  ZOrder		  74
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  LibraryVersion	  "10003000.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Electrical Reference"
+	  SourceType		  "Electrical Reference"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.electrical.elements.reference"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"V\",\"label\":\"\",\"type\":\"foundation.elec"
+	  "trical.electrical\"}],\"Right\":[],\"Top\":[]}"
+	  ComponentPath		  "foundation.electrical.elements.reference"
+	  ComponentVariants	  "[\"foundation.electrical.elements.reference\"]"
+	  ComponentVariantNames	  "[\"reference\"]"
+	  ClassName		  "reference"
+	  SchemaVersion		  "1"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Op-Amp"
+	  SID			  "59"
+	  Ports			  [0, 0, 0, 0, 0, 2, 1]
+	  Position		  [225, 96, 315, 154]
+	  ZOrder		  49
+	  LibraryVersion	  "10003000.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Op-Amp"
+	  SourceType		  "Op-Amp"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.electrical.elements.op_amp"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"p\",\"label\":\"+\",\"type\":\"foundation.ele"
+	  "ctrical.electrical\"},{\"id\":\"n\",\"label\":\"-\",\"type\":\"foundation.electrical.electrical\"}],\"Right\":[{\"i"
+	  "d\":\"out\",\"label\":\"\",\"type\":\"foundation.electrical.electrical\"}],\"Top\":[]}"
+	  ComponentPath		  "foundation.electrical.elements.op_amp"
+	  ComponentVariants	  "[\"foundation.electrical.elements.op_amp\"]"
+	  ComponentVariantNames	  "[\"op_amp\"]"
+	  ClassName		  "op_amp"
+	  SchemaVersion		  "1"
+	  outI_specify		  off
+	  outI_priority		  "None"
+	  outI			  "0"
+	  outI_unit		  "A"
+	  outI_nominal_specify	  off
+	  outI_nominal_unit	  "A"
+	  outI_nominal_value	  "1"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Resistor"
+	  SID			  "60"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [385, 111, 425, 139]
+	  ZOrder		  73
+	  LibraryVersion	  "10003000.3"
+	  SourceBlock		  "ee_lib/Passive/Resistor"
+	  SourceType		  "Resistor"
+	  SourceProductBaseCode	  "PS"
+	  LogSimulationData	  off
+	  SourceFile		  "ee.passive.resistor"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"p\",\"label\":\"+\",\"type\":\"foundation.ele"
+	  "ctrical.electrical\"}],\"Right\":[{\"id\":\"n\",\"label\":\"-\",\"type\":\"foundation.electrical.electrical\"}],\"T"
+	  "op\":[]}"
+	  ComponentPath		  "ee.passive.resistor"
+	  ComponentVariants	  "[\"ee.passive.resistor\",\"ee.passive.resistor_thermal\"]"
+	  ComponentVariantNames	  "[\"physmod:ee:library:comments:passive:resistor_sscx:noThermalPort\",\"physmod:ee:library:"
+	  "comments:passive:resistor_sscx:showThermalPort\"]"
+	  ClassName		  "Simscape variant"
+	  SchemaVersion		  "1"
+	  R			  "1"
+	  R_unit		  "Ohm"
+	  R_conf		  "compiletime"
+	  R_tol			  "5"
+	  R_tol_unit		  "1"
+	  R_tol_conf		  "compiletime"
+	  enable_R_tol		  "0"
+	  enable_R_tol_unit	  "1"
+	  enable_R_tol_conf	  "compiletime"
+	  tol_distribution	  "1"
+	  tol_distribution_unit	  "1"
+	  tol_distribution_conf	  "compiletime"
+	  nSigma		  "4"
+	  nSigma_unit		  "1"
+	  nSigma_conf		  "compiletime"
+	  enable_operating_limits "0"
+	  enable_operating_limits_unit "1"
+	  enable_operating_limits_conf "compiletime"
+	  operating_limit_action  "2"
+	  operating_limit_action_unit "1"
+	  operating_limit_action_conf "compiletime"
+	  max_working_voltage	  "100"
+	  max_working_voltage_unit "V"
+	  max_working_voltage_conf "compiletime"
+	  power_rating		  "1"
+	  power_rating_unit	  "W"
+	  power_rating_conf	  "compiletime"
+	  enable_faults		  "0"
+	  enable_faults_unit	  "1"
+	  enable_faults_conf	  "compiletime"
+	  fault_action		  "1"
+	  fault_action_unit	  "1"
+	  fault_action_conf	  "compiletime"
+	  R_faulted		  "inf"
+	  R_faulted_unit	  "Ohm"
+	  R_faulted_conf	  "compiletime"
+	  enable_temporal_fault	  "0"
+	  enable_temporal_fault_unit "1"
+	  enable_temporal_fault_conf "compiletime"
+	  t_fault		  "1"
+	  t_fault_unit		  "s"
+	  t_fault_conf		  "compiletime"
+	  enable_behavioral_fault "0"
+	  enable_behavioral_fault_unit "1"
+	  enable_behavioral_fault_conf "compiletime"
+	  max_permissible_current "1"
+	  max_permissible_current_unit "A"
+	  max_permissible_current_conf "compiletime"
+	  t_fail_on_current	  "1"
+	  t_fail_on_current_unit  "s"
+	  t_fail_on_current_conf  "compiletime"
+	  noise_mode		  "0"
+	  noise_mode_unit	  "1"
+	  noise_mode_conf	  "compiletime"
+	  sample_time		  "1e-3"
+	  sample_time_unit	  "s"
+	  sample_time_conf	  "compiletime"
+	  repeatability		  "1"
+	  repeatability_unit	  "1"
+	  repeatability_conf	  "compiletime"
+	  auto_seed		  "3499211588"
+	  auto_seed_unit	  "1"
+	  auto_seed_conf	  "compiletime"
+	  user_seed		  "0"
+	  user_seed_unit	  "1"
+	  user_seed_conf	  "compiletime"
+	  Tdevice		  "25"
+	  Tdevice_unit		  "degC"
+	  Tdevice_conf		  "compiletime"
+	  alpha			  "3.93e-3"
+	  alpha_unit		  "1/K"
+	  alpha_conf		  "compiletime"
+	  Tmeas			  "25"
+	  Tmeas_unit		  "degC"
+	  Tmeas_conf		  "compiletime"
+	  thermal_mass		  "100"
+	  thermal_mass_unit	  "J/K"
+	  thermal_mass_conf	  "compiletime"
+	  power_derating_T1	  "70"
+	  power_derating_T1_unit  "degC"
+	  power_derating_T1_conf  "compiletime"
+	  power_derating_T2	  "155"
+	  power_derating_T2_unit  "degC"
+	  power_derating_T2_conf  "compiletime"
+	  operating_temperature_range_vec "[-50, 150]"
+	  operating_temperature_range_vec_unit "degC"
+	  operating_temperature_range_vec_conf "compiletime"
+	  temperature_specify	  off
+	  temperature_priority	  "High"
+	  temperature		  "298.15"
+	  temperature_unit	  "K"
+	  temperature_nominal_specify off
+	  temperature_nominal_unit "K"
+	  temperature_nominal_value "1"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Variable Resistor"
+	  SID			  "61"
+	  Ports			  [0, 0, 0, 0, 0, 2, 1]
+	  Position		  [95, 90, 155, 130]
+	  ZOrder		  57
+	  LibraryVersion	  "10003000.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Variable Resistor"
+	  SourceType		  "Variable Resistor"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.electrical.elements.variable_resistor"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"R\",\"label\":\"R\",\"type\":\"input\"},{\"id"
+	  "\":\"p\",\"label\":\"+\",\"type\":\"foundation.electrical.electrical\"}],\"Right\":[{\"id\":\"n\",\"label\":\"-\",\""
+	  "type\":\"foundation.electrical.electrical\"}],\"Top\":[]}"
+	  ComponentPath		  "foundation.electrical.elements.variable_resistor"
+	  ComponentVariants	  "[\"foundation.electrical.elements.variable_resistor\"]"
+	  ComponentVariantNames	  "[\"variable_resistor\"]"
+	  ClassName		  "variable_resistor"
+	  SchemaVersion		  "1"
+	  Rmin			  "1"
+	  Rmin_unit		  "kOhm"
+	  Rmin_conf		  "compiletime"
+	  i_specify		  off
+	  i_priority		  "None"
+	  i			  "0"
+	  i_unit		  "A"
+	  i_nominal_specify	  off
+	  i_nominal_unit	  "A"
+	  i_nominal_value	  "1"
+	  v_specify		  off
+	  v_priority		  "None"
+	  v			  "0"
+	  v_unit		  "V"
+	  v_nominal_specify	  off
+	  v_nominal_unit	  "V"
+	  v_nominal_value	  "1"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "Conn1"
+	  SID			  "62"
+	  Position		  [35, 68, 65, 82]
+	  ZOrder		  75
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "Conn2"
+	  SID			  "63"
+	  Position		  [35, 113, 65, 127]
+	  ZOrder		  76
+	  Port			  "2"
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "Conn3"
+	  SID			  "64"
+	  Position		  [455, 118, 485, 132]
+	  ZOrder		  77
+	  BlockMirror		  on
+	  Port			  "3"
+	  Side			  "Right"
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  1
+	  SrcBlock		  "Capacitor"
+	  SrcPort		  RConn1
+	  Points		  [25, 0; 0, 85]
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "Resistor"
+	    SrcPort		    LConn1
+	    Points		    [-40, 0]
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "Op-Amp"
+	    DstPort		    RConn1
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  4
+	  SrcBlock		  "Variable Resistor"
+	  SrcPort		  RConn1
+	  Points		  [40, 0]
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    Points		    [0, -70]
+	    DstBlock		    "Capacitor"
+	    DstPort		    LConn1
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "Op-Amp"
+	    DstPort		    LConn1
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  7
+	  SrcBlock		  "Electrical Reference"
+	  SrcPort		  LConn1
+	  Points		  [0, -45]
+	  DstBlock		  "Op-Amp"
+	  DstPort		  LConn2
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  8
+	  SrcBlock		  "Resistor"
+	  SrcPort		  RConn1
+	  DstBlock		  "Conn3"
+	  DstPort		  RConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  9
+	  SrcBlock		  "Variable Resistor"
+	  SrcPort		  LConn1
+	  DstBlock		  "Conn1"
+	  DstPort		  RConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  10
+	  SrcBlock		  "Variable Resistor"
+	  SrcPort		  LConn2
+	  DstBlock		  "Conn2"
+	  DstPort		  RConn1
+	}
+      }
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Op-Amp"
+      SID		      "96"
+      Ports		      [0, 0, 0, 0, 0, 2, 1]
+      Position		      [-715, 169, -650, 211]
+      ZOrder		      249
+      BlockRotation	      180
+      BlockMirror	      on
+      LibraryVersion	      "10003000.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Elements/Op-Amp"
+      SourceType	      "Op-Amp"
+      SourceProductBaseCode   "SS"
+      LogSimulationData	      off
+      SourceFile	      "foundation.electrical.elements.op_amp"
+      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"p\",\"label\":\"+\",\"type\":\"foundation."
+      "electrical.electrical\"},{\"id\":\"n\",\"label\":\"-\",\"type\":\"foundation.electrical.electrical\"}],\"Right\""
+      ":[{\"id\":\"out\",\"label\":\"\",\"type\":\"foundation.electrical.electrical\"}],\"Top\":[]}"
+      ComponentPath	      "foundation.electrical.elements.op_amp"
+      ComponentVariants	      "[\"foundation.electrical.elements.op_amp\"]"
+      ComponentVariantNames   "[\"op_amp\"]"
+      ClassName		      "op_amp"
+      SchemaVersion	      "1"
+      outI_specify	      off
+      outI_priority	      "None"
+      outI		      "0"
+      outI_unit		      "A"
+      outI_nominal_specify    off
+      outI_nominal_unit	      "A"
+      outI_nominal_value      "1"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Op-Amp1"
+      SID		      "126"
+      Ports		      [0, 0, 0, 0, 0, 2, 1]
+      Position		      [600, 179, 640, 206]
+      ZOrder		      278
+      BlockRotation	      180
+      BlockMirror	      on
+      LibraryVersion	      "10003000.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Elements/Op-Amp"
+      SourceType	      "Op-Amp"
+      SourceProductBaseCode   "SS"
+      LogSimulationData	      off
+      SourceFile	      "foundation.electrical.elements.op_amp"
+      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"p\",\"label\":\"+\",\"type\":\"foundation."
+      "electrical.electrical\"},{\"id\":\"n\",\"label\":\"-\",\"type\":\"foundation.electrical.electrical\"}],\"Right\""
+      ":[{\"id\":\"out\",\"label\":\"\",\"type\":\"foundation.electrical.electrical\"}],\"Top\":[]}"
+      ComponentPath	      "foundation.electrical.elements.op_amp"
+      ComponentVariants	      "[\"foundation.electrical.elements.op_amp\"]"
+      ComponentVariantNames   "[\"op_amp\"]"
+      ClassName		      "op_amp"
+      SchemaVersion	      "1"
+      outI_specify	      off
+      outI_priority	      "None"
+      outI		      "0"
+      outI_unit		      "A"
+      outI_nominal_specify    off
+      outI_nominal_unit	      "A"
+      outI_nominal_value      "1"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Op-Amp3"
+      SID		      "32"
+      Ports		      [0, 0, 0, 0, 0, 2, 1]
+      Position		      [285, 184, 325, 211]
+      ZOrder		      238
+      BlockRotation	      180
+      BlockMirror	      on
+      LibraryVersion	      "10003000.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Elements/Op-Amp"
+      SourceType	      "Op-Amp"
+      SourceProductBaseCode   "SS"
+      LogSimulationData	      off
+      SourceFile	      "foundation.electrical.elements.op_amp"
+      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"p\",\"label\":\"+\",\"type\":\"foundation."
+      "electrical.electrical\"},{\"id\":\"n\",\"label\":\"-\",\"type\":\"foundation.electrical.electrical\"}],\"Right\""
+      ":[{\"id\":\"out\",\"label\":\"\",\"type\":\"foundation.electrical.electrical\"}],\"Top\":[]}"
+      ComponentPath	      "foundation.electrical.elements.op_amp"
+      ComponentVariants	      "[\"foundation.electrical.elements.op_amp\"]"
+      ComponentVariantNames   "[\"op_amp\"]"
+      ClassName		      "op_amp"
+      SchemaVersion	      "1"
+      outI_specify	      off
+      outI_priority	      "None"
+      outI		      "0"
+      outI_unit		      "A"
+      outI_nominal_specify    off
+      outI_nominal_unit	      "A"
+      outI_nominal_value      "1"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "PS-Simulink\nConverter"
+      SID		      "135"
+      Ports		      [0, 1, 0, 0, 0, 1]
+      Position		      [840, 372, 855, 388]
+      ZOrder		      291
+      LibraryVersion	      "5.0"
+      SourceBlock	      "nesl_utility/PS-Simulink\nConverter"
+      SourceType	      "PS-Simulink\nConverter"
+      SourceProductBaseCode   "PW,SS"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   on
+      PhysicalDomain	      "network_engine_domain"
+      SubClassName	      "ps_output"
+      LeftPortType	      "input"
+      RightPortType	      "output"
+      PseudoPeriodic	      off
+      Frequencies	      "[]"
+      Unit		      "inherit"
+      AffineConversion	      off
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "Propotinal controller"
+      SID		      "39"
+      Ports		      [0, 0, 0, 0, 0, 2, 1]
+      Position		      [-240, 470, -145, 530]
+      ZOrder		      242
+      RequestExecContextInheritance off
+      ContentPreviewEnabled   on
+      System {
+	Name			"Propotinal controller"
+	Location		[-8, -8, 1374, 736]
+	Open			off
+	PortBlocksUseCompactNotation off
+	ModelBrowserVisibility	on
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"57"
+	Block {
+	  BlockType		  Reference
+	  Name			  "Electrical Reference1"
+	  SID			  "14"
+	  Ports			  [0, 0, 0, 0, 0, 1]
+	  Position		  [165, 150, 185, 170]
+	  ZOrder		  127
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  LibraryVersion	  "10003000.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Electrical Reference"
+	  SourceType		  "Electrical Reference"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.electrical.elements.reference"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"V\",\"label\":\"\",\"type\":\"foundation.elec"
+	  "trical.electrical\"}],\"Right\":[],\"Top\":[]}"
+	  ComponentPath		  "foundation.electrical.elements.reference"
+	  ComponentVariants	  "[\"foundation.electrical.elements.reference\"]"
+	  ComponentVariantNames	  "[\"reference\"]"
+	  ClassName		  "reference"
+	  SchemaVersion		  "1"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Op-Amp1"
+	  SID			  "10"
+	  Ports			  [0, 0, 0, 0, 0, 2, 1]
+	  Position		  [185, 84, 250, 126]
+	  ZOrder		  123
+	  BlockRotation		  180
+	  BlockMirror		  on
+	  LibraryVersion	  "10003000.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Op-Amp"
+	  SourceType		  "Op-Amp"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.electrical.elements.op_amp"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"p\",\"label\":\"+\",\"type\":\"foundation.ele"
+	  "ctrical.electrical\"},{\"id\":\"n\",\"label\":\"-\",\"type\":\"foundation.electrical.electrical\"}],\"Right\":[{\"i"
+	  "d\":\"out\",\"label\":\"\",\"type\":\"foundation.electrical.electrical\"}],\"Top\":[]}"
+	  ComponentPath		  "foundation.electrical.elements.op_amp"
+	  ComponentVariants	  "[\"foundation.electrical.elements.op_amp\"]"
+	  ComponentVariantNames	  "[\"op_amp\"]"
+	  ClassName		  "op_amp"
+	  SchemaVersion		  "1"
+	  outI_specify		  off
+	  outI_priority		  "None"
+	  outI			  "0"
+	  outI_unit		  "A"
+	  outI_nominal_specify	  off
+	  outI_nominal_unit	  "A"
+	  outI_nominal_value	  "1"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Resistor1"
+	  SID			  "13"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [80, 81, 120, 109]
+	  ZOrder		  126
+	  LibraryVersion	  "10003000.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Resistor"
+	  SourceType		  "Resistor"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.electrical.elements.resistor"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"p\",\"label\":\"+\",\"type\":\"foundation.ele"
+	  "ctrical.electrical\"}],\"Right\":[{\"id\":\"n\",\"label\":\"-\",\"type\":\"foundation.electrical.electrical\"}],\"T"
+	  "op\":[]}"
+	  ComponentPath		  "foundation.electrical.elements.resistor"
+	  ComponentVariants	  "[\"foundation.electrical.elements.resistor\"]"
+	  ComponentVariantNames	  "[\"resistor\"]"
+	  ClassName		  "resistor"
+	  SchemaVersion		  "1"
+	  R			  "1"
+	  R_unit		  "kOhm"
+	  R_conf		  "compiletime"
+	  i_specify		  off
+	  i_priority		  "None"
+	  i			  "0"
+	  i_unit		  "A"
+	  i_nominal_specify	  off
+	  i_nominal_unit	  "A"
+	  i_nominal_value	  "1"
+	  v_specify		  off
+	  v_priority		  "None"
+	  v			  "0"
+	  v_unit		  "V"
+	  v_nominal_specify	  off
+	  v_nominal_unit	  "V"
+	  v_nominal_value	  "1"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Resistor2"
+	  SID			  "12"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [315, 91, 355, 119]
+	  ZOrder		  125
+	  LibraryVersion	  "10003000.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Resistor"
+	  SourceType		  "Resistor"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.electrical.elements.resistor"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"p\",\"label\":\"+\",\"type\":\"foundation.ele"
+	  "ctrical.electrical\"}],\"Right\":[{\"id\":\"n\",\"label\":\"-\",\"type\":\"foundation.electrical.electrical\"}],\"T"
+	  "op\":[]}"
+	  ComponentPath		  "foundation.electrical.elements.resistor"
+	  ComponentVariants	  "[\"foundation.electrical.elements.resistor\"]"
+	  ComponentVariantNames	  "[\"resistor\"]"
+	  ClassName		  "resistor"
+	  SchemaVersion		  "1"
+	  R			  "1"
+	  R_unit		  "kOhm"
+	  R_conf		  "compiletime"
+	  i_specify		  off
+	  i_priority		  "None"
+	  i			  "0"
+	  i_unit		  "A"
+	  i_nominal_specify	  off
+	  i_nominal_unit	  "A"
+	  i_nominal_value	  "1"
+	  v_specify		  off
+	  v_priority		  "None"
+	  v			  "0"
+	  v_unit		  "V"
+	  v_nominal_specify	  off
+	  v_nominal_unit	  "V"
+	  v_nominal_value	  "1"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Variable Resistor1"
+	  SID			  "11"
+	  Ports			  [0, 0, 0, 0, 0, 2, 1]
+	  Position		  [185, 20, 245, 60]
+	  ZOrder		  124
+	  LibraryVersion	  "10003000.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Variable Resistor"
+	  SourceType		  "Variable Resistor"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.electrical.elements.variable_resistor"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"R\",\"label\":\"R\",\"type\":\"input\"},{\"id"
+	  "\":\"p\",\"label\":\"+\",\"type\":\"foundation.electrical.electrical\"}],\"Right\":[{\"id\":\"n\",\"label\":\"-\",\""
+	  "type\":\"foundation.electrical.electrical\"}],\"Top\":[]}"
+	  ComponentPath		  "foundation.electrical.elements.variable_resistor"
+	  ComponentVariants	  "[\"foundation.electrical.elements.variable_resistor\"]"
+	  ComponentVariantNames	  "[\"variable_resistor\"]"
+	  ClassName		  "variable_resistor"
+	  SchemaVersion		  "1"
+	  Rmin			  "1"
+	  Rmin_unit		  "kOhm"
+	  Rmin_conf		  "compiletime"
+	  i_specify		  off
+	  i_priority		  "None"
+	  i			  "0"
+	  i_unit		  "A"
+	  i_nominal_specify	  off
+	  i_nominal_unit	  "A"
+	  i_nominal_value	  "1"
+	  v_specify		  off
+	  v_priority		  "None"
+	  v			  "0"
+	  v_unit		  "V"
+	  v_nominal_specify	  off
+	  v_nominal_unit	  "V"
+	  v_nominal_value	  "1"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "Conn1"
+	  SID			  "40"
+	  Position		  [90, 23, 120, 37]
+	  ZOrder		  128
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "Conn2"
+	  SID			  "41"
+	  Position		  [20, 88, 50, 102]
+	  ZOrder		  129
+	  Port			  "2"
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "Conn3"
+	  SID			  "42"
+	  Position		  [385, 98, 415, 112]
+	  ZOrder		  130
+	  BlockMirror		  on
+	  Port			  "3"
+	  Side			  "Right"
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  81
+	  SrcBlock		  "Resistor2"
+	  SrcPort		  RConn1
+	  DstBlock		  "Conn3"
+	  DstPort		  RConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  14
+	  SrcBlock		  "Variable Resistor1"
+	  SrcPort		  RConn1
+	  Points		  [5, 0; 0, 65]
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "Resistor2"
+	    SrcPort		    LConn1
+	    Points		    [-35, 0]
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "Op-Amp1"
+	    DstPort		    RConn1
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  11
+	  SrcBlock		  "Resistor1"
+	  SrcPort		  RConn1
+	  Points		  [14, 0]
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "Op-Amp1"
+	    SrcPort		    LConn2
+	    Points		    [-21, 0]
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    Points		    [0, -45]
+	    DstBlock		    "Variable Resistor1"
+	    DstPort		    LConn2
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  24
+	  SrcBlock		  "Op-Amp1"
+	  SrcPort		  LConn1
+	  Points		  [5, 0]
+	  DstBlock		  "Electrical Reference1"
+	  DstPort		  LConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  80
+	  SrcBlock		  "Resistor1"
+	  SrcPort		  LConn1
+	  DstBlock		  "Conn2"
+	  DstPort		  RConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  79
+	  SrcBlock		  "Variable Resistor1"
+	  SrcPort		  LConn1
+	  DstBlock		  "Conn1"
+	  DstPort		  RConn1
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "Propotinal controller1"
+      SID		      "47"
+      Ports		      [0, 0, 0, 0, 0, 2, 1]
+      Position		      [-240, -40, -145, 20]
+      ZOrder		      244
+      RequestExecContextInheritance off
+      ContentPreviewEnabled   on
+      System {
+	Name			"Propotinal controller1"
+	Location		[-8, -8, 1374, 736]
+	Open			off
+	PortBlocksUseCompactNotation off
+	ModelBrowserVisibility	on
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"125"
+	Block {
+	  BlockType		  Reference
+	  Name			  "Electrical Reference1"
+	  SID			  "48"
+	  Ports			  [0, 0, 0, 0, 0, 1]
+	  Position		  [165, 150, 185, 170]
+	  ZOrder		  127
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  LibraryVersion	  "10003000.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Electrical Reference"
+	  SourceType		  "Electrical Reference"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.electrical.elements.reference"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"V\",\"label\":\"\",\"type\":\"foundation.elec"
+	  "trical.electrical\"}],\"Right\":[],\"Top\":[]}"
+	  ComponentPath		  "foundation.electrical.elements.reference"
+	  ComponentVariants	  "[\"foundation.electrical.elements.reference\"]"
+	  ComponentVariantNames	  "[\"reference\"]"
+	  ClassName		  "reference"
+	  SchemaVersion		  "1"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Op-Amp1"
+	  SID			  "49"
+	  Ports			  [0, 0, 0, 0, 0, 2, 1]
+	  Position		  [185, 84, 250, 126]
+	  ZOrder		  123
+	  BlockRotation		  180
+	  BlockMirror		  on
+	  LibraryVersion	  "10003000.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Op-Amp"
+	  SourceType		  "Op-Amp"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.electrical.elements.op_amp"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"p\",\"label\":\"+\",\"type\":\"foundation.ele"
+	  "ctrical.electrical\"},{\"id\":\"n\",\"label\":\"-\",\"type\":\"foundation.electrical.electrical\"}],\"Right\":[{\"i"
+	  "d\":\"out\",\"label\":\"\",\"type\":\"foundation.electrical.electrical\"}],\"Top\":[]}"
+	  ComponentPath		  "foundation.electrical.elements.op_amp"
+	  ComponentVariants	  "[\"foundation.electrical.elements.op_amp\"]"
+	  ComponentVariantNames	  "[\"op_amp\"]"
+	  ClassName		  "op_amp"
+	  SchemaVersion		  "1"
+	  outI_specify		  off
+	  outI_priority		  "None"
+	  outI			  "0"
+	  outI_unit		  "A"
+	  outI_nominal_specify	  off
+	  outI_nominal_unit	  "A"
+	  outI_nominal_value	  "1"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Resistor1"
+	  SID			  "50"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [80, 81, 120, 109]
+	  ZOrder		  126
+	  LibraryVersion	  "10003000.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Resistor"
+	  SourceType		  "Resistor"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.electrical.elements.resistor"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"p\",\"label\":\"+\",\"type\":\"foundation.ele"
+	  "ctrical.electrical\"}],\"Right\":[{\"id\":\"n\",\"label\":\"-\",\"type\":\"foundation.electrical.electrical\"}],\"T"
+	  "op\":[]}"
+	  ComponentPath		  "foundation.electrical.elements.resistor"
+	  ComponentVariants	  "[\"foundation.electrical.elements.resistor\"]"
+	  ComponentVariantNames	  "[\"resistor\"]"
+	  ClassName		  "resistor"
+	  SchemaVersion		  "1"
+	  R			  "1"
+	  R_unit		  "kOhm"
+	  R_conf		  "compiletime"
+	  i_specify		  off
+	  i_priority		  "None"
+	  i			  "0"
+	  i_unit		  "A"
+	  i_nominal_specify	  off
+	  i_nominal_unit	  "A"
+	  i_nominal_value	  "1"
+	  v_specify		  off
+	  v_priority		  "None"
+	  v			  "0"
+	  v_unit		  "V"
+	  v_nominal_specify	  off
+	  v_nominal_unit	  "V"
+	  v_nominal_value	  "1"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Resistor2"
+	  SID			  "51"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [315, 91, 355, 119]
+	  ZOrder		  125
+	  LibraryVersion	  "10003000.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Resistor"
+	  SourceType		  "Resistor"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.electrical.elements.resistor"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"p\",\"label\":\"+\",\"type\":\"foundation.ele"
+	  "ctrical.electrical\"}],\"Right\":[{\"id\":\"n\",\"label\":\"-\",\"type\":\"foundation.electrical.electrical\"}],\"T"
+	  "op\":[]}"
+	  ComponentPath		  "foundation.electrical.elements.resistor"
+	  ComponentVariants	  "[\"foundation.electrical.elements.resistor\"]"
+	  ComponentVariantNames	  "[\"resistor\"]"
+	  ClassName		  "resistor"
+	  SchemaVersion		  "1"
+	  R			  "1"
+	  R_unit		  "kOhm"
+	  R_conf		  "compiletime"
+	  i_specify		  off
+	  i_priority		  "None"
+	  i			  "0"
+	  i_unit		  "A"
+	  i_nominal_specify	  off
+	  i_nominal_unit	  "A"
+	  i_nominal_value	  "1"
+	  v_specify		  off
+	  v_priority		  "None"
+	  v			  "0"
+	  v_unit		  "V"
+	  v_nominal_specify	  off
+	  v_nominal_unit	  "V"
+	  v_nominal_value	  "1"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Variable Resistor1"
+	  SID			  "52"
+	  Ports			  [0, 0, 0, 0, 0, 2, 1]
+	  Position		  [185, 20, 245, 60]
+	  ZOrder		  124
+	  LibraryVersion	  "10003000.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Variable Resistor"
+	  SourceType		  "Variable Resistor"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.electrical.elements.variable_resistor"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"R\",\"label\":\"R\",\"type\":\"input\"},{\"id"
+	  "\":\"p\",\"label\":\"+\",\"type\":\"foundation.electrical.electrical\"}],\"Right\":[{\"id\":\"n\",\"label\":\"-\",\""
+	  "type\":\"foundation.electrical.electrical\"}],\"Top\":[]}"
+	  ComponentPath		  "foundation.electrical.elements.variable_resistor"
+	  ComponentVariants	  "[\"foundation.electrical.elements.variable_resistor\"]"
+	  ComponentVariantNames	  "[\"variable_resistor\"]"
+	  ClassName		  "variable_resistor"
+	  SchemaVersion		  "1"
+	  Rmin			  "1"
+	  Rmin_unit		  "kOhm"
+	  Rmin_conf		  "compiletime"
+	  i_specify		  off
+	  i_priority		  "None"
+	  i			  "0"
+	  i_unit		  "A"
+	  i_nominal_specify	  off
+	  i_nominal_unit	  "A"
+	  i_nominal_value	  "1"
+	  v_specify		  off
+	  v_priority		  "None"
+	  v			  "0"
+	  v_unit		  "V"
+	  v_nominal_specify	  off
+	  v_nominal_unit	  "V"
+	  v_nominal_value	  "1"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "Conn1"
+	  SID			  "53"
+	  Position		  [90, 23, 120, 37]
+	  ZOrder		  128
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "Conn2"
+	  SID			  "54"
+	  Position		  [20, 88, 50, 102]
+	  ZOrder		  129
+	  Port			  "2"
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "Conn3"
+	  SID			  "55"
+	  Position		  [385, 98, 415, 112]
+	  ZOrder		  130
+	  BlockMirror		  on
+	  Port			  "3"
+	  Side			  "Right"
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  1
+	  SrcBlock		  "Resistor2"
+	  SrcPort		  RConn1
+	  DstBlock		  "Conn3"
+	  DstPort		  RConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  2
+	  SrcBlock		  "Variable Resistor1"
+	  SrcPort		  RConn1
+	  Points		  [5, 0; 0, 65]
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "Resistor2"
+	    SrcPort		    LConn1
+	    Points		    [-35, 0]
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "Op-Amp1"
+	    DstPort		    RConn1
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  5
+	  SrcBlock		  "Resistor1"
+	  SrcPort		  RConn1
+	  Points		  [14, 0]
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "Op-Amp1"
+	    SrcPort		    LConn2
+	    Points		    [-21, 0]
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    Points		    [0, -45]
+	    DstBlock		    "Variable Resistor1"
+	    DstPort		    LConn2
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  8
+	  SrcBlock		  "Op-Amp1"
+	  SrcPort		  LConn1
+	  Points		  [5, 0]
+	  DstBlock		  "Electrical Reference1"
+	  DstPort		  LConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  9
+	  SrcBlock		  "Resistor1"
+	  SrcPort		  LConn1
+	  DstBlock		  "Conn2"
+	  DstPort		  RConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  10
+	  SrcBlock		  "Variable Resistor1"
+	  SrcPort		  LConn1
+	  DstBlock		  "Conn1"
+	  DstPort		  RConn1
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "Propotinal controller2"
+      SID		      "65"
+      Ports		      [0, 0, 0, 0, 0, 2, 1]
+      Position		      [-240, 135, -145, 195]
+      ZOrder		      246
+      RequestExecContextInheritance off
+      ContentPreviewEnabled   on
+      System {
+	Name			"Propotinal controller2"
+	Location		[-8, -8, 1374, 736]
+	Open			off
+	PortBlocksUseCompactNotation off
+	ModelBrowserVisibility	on
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"57"
+	Block {
+	  BlockType		  Reference
+	  Name			  "Electrical Reference1"
+	  SID			  "66"
+	  Ports			  [0, 0, 0, 0, 0, 1]
+	  Position		  [165, 150, 185, 170]
+	  ZOrder		  127
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  LibraryVersion	  "10003000.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Electrical Reference"
+	  SourceType		  "Electrical Reference"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.electrical.elements.reference"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"V\",\"label\":\"\",\"type\":\"foundation.elec"
+	  "trical.electrical\"}],\"Right\":[],\"Top\":[]}"
+	  ComponentPath		  "foundation.electrical.elements.reference"
+	  ComponentVariants	  "[\"foundation.electrical.elements.reference\"]"
+	  ComponentVariantNames	  "[\"reference\"]"
+	  ClassName		  "reference"
+	  SchemaVersion		  "1"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Op-Amp1"
+	  SID			  "67"
+	  Ports			  [0, 0, 0, 0, 0, 2, 1]
+	  Position		  [185, 84, 250, 126]
+	  ZOrder		  123
+	  BlockRotation		  180
+	  BlockMirror		  on
+	  LibraryVersion	  "10003000.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Op-Amp"
+	  SourceType		  "Op-Amp"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.electrical.elements.op_amp"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"p\",\"label\":\"+\",\"type\":\"foundation.ele"
+	  "ctrical.electrical\"},{\"id\":\"n\",\"label\":\"-\",\"type\":\"foundation.electrical.electrical\"}],\"Right\":[{\"i"
+	  "d\":\"out\",\"label\":\"\",\"type\":\"foundation.electrical.electrical\"}],\"Top\":[]}"
+	  ComponentPath		  "foundation.electrical.elements.op_amp"
+	  ComponentVariants	  "[\"foundation.electrical.elements.op_amp\"]"
+	  ComponentVariantNames	  "[\"op_amp\"]"
+	  ClassName		  "op_amp"
+	  SchemaVersion		  "1"
+	  outI_specify		  off
+	  outI_priority		  "None"
+	  outI			  "0"
+	  outI_unit		  "A"
+	  outI_nominal_specify	  off
+	  outI_nominal_unit	  "A"
+	  outI_nominal_value	  "1"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Resistor1"
+	  SID			  "68"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [80, 81, 120, 109]
+	  ZOrder		  126
+	  LibraryVersion	  "10003000.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Resistor"
+	  SourceType		  "Resistor"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.electrical.elements.resistor"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"p\",\"label\":\"+\",\"type\":\"foundation.ele"
+	  "ctrical.electrical\"}],\"Right\":[{\"id\":\"n\",\"label\":\"-\",\"type\":\"foundation.electrical.electrical\"}],\"T"
+	  "op\":[]}"
+	  ComponentPath		  "foundation.electrical.elements.resistor"
+	  ComponentVariants	  "[\"foundation.electrical.elements.resistor\"]"
+	  ComponentVariantNames	  "[\"resistor\"]"
+	  ClassName		  "resistor"
+	  SchemaVersion		  "1"
+	  R			  "1"
+	  R_unit		  "kOhm"
+	  R_conf		  "compiletime"
+	  i_specify		  off
+	  i_priority		  "None"
+	  i			  "0"
+	  i_unit		  "A"
+	  i_nominal_specify	  off
+	  i_nominal_unit	  "A"
+	  i_nominal_value	  "1"
+	  v_specify		  off
+	  v_priority		  "None"
+	  v			  "0"
+	  v_unit		  "V"
+	  v_nominal_specify	  off
+	  v_nominal_unit	  "V"
+	  v_nominal_value	  "1"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Resistor2"
+	  SID			  "69"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [315, 91, 355, 119]
+	  ZOrder		  125
+	  LibraryVersion	  "10003000.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Resistor"
+	  SourceType		  "Resistor"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.electrical.elements.resistor"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"p\",\"label\":\"+\",\"type\":\"foundation.ele"
+	  "ctrical.electrical\"}],\"Right\":[{\"id\":\"n\",\"label\":\"-\",\"type\":\"foundation.electrical.electrical\"}],\"T"
+	  "op\":[]}"
+	  ComponentPath		  "foundation.electrical.elements.resistor"
+	  ComponentVariants	  "[\"foundation.electrical.elements.resistor\"]"
+	  ComponentVariantNames	  "[\"resistor\"]"
+	  ClassName		  "resistor"
+	  SchemaVersion		  "1"
+	  R			  "1"
+	  R_unit		  "kOhm"
+	  R_conf		  "compiletime"
+	  i_specify		  off
+	  i_priority		  "None"
+	  i			  "0"
+	  i_unit		  "A"
+	  i_nominal_specify	  off
+	  i_nominal_unit	  "A"
+	  i_nominal_value	  "1"
+	  v_specify		  off
+	  v_priority		  "None"
+	  v			  "0"
+	  v_unit		  "V"
+	  v_nominal_specify	  off
+	  v_nominal_unit	  "V"
+	  v_nominal_value	  "1"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Variable Resistor1"
+	  SID			  "70"
+	  Ports			  [0, 0, 0, 0, 0, 2, 1]
+	  Position		  [185, 20, 245, 60]
+	  ZOrder		  124
+	  LibraryVersion	  "10003000.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Variable Resistor"
+	  SourceType		  "Variable Resistor"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.electrical.elements.variable_resistor"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"R\",\"label\":\"R\",\"type\":\"input\"},{\"id"
+	  "\":\"p\",\"label\":\"+\",\"type\":\"foundation.electrical.electrical\"}],\"Right\":[{\"id\":\"n\",\"label\":\"-\",\""
+	  "type\":\"foundation.electrical.electrical\"}],\"Top\":[]}"
+	  ComponentPath		  "foundation.electrical.elements.variable_resistor"
+	  ComponentVariants	  "[\"foundation.electrical.elements.variable_resistor\"]"
+	  ComponentVariantNames	  "[\"variable_resistor\"]"
+	  ClassName		  "variable_resistor"
+	  SchemaVersion		  "1"
+	  Rmin			  "1"
+	  Rmin_unit		  "kOhm"
+	  Rmin_conf		  "compiletime"
+	  i_specify		  off
+	  i_priority		  "None"
+	  i			  "0"
+	  i_unit		  "A"
+	  i_nominal_specify	  off
+	  i_nominal_unit	  "A"
+	  i_nominal_value	  "1"
+	  v_specify		  off
+	  v_priority		  "None"
+	  v			  "0"
+	  v_unit		  "V"
+	  v_nominal_specify	  off
+	  v_nominal_unit	  "V"
+	  v_nominal_value	  "1"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "Conn1"
+	  SID			  "71"
+	  Position		  [90, 23, 120, 37]
+	  ZOrder		  128
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "Conn2"
+	  SID			  "72"
+	  Position		  [20, 88, 50, 102]
+	  ZOrder		  129
+	  Port			  "2"
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "Conn3"
+	  SID			  "73"
+	  Position		  [385, 98, 415, 112]
+	  ZOrder		  130
+	  BlockMirror		  on
+	  Port			  "3"
+	  Side			  "Right"
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  1
+	  SrcBlock		  "Resistor2"
+	  SrcPort		  RConn1
+	  DstBlock		  "Conn3"
+	  DstPort		  RConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  2
+	  SrcBlock		  "Variable Resistor1"
+	  SrcPort		  RConn1
+	  Points		  [5, 0; 0, 65]
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "Resistor2"
+	    SrcPort		    LConn1
+	    Points		    [-35, 0]
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "Op-Amp1"
+	    DstPort		    RConn1
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  5
+	  SrcBlock		  "Resistor1"
+	  SrcPort		  RConn1
+	  Points		  [14, 0]
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "Op-Amp1"
+	    SrcPort		    LConn2
+	    Points		    [-21, 0]
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    Points		    [0, -45]
+	    DstBlock		    "Variable Resistor1"
+	    DstPort		    LConn2
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  8
+	  SrcBlock		  "Op-Amp1"
+	  SrcPort		  LConn1
+	  Points		  [5, 0]
+	  DstBlock		  "Electrical Reference1"
+	  DstPort		  LConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  9
+	  SrcBlock		  "Resistor1"
+	  SrcPort		  LConn1
+	  DstBlock		  "Conn2"
+	  DstPort		  RConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  10
+	  SrcBlock		  "Variable Resistor1"
+	  SrcPort		  LConn1
+	  DstBlock		  "Conn1"
+	  DstPort		  RConn1
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "Propotinal controller3"
+      SID		      "74"
+      Ports		      [0, 0, 0, 0, 0, 2, 1]
+      Position		      [-240, 210, -145, 270]
+      ZOrder		      247
+      RequestExecContextInheritance off
+      ContentPreviewEnabled   on
+      System {
+	Name			"Propotinal controller3"
+	Location		[-8, -8, 1374, 736]
+	Open			off
+	PortBlocksUseCompactNotation off
+	ModelBrowserVisibility	on
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"57"
+	Block {
+	  BlockType		  Reference
+	  Name			  "Electrical Reference1"
+	  SID			  "75"
+	  Ports			  [0, 0, 0, 0, 0, 1]
+	  Position		  [165, 150, 185, 170]
+	  ZOrder		  127
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  LibraryVersion	  "10003000.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Electrical Reference"
+	  SourceType		  "Electrical Reference"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.electrical.elements.reference"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"V\",\"label\":\"\",\"type\":\"foundation.elec"
+	  "trical.electrical\"}],\"Right\":[],\"Top\":[]}"
+	  ComponentPath		  "foundation.electrical.elements.reference"
+	  ComponentVariants	  "[\"foundation.electrical.elements.reference\"]"
+	  ComponentVariantNames	  "[\"reference\"]"
+	  ClassName		  "reference"
+	  SchemaVersion		  "1"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Op-Amp1"
+	  SID			  "76"
+	  Ports			  [0, 0, 0, 0, 0, 2, 1]
+	  Position		  [185, 84, 250, 126]
+	  ZOrder		  123
+	  BlockRotation		  180
+	  BlockMirror		  on
+	  LibraryVersion	  "10003000.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Op-Amp"
+	  SourceType		  "Op-Amp"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.electrical.elements.op_amp"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"p\",\"label\":\"+\",\"type\":\"foundation.ele"
+	  "ctrical.electrical\"},{\"id\":\"n\",\"label\":\"-\",\"type\":\"foundation.electrical.electrical\"}],\"Right\":[{\"i"
+	  "d\":\"out\",\"label\":\"\",\"type\":\"foundation.electrical.electrical\"}],\"Top\":[]}"
+	  ComponentPath		  "foundation.electrical.elements.op_amp"
+	  ComponentVariants	  "[\"foundation.electrical.elements.op_amp\"]"
+	  ComponentVariantNames	  "[\"op_amp\"]"
+	  ClassName		  "op_amp"
+	  SchemaVersion		  "1"
+	  outI_specify		  off
+	  outI_priority		  "None"
+	  outI			  "0"
+	  outI_unit		  "A"
+	  outI_nominal_specify	  off
+	  outI_nominal_unit	  "A"
+	  outI_nominal_value	  "1"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Resistor1"
+	  SID			  "77"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [80, 81, 120, 109]
+	  ZOrder		  126
+	  LibraryVersion	  "10003000.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Resistor"
+	  SourceType		  "Resistor"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.electrical.elements.resistor"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"p\",\"label\":\"+\",\"type\":\"foundation.ele"
+	  "ctrical.electrical\"}],\"Right\":[{\"id\":\"n\",\"label\":\"-\",\"type\":\"foundation.electrical.electrical\"}],\"T"
+	  "op\":[]}"
+	  ComponentPath		  "foundation.electrical.elements.resistor"
+	  ComponentVariants	  "[\"foundation.electrical.elements.resistor\"]"
+	  ComponentVariantNames	  "[\"resistor\"]"
+	  ClassName		  "resistor"
+	  SchemaVersion		  "1"
+	  R			  "1"
+	  R_unit		  "kOhm"
+	  R_conf		  "compiletime"
+	  i_specify		  off
+	  i_priority		  "None"
+	  i			  "0"
+	  i_unit		  "A"
+	  i_nominal_specify	  off
+	  i_nominal_unit	  "A"
+	  i_nominal_value	  "1"
+	  v_specify		  off
+	  v_priority		  "None"
+	  v			  "0"
+	  v_unit		  "V"
+	  v_nominal_specify	  off
+	  v_nominal_unit	  "V"
+	  v_nominal_value	  "1"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Resistor2"
+	  SID			  "78"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [315, 91, 355, 119]
+	  ZOrder		  125
+	  LibraryVersion	  "10003000.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Resistor"
+	  SourceType		  "Resistor"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.electrical.elements.resistor"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"p\",\"label\":\"+\",\"type\":\"foundation.ele"
+	  "ctrical.electrical\"}],\"Right\":[{\"id\":\"n\",\"label\":\"-\",\"type\":\"foundation.electrical.electrical\"}],\"T"
+	  "op\":[]}"
+	  ComponentPath		  "foundation.electrical.elements.resistor"
+	  ComponentVariants	  "[\"foundation.electrical.elements.resistor\"]"
+	  ComponentVariantNames	  "[\"resistor\"]"
+	  ClassName		  "resistor"
+	  SchemaVersion		  "1"
+	  R			  "1"
+	  R_unit		  "kOhm"
+	  R_conf		  "compiletime"
+	  i_specify		  off
+	  i_priority		  "None"
+	  i			  "0"
+	  i_unit		  "A"
+	  i_nominal_specify	  off
+	  i_nominal_unit	  "A"
+	  i_nominal_value	  "1"
+	  v_specify		  off
+	  v_priority		  "None"
+	  v			  "0"
+	  v_unit		  "V"
+	  v_nominal_specify	  off
+	  v_nominal_unit	  "V"
+	  v_nominal_value	  "1"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Variable Resistor1"
+	  SID			  "79"
+	  Ports			  [0, 0, 0, 0, 0, 2, 1]
+	  Position		  [185, 20, 245, 60]
+	  ZOrder		  124
+	  LibraryVersion	  "10003000.1"
+	  SourceBlock		  "fl_lib/Electrical/Electrical Elements/Variable Resistor"
+	  SourceType		  "Variable Resistor"
+	  SourceProductBaseCode	  "SS"
+	  LogSimulationData	  off
+	  SourceFile		  "foundation.electrical.elements.variable_resistor"
+	  InternalSimscapePortConfiguration "{\"Bottom\":[],\"Left\":[{\"id\":\"R\",\"label\":\"R\",\"type\":\"input\"},{\"id"
+	  "\":\"p\",\"label\":\"+\",\"type\":\"foundation.electrical.electrical\"}],\"Right\":[{\"id\":\"n\",\"label\":\"-\",\""
+	  "type\":\"foundation.electrical.electrical\"}],\"Top\":[]}"
+	  ComponentPath		  "foundation.electrical.elements.variable_resistor"
+	  ComponentVariants	  "[\"foundation.electrical.elements.variable_resistor\"]"
+	  ComponentVariantNames	  "[\"variable_resistor\"]"
+	  ClassName		  "variable_resistor"
+	  SchemaVersion		  "1"
+	  Rmin			  "1"
+	  Rmin_unit		  "kOhm"
+	  Rmin_conf		  "compiletime"
+	  i_specify		  off
+	  i_priority		  "None"
+	  i			  "0"
+	  i_unit		  "A"
+	  i_nominal_specify	  off
+	  i_nominal_unit	  "A"
+	  i_nominal_value	  "1"
+	  v_specify		  off
+	  v_priority		  "None"
+	  v			  "0"
+	  v_unit		  "V"
+	  v_nominal_specify	  off
+	  v_nominal_unit	  "V"
+	  v_nominal_value	  "1"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "Conn1"
+	  SID			  "80"
+	  Position		  [90, 23, 120, 37]
+	  ZOrder		  128
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "Conn2"
+	  SID			  "81"
+	  Position		  [20, 88, 50, 102]
+	  ZOrder		  129
+	  Port			  "2"
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "Conn3"
+	  SID			  "82"
+	  Position		  [385, 98, 415, 112]
+	  ZOrder		  130
+	  BlockMirror		  on
+	  Port			  "3"
+	  Side			  "Right"
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  1
+	  SrcBlock		  "Resistor2"
+	  SrcPort		  RConn1
+	  DstBlock		  "Conn3"
+	  DstPort		  RConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  2
+	  SrcBlock		  "Variable Resistor1"
+	  SrcPort		  RConn1
+	  Points		  [5, 0; 0, 65]
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "Resistor2"
+	    SrcPort		    LConn1
+	    Points		    [-35, 0]
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "Op-Amp1"
+	    DstPort		    RConn1
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  5
+	  SrcBlock		  "Resistor1"
+	  SrcPort		  RConn1
+	  Points		  [14, 0]
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "Op-Amp1"
+	    SrcPort		    LConn2
+	    Points		    [-21, 0]
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    Points		    [0, -45]
+	    DstBlock		    "Variable Resistor1"
+	    DstPort		    LConn2
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  8
+	  SrcBlock		  "Op-Amp1"
+	  SrcPort		  LConn1
+	  Points		  [5, 0]
+	  DstBlock		  "Electrical Reference1"
+	  DstPort		  LConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  9
+	  SrcBlock		  "Resistor1"
+	  SrcPort		  LConn1
+	  DstBlock		  "Conn2"
+	  DstPort		  RConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  10
+	  SrcBlock		  "Variable Resistor1"
+	  SrcPort		  LConn1
+	  DstBlock		  "Conn1"
+	  DstPort		  RConn1
+	}
+      }
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "R Value"
+      SID		      "105"
+      Position		      [-535, -40, -480, -10]
+      ZOrder		      257
+      Value		      "100"
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "R Value1"
+      SID		      "106"
+      Position		      [-25, -95, 30, -65]
+      ZOrder		      259
+      Value		      "5"
+      OutMin		      "[1]"
+      OutMax		      "[5]"
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "R Value2"
+      SID		      "110"
+      Position		      [-535, 40, -480, 70]
+      ZOrder		      263
+      Value		      "200"
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "R Value3"
+      SID		      "112"
+      Position		      [-535, 135, -480, 165]
+      ZOrder		      265
+      Value		      "50"
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "R Value4"
+      SID		      "114"
+      Position		      [-535, 210, -480, 240]
+      ZOrder		      267
+      Value		      "100"
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "R Value5"
+      SID		      "116"
+      Position		      [-535, 300, -480, 330]
+      ZOrder		      269
+      Value		      "200"
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "R Value6"
+      SID		      "118"
+      Position		      [-535, 390, -480, 420]
+      ZOrder		      271
+      Value		      "100"
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "R Value7"
+      SID		      "120"
+      Position		      [-535, 470, -480, 500]
+      ZOrder		      273
+      Value		      "70"
+    }
+    Block {
+      BlockType		      Constant
+      Name		      "R Value8"
+      SID		      "122"
+      Position		      [-535, 550, -480, 580]
+      ZOrder		      275
+      Value		      "250"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Resistor"
+      SID		      "97"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [-865, 166, -825, 194]
+      ZOrder		      250
+      LibraryVersion	      "10003000.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Elements/Resistor"
+      SourceType	      "Resistor"
+      SourceProductBaseCode   "SS"
+      LogSimulationData	      off
+      SourceFile	      "foundation.electrical.elements.resistor"
+      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"p\",\"label\":\"+\",\"type\":\"foundation."
+      "electrical.electrical\"}],\"Right\":[{\"id\":\"n\",\"label\":\"-\",\"type\":\"foundation.electrical.electrical\""
+      "}],\"Top\":[]}"
+      ComponentPath	      "foundation.electrical.elements.resistor"
+      ComponentVariants	      "[\"foundation.electrical.elements.resistor\"]"
+      ComponentVariantNames   "[\"resistor\"]"
+      ClassName		      "resistor"
+      SchemaVersion	      "1"
+      R			      "1"
+      R_unit		      "kOhm"
+      R_conf		      "compiletime"
+      i_specify		      off
+      i_priority	      "None"
+      i			      "0"
+      i_unit		      "A"
+      i_nominal_specify	      off
+      i_nominal_unit	      "A"
+      i_nominal_value	      "1"
+      v_specify		      off
+      v_priority	      "None"
+      v			      "0"
+      v_unit		      "V"
+      v_nominal_specify	      off
+      v_nominal_unit	      "V"
+      v_nominal_value	      "1"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Resistor1"
+      SID		      "98"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [-730, 91, -690, 119]
+      ZOrder		      251
+      LibraryVersion	      "10003000.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Elements/Resistor"
+      SourceType	      "Resistor"
+      SourceProductBaseCode   "SS"
+      LogSimulationData	      off
+      SourceFile	      "foundation.electrical.elements.resistor"
+      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"p\",\"label\":\"+\",\"type\":\"foundation."
+      "electrical.electrical\"}],\"Right\":[{\"id\":\"n\",\"label\":\"-\",\"type\":\"foundation.electrical.electrical\""
+      "}],\"Top\":[]}"
+      ComponentPath	      "foundation.electrical.elements.resistor"
+      ComponentVariants	      "[\"foundation.electrical.elements.resistor\"]"
+      ComponentVariantNames   "[\"resistor\"]"
+      ClassName		      "resistor"
+      SchemaVersion	      "1"
+      R			      "1"
+      R_unit		      "kOhm"
+      R_conf		      "compiletime"
+      i_specify		      off
+      i_priority	      "None"
+      i			      "0"
+      i_unit		      "A"
+      i_nominal_specify	      off
+      i_nominal_unit	      "A"
+      i_nominal_value	      "1"
+      v_specify		      off
+      v_priority	      "None"
+      v			      "0"
+      v_unit		      "V"
+      v_nominal_specify	      off
+      v_nominal_unit	      "V"
+      v_nominal_value	      "1"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Resistor2"
+      SID		      "127"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [390, 186, 430, 214]
+      ZOrder		      279
+      LibraryVersion	      "10003000.3"
+      SourceBlock	      "ee_lib/Passive/Resistor"
+      SourceType	      "Resistor"
+      SourceProductBaseCode   "PS"
+      LogSimulationData	      off
+      SourceFile	      "ee.passive.resistor"
+      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"p\",\"label\":\"+\",\"type\":\"foundation."
+      "electrical.electrical\"}],\"Right\":[{\"id\":\"n\",\"label\":\"-\",\"type\":\"foundation.electrical.electrical\""
+      "}],\"Top\":[]}"
+      ComponentPath	      "ee.passive.resistor"
+      ComponentVariants	      "[\"ee.passive.resistor\",\"ee.passive.resistor_thermal\"]"
+      ComponentVariantNames   "[\"physmod:ee:library:comments:passive:resistor_sscx:noThermalPort\",\"physmod:ee:libra"
+      "ry:comments:passive:resistor_sscx:showThermalPort\"]"
+      ClassName		      "Simscape variant"
+      SchemaVersion	      "1"
+      R			      "1"
+      R_unit		      "kOhm"
+      R_conf		      "compiletime"
+      R_tol		      "5"
+      R_tol_unit	      "1"
+      R_tol_conf	      "compiletime"
+      enable_R_tol	      "0"
+      enable_R_tol_unit	      "1"
+      enable_R_tol_conf	      "compiletime"
+      tol_distribution	      "1"
+      tol_distribution_unit   "1"
+      tol_distribution_conf   "compiletime"
+      nSigma		      "4"
+      nSigma_unit	      "1"
+      nSigma_conf	      "compiletime"
+      enable_operating_limits "0"
+      enable_operating_limits_unit "1"
+      enable_operating_limits_conf "compiletime"
+      operating_limit_action  "2"
+      operating_limit_action_unit "1"
+      operating_limit_action_conf "compiletime"
+      max_working_voltage     "100"
+      max_working_voltage_unit "V"
+      max_working_voltage_conf "compiletime"
+      power_rating	      "1"
+      power_rating_unit	      "W"
+      power_rating_conf	      "compiletime"
+      enable_faults	      "0"
+      enable_faults_unit      "1"
+      enable_faults_conf      "compiletime"
+      fault_action	      "1"
+      fault_action_unit	      "1"
+      fault_action_conf	      "compiletime"
+      R_faulted		      "inf"
+      R_faulted_unit	      "Ohm"
+      R_faulted_conf	      "compiletime"
+      enable_temporal_fault   "0"
+      enable_temporal_fault_unit "1"
+      enable_temporal_fault_conf "compiletime"
+      t_fault		      "1"
+      t_fault_unit	      "s"
+      t_fault_conf	      "compiletime"
+      enable_behavioral_fault "0"
+      enable_behavioral_fault_unit "1"
+      enable_behavioral_fault_conf "compiletime"
+      max_permissible_current "1"
+      max_permissible_current_unit "A"
+      max_permissible_current_conf "compiletime"
+      t_fail_on_current	      "1"
+      t_fail_on_current_unit  "s"
+      t_fail_on_current_conf  "compiletime"
+      noise_mode	      "0"
+      noise_mode_unit	      "1"
+      noise_mode_conf	      "compiletime"
+      sample_time	      "1e-3"
+      sample_time_unit	      "s"
+      sample_time_conf	      "compiletime"
+      repeatability	      "1"
+      repeatability_unit      "1"
+      repeatability_conf      "compiletime"
+      auto_seed		      "927794180"
+      auto_seed_unit	      "1"
+      auto_seed_conf	      "compiletime"
+      user_seed		      "0"
+      user_seed_unit	      "1"
+      user_seed_conf	      "compiletime"
+      Tdevice		      "25"
+      Tdevice_unit	      "degC"
+      Tdevice_conf	      "compiletime"
+      alpha		      "3.93e-3"
+      alpha_unit	      "1/K"
+      alpha_conf	      "compiletime"
+      Tmeas		      "25"
+      Tmeas_unit	      "degC"
+      Tmeas_conf	      "compiletime"
+      thermal_mass	      "100"
+      thermal_mass_unit	      "J/K"
+      thermal_mass_conf	      "compiletime"
+      power_derating_T1	      "70"
+      power_derating_T1_unit  "degC"
+      power_derating_T1_conf  "compiletime"
+      power_derating_T2	      "155"
+      power_derating_T2_unit  "degC"
+      power_derating_T2_conf  "compiletime"
+      operating_temperature_range_vec "[-50, 150]"
+      operating_temperature_range_vec_unit "degC"
+      operating_temperature_range_vec_conf "compiletime"
+      temperature_specify     off
+      temperature_priority    "High"
+      temperature	      "298.15"
+      temperature_unit	      "K"
+      temperature_nominal_specify off
+      temperature_nominal_unit "K"
+      temperature_nominal_value	"1"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Resistor3"
+      SID		      "128"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [480, 186, 520, 214]
+      ZOrder		      280
+      LibraryVersion	      "10003000.3"
+      SourceBlock	      "ee_lib/Passive/Resistor"
+      SourceType	      "Resistor"
+      SourceProductBaseCode   "PS"
+      LogSimulationData	      off
+      SourceFile	      "ee.passive.resistor"
+      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"p\",\"label\":\"+\",\"type\":\"foundation."
+      "electrical.electrical\"}],\"Right\":[{\"id\":\"n\",\"label\":\"-\",\"type\":\"foundation.electrical.electrical\""
+      "}],\"Top\":[]}"
+      ComponentPath	      "ee.passive.resistor"
+      ComponentVariants	      "[\"ee.passive.resistor\",\"ee.passive.resistor_thermal\"]"
+      ComponentVariantNames   "[\"physmod:ee:library:comments:passive:resistor_sscx:noThermalPort\",\"physmod:ee:libra"
+      "ry:comments:passive:resistor_sscx:showThermalPort\"]"
+      ClassName		      "Simscape variant"
+      SchemaVersion	      "1"
+      R			      "1"
+      R_unit		      "kOhm"
+      R_conf		      "compiletime"
+      R_tol		      "5"
+      R_tol_unit	      "1"
+      R_tol_conf	      "compiletime"
+      enable_R_tol	      "0"
+      enable_R_tol_unit	      "1"
+      enable_R_tol_conf	      "compiletime"
+      tol_distribution	      "1"
+      tol_distribution_unit   "1"
+      tol_distribution_conf   "compiletime"
+      nSigma		      "4"
+      nSigma_unit	      "1"
+      nSigma_conf	      "compiletime"
+      enable_operating_limits "0"
+      enable_operating_limits_unit "1"
+      enable_operating_limits_conf "compiletime"
+      operating_limit_action  "2"
+      operating_limit_action_unit "1"
+      operating_limit_action_conf "compiletime"
+      max_working_voltage     "100"
+      max_working_voltage_unit "V"
+      max_working_voltage_conf "compiletime"
+      power_rating	      "1"
+      power_rating_unit	      "W"
+      power_rating_conf	      "compiletime"
+      enable_faults	      "0"
+      enable_faults_unit      "1"
+      enable_faults_conf      "compiletime"
+      fault_action	      "1"
+      fault_action_unit	      "1"
+      fault_action_conf	      "compiletime"
+      R_faulted		      "inf"
+      R_faulted_unit	      "Ohm"
+      R_faulted_conf	      "compiletime"
+      enable_temporal_fault   "0"
+      enable_temporal_fault_unit "1"
+      enable_temporal_fault_conf "compiletime"
+      t_fault		      "1"
+      t_fault_unit	      "s"
+      t_fault_conf	      "compiletime"
+      enable_behavioral_fault "0"
+      enable_behavioral_fault_unit "1"
+      enable_behavioral_fault_conf "compiletime"
+      max_permissible_current "1"
+      max_permissible_current_unit "A"
+      max_permissible_current_conf "compiletime"
+      t_fail_on_current	      "1"
+      t_fail_on_current_unit  "s"
+      t_fail_on_current_conf  "compiletime"
+      noise_mode	      "0"
+      noise_mode_unit	      "1"
+      noise_mode_conf	      "compiletime"
+      sample_time	      "1e-3"
+      sample_time_unit	      "s"
+      sample_time_conf	      "compiletime"
+      repeatability	      "1"
+      repeatability_unit      "1"
+      repeatability_conf      "compiletime"
+      auto_seed		      "3394773151"
+      auto_seed_unit	      "1"
+      auto_seed_conf	      "compiletime"
+      user_seed		      "0"
+      user_seed_unit	      "1"
+      user_seed_conf	      "compiletime"
+      Tdevice		      "25"
+      Tdevice_unit	      "degC"
+      Tdevice_conf	      "compiletime"
+      alpha		      "3.93e-3"
+      alpha_unit	      "1/K"
+      alpha_conf	      "compiletime"
+      Tmeas		      "25"
+      Tmeas_unit	      "degC"
+      Tmeas_conf	      "compiletime"
+      thermal_mass	      "100"
+      thermal_mass_unit	      "J/K"
+      thermal_mass_conf	      "compiletime"
+      power_derating_T1	      "70"
+      power_derating_T1_unit  "degC"
+      power_derating_T1_conf  "compiletime"
+      power_derating_T2	      "155"
+      power_derating_T2_unit  "degC"
+      power_derating_T2_conf  "compiletime"
+      operating_temperature_range_vec "[-50, 150]"
+      operating_temperature_range_vec_unit "degC"
+      operating_temperature_range_vec_conf "compiletime"
+      temperature_specify     off
+      temperature_priority    "High"
+      temperature	      "298.15"
+      temperature_unit	      "K"
+      temperature_nominal_specify off
+      temperature_nominal_unit "K"
+      temperature_nominal_value	"1"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Resistor4"
+      SID		      "34"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [295, 96, 335, 124]
+      ZOrder		      240
+      LibraryVersion	      "10003000.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Elements/Resistor"
+      SourceType	      "Resistor"
+      SourceProductBaseCode   "SS"
+      LogSimulationData	      off
+      SourceFile	      "foundation.electrical.elements.resistor"
+      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"p\",\"label\":\"+\",\"type\":\"foundation."
+      "electrical.electrical\"}],\"Right\":[{\"id\":\"n\",\"label\":\"-\",\"type\":\"foundation.electrical.electrical\""
+      "}],\"Top\":[]}"
+      ComponentPath	      "foundation.electrical.elements.resistor"
+      ComponentVariants	      "[\"foundation.electrical.elements.resistor\"]"
+      ComponentVariantNames   "[\"resistor\"]"
+      ClassName		      "resistor"
+      SchemaVersion	      "1"
+      R			      "1"
+      R_unit		      "kOhm"
+      R_conf		      "compiletime"
+      i_specify		      off
+      i_priority	      "None"
+      i			      "0"
+      i_unit		      "A"
+      i_nominal_specify	      off
+      i_nominal_unit	      "A"
+      i_nominal_value	      "1"
+      v_specify		      off
+      v_priority	      "None"
+      v			      "0"
+      v_unit		      "V"
+      v_nominal_specify	      off
+      v_nominal_unit	      "V"
+      v_nominal_value	      "1"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Resistor5"
+      SID		      "129"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [620, 231, 660, 259]
+      ZOrder		      281
+      LibraryVersion	      "10003000.3"
+      SourceBlock	      "ee_lib/Passive/Resistor"
+      SourceType	      "Resistor"
+      SourceProductBaseCode   "PS"
+      LogSimulationData	      off
+      SourceFile	      "ee.passive.resistor"
+      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"p\",\"label\":\"+\",\"type\":\"foundation."
+      "electrical.electrical\"}],\"Right\":[{\"id\":\"n\",\"label\":\"-\",\"type\":\"foundation.electrical.electrical\""
+      "}],\"Top\":[]}"
+      ComponentPath	      "ee.passive.resistor"
+      ComponentVariants	      "[\"ee.passive.resistor\",\"ee.passive.resistor_thermal\"]"
+      ComponentVariantNames   "[\"physmod:ee:library:comments:passive:resistor_sscx:noThermalPort\",\"physmod:ee:libra"
+      "ry:comments:passive:resistor_sscx:showThermalPort\"]"
+      ClassName		      "Simscape variant"
+      SchemaVersion	      "1"
+      R			      "10"
+      R_unit		      "kOhm"
+      R_conf		      "compiletime"
+      R_tol		      "5"
+      R_tol_unit	      "1"
+      R_tol_conf	      "compiletime"
+      enable_R_tol	      "0"
+      enable_R_tol_unit	      "1"
+      enable_R_tol_conf	      "compiletime"
+      tol_distribution	      "1"
+      tol_distribution_unit   "1"
+      tol_distribution_conf   "compiletime"
+      nSigma		      "4"
+      nSigma_unit	      "1"
+      nSigma_conf	      "compiletime"
+      enable_operating_limits "0"
+      enable_operating_limits_unit "1"
+      enable_operating_limits_conf "compiletime"
+      operating_limit_action  "2"
+      operating_limit_action_unit "1"
+      operating_limit_action_conf "compiletime"
+      max_working_voltage     "100"
+      max_working_voltage_unit "V"
+      max_working_voltage_conf "compiletime"
+      power_rating	      "1"
+      power_rating_unit	      "W"
+      power_rating_conf	      "compiletime"
+      enable_faults	      "0"
+      enable_faults_unit      "1"
+      enable_faults_conf      "compiletime"
+      fault_action	      "1"
+      fault_action_unit	      "1"
+      fault_action_conf	      "compiletime"
+      R_faulted		      "inf"
+      R_faulted_unit	      "Ohm"
+      R_faulted_conf	      "compiletime"
+      enable_temporal_fault   "0"
+      enable_temporal_fault_unit "1"
+      enable_temporal_fault_conf "compiletime"
+      t_fault		      "1"
+      t_fault_unit	      "s"
+      t_fault_conf	      "compiletime"
+      enable_behavioral_fault "0"
+      enable_behavioral_fault_unit "1"
+      enable_behavioral_fault_conf "compiletime"
+      max_permissible_current "1"
+      max_permissible_current_unit "A"
+      max_permissible_current_conf "compiletime"
+      t_fail_on_current	      "1"
+      t_fail_on_current_unit  "s"
+      t_fail_on_current_conf  "compiletime"
+      noise_mode	      "0"
+      noise_mode_unit	      "1"
+      noise_mode_conf	      "compiletime"
+      sample_time	      "1e-3"
+      sample_time_unit	      "s"
+      sample_time_conf	      "compiletime"
+      repeatability	      "1"
+      repeatability_unit      "1"
+      repeatability_conf      "compiletime"
+      auto_seed		      "4077229255"
+      auto_seed_unit	      "1"
+      auto_seed_conf	      "compiletime"
+      user_seed		      "0"
+      user_seed_unit	      "1"
+      user_seed_conf	      "compiletime"
+      Tdevice		      "25"
+      Tdevice_unit	      "degC"
+      Tdevice_conf	      "compiletime"
+      alpha		      "3.93e-3"
+      alpha_unit	      "1/K"
+      alpha_conf	      "compiletime"
+      Tmeas		      "25"
+      Tmeas_unit	      "degC"
+      Tmeas_conf	      "compiletime"
+      thermal_mass	      "100"
+      thermal_mass_unit	      "J/K"
+      thermal_mass_conf	      "compiletime"
+      power_derating_T1	      "70"
+      power_derating_T1_unit  "degC"
+      power_derating_T1_conf  "compiletime"
+      power_derating_T2	      "155"
+      power_derating_T2_unit  "degC"
+      power_derating_T2_conf  "compiletime"
+      operating_temperature_range_vec "[-50, 150]"
+      operating_temperature_range_vec_unit "degC"
+      operating_temperature_range_vec_conf "compiletime"
+      temperature_specify     off
+      temperature_priority    "High"
+      temperature	      "298.15"
+      temperature_unit	      "K"
+      temperature_nominal_specify off
+      temperature_nominal_unit "K"
+      temperature_nominal_value	"1"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Resistor6"
+      SID		      "130"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [581, 260, 609, 300]
+      ZOrder		      282
+      BlockRotation	      90
+      NamePlacement	      "alternate"
+      LibraryVersion	      "10003000.3"
+      SourceBlock	      "ee_lib/Passive/Resistor"
+      SourceType	      "Resistor"
+      SourceProductBaseCode   "PS"
+      LogSimulationData	      off
+      SourceFile	      "ee.passive.resistor"
+      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"p\",\"label\":\"+\",\"type\":\"foundation."
+      "electrical.electrical\"}],\"Right\":[{\"id\":\"n\",\"label\":\"-\",\"type\":\"foundation.electrical.electrical\""
+      "}],\"Top\":[]}"
+      ComponentPath	      "ee.passive.resistor"
+      ComponentVariants	      "[\"ee.passive.resistor\",\"ee.passive.resistor_thermal\"]"
+      ComponentVariantNames   "[\"physmod:ee:library:comments:passive:resistor_sscx:noThermalPort\",\"physmod:ee:libra"
+      "ry:comments:passive:resistor_sscx:showThermalPort\"]"
+      ClassName		      "Simscape variant"
+      SchemaVersion	      "1"
+      R			      "10"
+      R_unit		      "kOhm"
+      R_conf		      "compiletime"
+      R_tol		      "5"
+      R_tol_unit	      "1"
+      R_tol_conf	      "compiletime"
+      enable_R_tol	      "0"
+      enable_R_tol_unit	      "1"
+      enable_R_tol_conf	      "compiletime"
+      tol_distribution	      "1"
+      tol_distribution_unit   "1"
+      tol_distribution_conf   "compiletime"
+      nSigma		      "4"
+      nSigma_unit	      "1"
+      nSigma_conf	      "compiletime"
+      enable_operating_limits "0"
+      enable_operating_limits_unit "1"
+      enable_operating_limits_conf "compiletime"
+      operating_limit_action  "2"
+      operating_limit_action_unit "1"
+      operating_limit_action_conf "compiletime"
+      max_working_voltage     "100"
+      max_working_voltage_unit "V"
+      max_working_voltage_conf "compiletime"
+      power_rating	      "1"
+      power_rating_unit	      "W"
+      power_rating_conf	      "compiletime"
+      enable_faults	      "0"
+      enable_faults_unit      "1"
+      enable_faults_conf      "compiletime"
+      fault_action	      "1"
+      fault_action_unit	      "1"
+      fault_action_conf	      "compiletime"
+      R_faulted		      "inf"
+      R_faulted_unit	      "Ohm"
+      R_faulted_conf	      "compiletime"
+      enable_temporal_fault   "0"
+      enable_temporal_fault_unit "1"
+      enable_temporal_fault_conf "compiletime"
+      t_fault		      "1"
+      t_fault_unit	      "s"
+      t_fault_conf	      "compiletime"
+      enable_behavioral_fault "0"
+      enable_behavioral_fault_unit "1"
+      enable_behavioral_fault_conf "compiletime"
+      max_permissible_current "1"
+      max_permissible_current_unit "A"
+      max_permissible_current_conf "compiletime"
+      t_fail_on_current	      "1"
+      t_fail_on_current_unit  "s"
+      t_fail_on_current_conf  "compiletime"
+      noise_mode	      "0"
+      noise_mode_unit	      "1"
+      noise_mode_conf	      "compiletime"
+      sample_time	      "1e-3"
+      sample_time_unit	      "s"
+      sample_time_conf	      "compiletime"
+      repeatability	      "1"
+      repeatability_unit      "1"
+      repeatability_conf      "compiletime"
+      auto_seed		      "1406882827"
+      auto_seed_unit	      "1"
+      auto_seed_conf	      "compiletime"
+      user_seed		      "0"
+      user_seed_unit	      "1"
+      user_seed_conf	      "compiletime"
+      Tdevice		      "25"
+      Tdevice_unit	      "degC"
+      Tdevice_conf	      "compiletime"
+      alpha		      "3.93e-3"
+      alpha_unit	      "1/K"
+      alpha_conf	      "compiletime"
+      Tmeas		      "25"
+      Tmeas_unit	      "degC"
+      Tmeas_conf	      "compiletime"
+      thermal_mass	      "100"
+      thermal_mass_unit	      "J/K"
+      thermal_mass_conf	      "compiletime"
+      power_derating_T1	      "70"
+      power_derating_T1_unit  "degC"
+      power_derating_T1_conf  "compiletime"
+      power_derating_T2	      "155"
+      power_derating_T2_unit  "degC"
+      power_derating_T2_conf  "compiletime"
+      operating_temperature_range_vec "[-50, 150]"
+      operating_temperature_range_vec_unit "degC"
+      operating_temperature_range_vec_conf "compiletime"
+      temperature_specify     off
+      temperature_priority    "High"
+      temperature	      "298.15"
+      temperature_unit	      "K"
+      temperature_nominal_specify off
+      temperature_nominal_unit "K"
+      temperature_nominal_value	"1"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Resistor7"
+      SID		      "133"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [-774, 220, -746, 260]
+      ZOrder		      285
+      BlockRotation	      90
+      NamePlacement	      "alternate"
+      LibraryVersion	      "10003000.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Elements/Resistor"
+      SourceType	      "Resistor"
+      SourceProductBaseCode   "SS"
+      LogSimulationData	      off
+      SourceFile	      "foundation.electrical.elements.resistor"
+      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"p\",\"label\":\"+\",\"type\":\"foundation."
+      "electrical.electrical\"}],\"Right\":[{\"id\":\"n\",\"label\":\"-\",\"type\":\"foundation.electrical.electrical\""
+      "}],\"Top\":[]}"
+      ComponentPath	      "foundation.electrical.elements.resistor"
+      ComponentVariants	      "[\"foundation.electrical.elements.resistor\"]"
+      ComponentVariantNames   "[\"resistor\"]"
+      ClassName		      "resistor"
+      SchemaVersion	      "1"
+      R			      "1"
+      R_unit		      "kOhm"
+      R_conf		      "compiletime"
+      i_specify		      off
+      i_priority	      "None"
+      i			      "0"
+      i_unit		      "A"
+      i_nominal_specify	      off
+      i_nominal_unit	      "A"
+      i_nominal_value	      "1"
+      v_specify		      off
+      v_priority	      "None"
+      v			      "0"
+      v_unit		      "V"
+      v_nominal_specify	      off
+      v_nominal_unit	      "V"
+      v_nominal_value	      "1"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Resistor8"
+      SID		      "141"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [-870, 186, -830, 214]
+      ZOrder		      295
+      LibraryVersion	      "10003000.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Elements/Resistor"
+      SourceType	      "Resistor"
+      SourceProductBaseCode   "SS"
+      LogSimulationData	      off
+      SourceFile	      "foundation.electrical.elements.resistor"
+      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"p\",\"label\":\"+\",\"type\":\"foundation."
+      "electrical.electrical\"}],\"Right\":[{\"id\":\"n\",\"label\":\"-\",\"type\":\"foundation.electrical.electrical\""
+      "}],\"Top\":[]}"
+      ComponentPath	      "foundation.electrical.elements.resistor"
+      ComponentVariants	      "[\"foundation.electrical.elements.resistor\"]"
+      ComponentVariantNames   "[\"resistor\"]"
+      ClassName		      "resistor"
+      SchemaVersion	      "1"
+      R			      "1"
+      R_unit		      "kOhm"
+      R_conf		      "compiletime"
+      i_specify		      off
+      i_priority	      "None"
+      i			      "0"
+      i_unit		      "A"
+      i_nominal_specify	      off
+      i_nominal_unit	      "A"
+      i_nominal_value	      "1"
+      v_specify		      off
+      v_priority	      "None"
+      v			      "0"
+      v_unit		      "V"
+      v_nominal_specify	      off
+      v_nominal_unit	      "V"
+      v_nominal_value	      "1"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "SPMT Switch"
+      SID		      "29"
+      Ports		      [0, 0, 0, 0, 0, 2, 4]
+      Position		      [100, 119, 150, 231]
+      ZOrder		      237
+      BlockMirror	      on
+      LibraryVersion	      "10003000.3"
+      SourceBlock	      "ee_lib/Switches & Breakers/SPMT Switch"
+      SourceType	      "SPMT Switch"
+      SourceProductBaseCode   "PS"
+      LogSimulationData	      off
+      SourceFile	      "ee.switches.spmt"
+      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"vT\",\"label\":\"vT\",\"type\":\"input\"},"
+      "{\"id\":\"p\",\"label\":\"\",\"type\":\"foundation.electrical.electrical\"}],\"Right\":[{\"id\":\"n1\",\"label\""
+      ":\"\",\"type\":\"foundation.electrical.electrical\"},{\"id\":\"n2\",\"label\":\"\",\"type\":\"foundation.electri"
+      "cal.electrical\"},{\"id\":\"n3\",\"label\":\"\",\"type\":\"foundation.electrical.electrical\"},{\"id\":\"n4\",\""
+      "label\":\"\",\"type\":\"foundation.electrical.electrical\"}],\"Top\":[]}"
+      ComponentPath	      "ee.switches.spmt"
+      ComponentVariants	      "[\"ee.switches.spmt\"]"
+      ComponentVariantNames   "[\"spmt\"]"
+      ClassName		      "spmt"
+      SchemaVersion	      "1"
+      number_throws	      "ee.enum.switches.numberThrows.four"
+      number_throws_unit      "1"
+      number_throws_conf      "compiletime"
+      R_closed		      "0.01"
+      R_closed_unit	      "Ohm"
+      R_closed_conf	      "compiletime"
+      G_open		      "1e-6"
+      G_open_unit	      "S"
+      G_open_conf	      "compiletime"
+      enable_fault	      "ee.enum.faults.faultEnable.no"
+      enable_fault_unit	      "1"
+      enable_fault_conf	      "compiletime"
+      fault_action	      "ee.enum.faults.faultAction.none"
+      fault_action_unit	      "1"
+      fault_action_conf	      "compiletime"
+      fault_trigger	      "ee.enum.faults.faultTrigger.temporal"
+      fault_trigger_unit      "1"
+      fault_trigger_conf      "compiletime"
+      t_fault		      "1"
+      t_fault_unit	      "s"
+      t_fault_conf	      "compiletime"
+      max_permissible_current "inf"
+      max_permissible_current_unit "A"
+      max_permissible_current_conf "compiletime"
+      t_fail_on_current	      "1"
+      t_fail_on_current_unit  "s"
+      t_fail_on_current_conf  "compiletime"
+    }
+    Block {
+      BlockType		      Scope
+      Name		      "Scope"
+      SID		      "136"
+      Ports		      [2]
+      Position		      [865, 681, 895, 714]
+      ZOrder		      289
+      ScopeSpecificationString "Simulink.scopes.TimeScopeBlockCfg('CurrentConfiguration', extmgr.ConfigurationSet(extm"
+      "gr.Configuration('Core','General UI',true),extmgr.Configuration('Core','Source UI',true),extmgr.Configuration('S"
+      "ources','WiredSimulink',true),extmgr.Configuration('Visuals','Time Domain',true,'SerializedDisplays',{struct('Mi"
+      "nYLimReal','-0.12935','MaxYLimReal','1.16412','YLabelReal','','MinYLimMag','0.00000','MaxYLimMag','1.16412','Leg"
+      "endVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.68627"
+      "4509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.623529"
+      "411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647"
+      "058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<SignalLa"
+      "bel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',2,'LineNames',{{'PS-Simulink Converte"
+      "r','Step'}},'ShowContent',true,'Placement',1)},'DisplayPropertyDefaults',struct('MinYLimReal','-0.12935','MaxYLi"
+      "mReal','1.16412','YLabelReal','','MinYLimMag','0.00000','MaxYLimMag','1.16412','LegendVisibility','off','XGrid',"
+      "true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 "
+      "0.686274509803922],'ColorOrder',[0.0745098039215686 0.623529411764706 1;1 0.411764705882353 0.16078431372549;1 1"
+      " 0.0666666666666667;0.717647058823529 0.274509803921569 1;0.392156862745098 0.831372549019608 0.0745098039215686"
+      ";0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863])),extmgr.Configuration('Tools','Plot Navigation'"
+      ",true,'OnceAtStop',false,'PreviousAutoscale','XY','PreviousZoomMode','ZoomX'),extmgr.Configuration('Tools','Meas"
+      "urements',true,'Measurements',struct('traceselector',struct('Line',1),'peaks',struct('Threshold',0,'NumPeaks',3,"
+      "'MinPeakDistance',1,'MinPeakHeight',-Inf,'SortByXAxis',false,'TextLabelFormat',1,'TextIndices',[],'SortAscending"
+      "',false,'SettingsPanelOpen',0,'PeaksPanelOpen',1),'tcursors',struct('XCoordinates',[1.0000000052797 1.0000001151"
+      "1811],'YCoordinates',[NaN NaN],'CursorChannels',[1 1],'WaveformCursors',true,'ShowHorizontal',false,'ShowVertica"
+      "l',true,'LockCursorSpacing',false,'SnapToData',false,'SettingsPanelOpen',0,'MeasurementsPanelOpen',1)),'Version'"
+      ",'2021a')),'Version','2021a','Position',[2 42 1364 642])"
+      NumInputPorts	      "2"
+      Floating		      off
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Simulink-PS\nConverter"
+      SID		      "103"
+      Ports		      [1, 0, 0, 0, 0, 0, 1]
+      Position		      [-445, -33, -430, -17]
+      ZOrder		      255
+      LibraryVersion	      "5.0"
+      SourceBlock	      "nesl_utility/Simulink-PS\nConverter"
+      SourceType	      "Simulink-PS\nConverter"
+      SourceProductBaseCode   "PW,SS"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   on
+      PhysicalDomain	      "network_engine_domain"
+      SubClassName	      "ps_input"
+      LeftPortType	      "input"
+      RightPortType	      "output"
+      PseudoPeriodic	      off
+      Frequencies	      "[]"
+      NoiseDistribution	      "none"
+      NoiseParameters	      "[]"
+      Unit		      "1"
+      AffineConversion	      off
+      FilteringAndDerivatives "provide"
+      SimscapeFilterOrder     "1"
+      InputFilterTimeConstant "0.001"
+      UdotUserProvided	      "0"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Simulink-PS\nConverter1"
+      SID		      "107"
+      Ports		      [1, 0, 0, 0, 0, 0, 1]
+      Position		      [100, -88, 115, -72]
+      ZOrder		      258
+      LibraryVersion	      "5.0"
+      SourceBlock	      "nesl_utility/Simulink-PS\nConverter"
+      SourceType	      "Simulink-PS\nConverter"
+      SourceProductBaseCode   "PW,SS"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   on
+      PhysicalDomain	      "network_engine_domain"
+      SubClassName	      "ps_input"
+      LeftPortType	      "input"
+      RightPortType	      "output"
+      PseudoPeriodic	      off
+      Frequencies	      "[]"
+      NoiseDistribution	      "none"
+      NoiseParameters	      "[]"
+      Unit		      "1"
+      AffineConversion	      off
+      FilteringAndDerivatives "provide"
+      SimscapeFilterOrder     "1"
+      InputFilterTimeConstant "0.001"
+      UdotUserProvided	      "0"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Simulink-PS\nConverter2"
+      SID		      "111"
+      Ports		      [1, 0, 0, 0, 0, 0, 1]
+      Position		      [-440, 47, -425, 63]
+      ZOrder		      262
+      LibraryVersion	      "5.0"
+      SourceBlock	      "nesl_utility/Simulink-PS\nConverter"
+      SourceType	      "Simulink-PS\nConverter"
+      SourceProductBaseCode   "PW,SS"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   on
+      PhysicalDomain	      "network_engine_domain"
+      SubClassName	      "ps_input"
+      LeftPortType	      "input"
+      RightPortType	      "output"
+      PseudoPeriodic	      off
+      Frequencies	      "[]"
+      NoiseDistribution	      "none"
+      NoiseParameters	      "[]"
+      Unit		      "1"
+      AffineConversion	      off
+      FilteringAndDerivatives "provide"
+      SimscapeFilterOrder     "1"
+      InputFilterTimeConstant "0.001"
+      UdotUserProvided	      "0"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Simulink-PS\nConverter3"
+      SID		      "113"
+      Ports		      [1, 0, 0, 0, 0, 0, 1]
+      Position		      [-430, 142, -415, 158]
+      ZOrder		      264
+      LibraryVersion	      "5.0"
+      SourceBlock	      "nesl_utility/Simulink-PS\nConverter"
+      SourceType	      "Simulink-PS\nConverter"
+      SourceProductBaseCode   "PW,SS"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   on
+      PhysicalDomain	      "network_engine_domain"
+      SubClassName	      "ps_input"
+      LeftPortType	      "input"
+      RightPortType	      "output"
+      PseudoPeriodic	      off
+      Frequencies	      "[]"
+      NoiseDistribution	      "none"
+      NoiseParameters	      "[]"
+      Unit		      "1"
+      AffineConversion	      off
+      FilteringAndDerivatives "provide"
+      SimscapeFilterOrder     "1"
+      InputFilterTimeConstant "0.001"
+      UdotUserProvided	      "0"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Simulink-PS\nConverter4"
+      SID		      "115"
+      Ports		      [1, 0, 0, 0, 0, 0, 1]
+      Position		      [-430, 217, -415, 233]
+      ZOrder		      266
+      LibraryVersion	      "5.0"
+      SourceBlock	      "nesl_utility/Simulink-PS\nConverter"
+      SourceType	      "Simulink-PS\nConverter"
+      SourceProductBaseCode   "PW,SS"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   on
+      PhysicalDomain	      "network_engine_domain"
+      SubClassName	      "ps_input"
+      LeftPortType	      "input"
+      RightPortType	      "output"
+      PseudoPeriodic	      off
+      Frequencies	      "[]"
+      NoiseDistribution	      "none"
+      NoiseParameters	      "[]"
+      Unit		      "1"
+      AffineConversion	      off
+      FilteringAndDerivatives "provide"
+      SimscapeFilterOrder     "1"
+      InputFilterTimeConstant "0.001"
+      UdotUserProvided	      "0"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Simulink-PS\nConverter5"
+      SID		      "117"
+      Ports		      [1, 0, 0, 0, 0, 0, 1]
+      Position		      [-440, 307, -425, 323]
+      ZOrder		      268
+      LibraryVersion	      "5.0"
+      SourceBlock	      "nesl_utility/Simulink-PS\nConverter"
+      SourceType	      "Simulink-PS\nConverter"
+      SourceProductBaseCode   "PW,SS"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   on
+      PhysicalDomain	      "network_engine_domain"
+      SubClassName	      "ps_input"
+      LeftPortType	      "input"
+      RightPortType	      "output"
+      PseudoPeriodic	      off
+      Frequencies	      "[]"
+      NoiseDistribution	      "none"
+      NoiseParameters	      "[]"
+      Unit		      "1"
+      AffineConversion	      off
+      FilteringAndDerivatives "provide"
+      SimscapeFilterOrder     "1"
+      InputFilterTimeConstant "0.001"
+      UdotUserProvided	      "0"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Simulink-PS\nConverter6"
+      SID		      "119"
+      Ports		      [1, 0, 0, 0, 0, 0, 1]
+      Position		      [-430, 397, -415, 413]
+      ZOrder		      270
+      LibraryVersion	      "5.0"
+      SourceBlock	      "nesl_utility/Simulink-PS\nConverter"
+      SourceType	      "Simulink-PS\nConverter"
+      SourceProductBaseCode   "PW,SS"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   on
+      PhysicalDomain	      "network_engine_domain"
+      SubClassName	      "ps_input"
+      LeftPortType	      "input"
+      RightPortType	      "output"
+      PseudoPeriodic	      off
+      Frequencies	      "[]"
+      NoiseDistribution	      "none"
+      NoiseParameters	      "[]"
+      Unit		      "1"
+      AffineConversion	      off
+      FilteringAndDerivatives "provide"
+      SimscapeFilterOrder     "1"
+      InputFilterTimeConstant "0.001"
+      UdotUserProvided	      "0"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Simulink-PS\nConverter7"
+      SID		      "121"
+      Ports		      [1, 0, 0, 0, 0, 0, 1]
+      Position		      [-435, 477, -420, 493]
+      ZOrder		      272
+      LibraryVersion	      "5.0"
+      SourceBlock	      "nesl_utility/Simulink-PS\nConverter"
+      SourceType	      "Simulink-PS\nConverter"
+      SourceProductBaseCode   "PW,SS"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   on
+      PhysicalDomain	      "network_engine_domain"
+      SubClassName	      "ps_input"
+      LeftPortType	      "input"
+      RightPortType	      "output"
+      PseudoPeriodic	      off
+      Frequencies	      "[]"
+      NoiseDistribution	      "none"
+      NoiseParameters	      "[]"
+      Unit		      "1"
+      AffineConversion	      off
+      FilteringAndDerivatives "provide"
+      SimscapeFilterOrder     "1"
+      InputFilterTimeConstant "0.001"
+      UdotUserProvided	      "0"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Simulink-PS\nConverter8"
+      SID		      "123"
+      Ports		      [1, 0, 0, 0, 0, 0, 1]
+      Position		      [-410, 557, -395, 573]
+      ZOrder		      274
+      LibraryVersion	      "5.0"
+      SourceBlock	      "nesl_utility/Simulink-PS\nConverter"
+      SourceType	      "Simulink-PS\nConverter"
+      SourceProductBaseCode   "PW,SS"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   on
+      PhysicalDomain	      "network_engine_domain"
+      SubClassName	      "ps_input"
+      LeftPortType	      "input"
+      RightPortType	      "output"
+      PseudoPeriodic	      off
+      Frequencies	      "[]"
+      NoiseDistribution	      "none"
+      NoiseParameters	      "[]"
+      Unit		      "1"
+      AffineConversion	      off
+      FilteringAndDerivatives "provide"
+      SimscapeFilterOrder     "1"
+      InputFilterTimeConstant "0.001"
+      UdotUserProvided	      "0"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Simulink-PS\nConverter9"
+      SID		      "139"
+      Ports		      [1, 0, 0, 0, 0, 0, 1]
+      Position		      [-1150, 307, -1135, 323]
+      ZOrder		      293
+      LibraryVersion	      "5.0"
+      SourceBlock	      "nesl_utility/Simulink-PS\nConverter"
+      SourceType	      "Simulink-PS\nConverter"
+      SourceProductBaseCode   "PW,SS"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   on
+      PhysicalDomain	      "network_engine_domain"
+      SubClassName	      "ps_input"
+      LeftPortType	      "input"
+      RightPortType	      "output"
+      PseudoPeriodic	      off
+      Frequencies	      "[]"
+      NoiseDistribution	      "none"
+      NoiseParameters	      "[]"
+      Unit		      "1"
+      AffineConversion	      off
+      FilteringAndDerivatives "provide"
+      SimscapeFilterOrder     "1"
+      InputFilterTimeConstant "0.001"
+      UdotUserProvided	      "0"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Solver\nConfiguration"
+      SID		      "142"
+      Ports		      [0, 0, 0, 0, 0, 0, 1]
+      Position		      [375, 574, 420, 606]
+      ZOrder		      296
+      LibraryVersion	      "5.0"
+      SourceBlock	      "nesl_utility/Solver\nConfiguration"
+      SourceType	      "Solver\nConfiguration"
+      SourceProductBaseCode   "PW,SS"
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      ContentPreviewEnabled   on
+      PhysicalDomain	      "network_engine_domain"
+      SubClassName	      "solver"
+      LeftPortType	      "input"
+      RightPortType	      "generic"
+      Tones		      "[]"
+      Harmonics		      "[]"
+      SimulateNoise	      off
+      Profile		      off
+      UseLocalSampling	      off
+      EnableSwitchedLinearOptims on
+      FrequencyDomain	      off
+      UseCCode		      off
+      RelTol		      "0.001"
+      AbsTol		      "1e-06"
+      MinStep		      "1e-09"
+      ToWorkspace	      off
+      RevertToSquareIcSolve   off
+      NumHomotopyIterations   "100"
+      PhasorMode	      off
+      PhasorModeNumHarmonics  "1"
+      DoDC		      off
+      ResidualTolerance	      "1e-09"
+      UseLocalSolver	      off
+      LocalSolverChoice	      "NE_BACKWARD_EULER_ADVANCER"
+      LocalSolverSampleTime   "0.001"
+      DoFixedCost	      off
+      MaxNonlinIter	      "3"
+      MaxModeIter	      "2"
+      ComputeImpulses	      off
+      ImpulseIterations	      "2"
+      LinearAlgebra	      "auto"
+      EquationFormulation     "NE_TIME_EF"
+      DelaysMemoryBudget      "1024"
+      AutomaticFiltering      on
+      FilteringTimeConstant   "0.001"
+      PartitionStorageMethod  "AS_NEEDED"
+      PartitionMemoryBudget   "1024"
+      PartitionMethod	      "ROBUST"
+    }
+    Block {
+      BlockType		      Step
+      Name		      "Step"
+      SID		      "140"
+      Position		      [-1320, 265, -1290, 295]
+      ZOrder		      294
+      SampleTime	      "0"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "Voltage Sensor"
+      SID		      "137"
+      Ports		      [0, 0, 0, 0, 0, 1, 2]
+      Position		      [775, 285, 815, 325]
+      ZOrder		      288
+      BlockRotation	      270
+      BlockMirror	      on
+      LibraryVersion	      "10003000.1"
+      SourceBlock	      "fl_lib/Electrical/Electrical Sensors/Voltage Sensor"
+      SourceType	      "Voltage Sensor"
+      SourceProductBaseCode   "SS"
+      LogSimulationData	      off
+      SourceFile	      "foundation.electrical.sensors.voltage"
+      InternalSimscapePortConfiguration	"{\"Bottom\":[],\"Left\":[{\"id\":\"p\",\"label\":\"+\",\"type\":\"foundation."
+      "electrical.electrical\"}],\"Right\":[{\"id\":\"V\",\"label\":\"V\",\"type\":\"output\"},{\"id\":\"n\",\"label\":"
+      "\"-\",\"type\":\"foundation.electrical.electrical\"}],\"Top\":[]}"
+      ComponentPath	      "foundation.electrical.sensors.voltage"
+      ComponentVariants	      "[\"foundation.electrical.sensors.voltage\"]"
+      ComponentVariantNames   "[\"voltage\"]"
+      ClassName		      "voltage"
+      SchemaVersion	      "1"
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      57
+      SrcBlock		      "Op-Amp3"
+      SrcPort		      LConn2
+      Points		      [-14, 0]
+      Branch {
+	ConnectType		"DEST_SRC"
+	Points			[0, 15]
+	DstBlock		"SPMT Switch"
+	DstPort			LConn2
+      }
+      Branch {
+	ConnectType		"DEST_DEST"
+	SrcBlock		"Resistor4"
+	SrcPort			LConn1
+	Points			[-24, 0; 0, 80]
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      58
+      SrcBlock		      "Op-Amp3"
+      SrcPort		      LConn1
+      Points		      [5, 0]
+      DstBlock		      "Electrical Reference3"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      61
+      SrcBlock		      "Resistor4"
+      SrcPort		      RConn1
+      Points		      [-16, 0; 6, 0; 0, 90]
+      Branch {
+	ConnectType		"DEST_DEST"
+	SrcBlock		"Resistor2"
+	SrcPort			LConn1
+	Points			[-35, 0]
+      }
+      Branch {
+	ConnectType		"DEST_SRC"
+	DstBlock		"Op-Amp3"
+	DstPort			RConn1
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      81
+      SrcBlock		      "Propotinal controller1"
+      SrcPort		      RConn1
+      Points		      [0, 56]
+      Branch {
+	ConnectType		"DEST_DEST"
+	SrcBlock		"SPMT Switch"
+	SrcPort			RConn1
+	Points			[-81, 0; 0, -84; -134, 0]
+      }
+      Branch {
+	ConnectType		"DEST_SRC"
+	DstBlock		"Integrator1"
+	DstPort			RConn1
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      87
+      SrcBlock		      "Propotinal controller2"
+      SrcPort		      RConn1
+      Points		      [108, 0; 0, -5]
+      DstBlock		      "SPMT Switch"
+      DstPort		      RConn2
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      88
+      SrcBlock		      "Propotinal controller3"
+      SrcPort		      RConn1
+      Points		      [0, 0]
+      Branch {
+	ConnectType		"DEST_SRC"
+	DstBlock		"Differentiator1"
+	DstPort			RConn1
+      }
+      Branch {
+	ConnectType		"DEST_DEST"
+	SrcBlock		"SPMT Switch"
+	SrcPort			RConn3
+	Points			[-81, 0; 0, 34; -134, 0; 0, 16]
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      94
+      SrcBlock		      "Integrator"
+      SrcPort		      RConn1
+      Points		      [0, 80]
+      Branch {
+	ConnectType		"DEST_SRC"
+	DstBlock		"Differentiator"
+	DstPort			RConn1
+      }
+      Branch {
+	ConnectType		"DEST_DEST"
+	SrcBlock		"SPMT Switch"
+	SrcPort			RConn4
+	Points			[-33, 0; 0, 280; -182, 0]
+      }
+      Branch {
+	ConnectType		"DEST_SRC"
+	DstBlock		"Propotinal controller"
+	DstPort			RConn1
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      99
+      SrcBlock		      "Propotinal controller1"
+      SrcPort		      LConn2
+      Points		      [0, 85]
+      Branch {
+	ConnectType		"DEST_DEST"
+	Points			[-255, 180; 0, -90]
+	Branch {
+	  ConnectType		  "SRC_DEST"
+	  Points		  [-255, 205; 0, -25]
+	  Branch {
+	    ConnectType		    "SRC_DEST"
+	    Points		    [-610, 190; 0, 15; 355, 0]
+	    Branch {
+	      ConnectType	      "SRC_DEST"
+	      SrcBlock		      "Resistor1"
+	      SrcPort		      RConn1
+	      Points		      [65, 0; 0, 85]
+	    }
+	    Branch {
+	      ConnectType	      "SRC_DEST"
+	      SrcBlock		      "Op-Amp"
+	      SrcPort		      RConn1
+	      Points		      [25, 0]
+	    }
+	  }
+	  Branch {
+	    ConnectType		    "SRC_DEST"
+	    Points		    [-255, 255; 0, -50]
+	    Branch {
+	      ConnectType	      "SRC_DEST"
+	      Points		      [-255, 345; 0, -90]
+	      Branch {
+		ConnectType		"SRC_DEST"
+		Points			[-255, 435; 0, -90]
+		Branch {
+		  ConnectType		  "SRC_DEST"
+		  Points		  [-255, 515; 0, -80]
+		  Branch {
+		    ConnectType		    "SRC_DEST"
+		    SrcBlock		    "Differentiator"
+		    SrcPort		    LConn2
+		    Points		    [0, -80]
+		  }
+		  Branch {
+		    ConnectType		    "SRC_DEST"
+		    SrcBlock		    "Propotinal controller"
+		    SrcPort		    LConn2
+		    Points		    [0, 0]
+		  }
+		}
+		Branch {
+		  ConnectType		  "SRC_DEST"
+		  SrcBlock		  "Integrator"
+		  SrcPort		  LConn2
+		  Points		  [0, 0]
+		}
+	      }
+	      Branch {
+		ConnectType		"SRC_DEST"
+		SrcBlock		"Differentiator1"
+		SrcPort			LConn2
+		Points			[0, 0]
+	      }
+	    }
+	    Branch {
+	      ConnectType	      "SRC_DEST"
+	      SrcBlock		      "Propotinal controller3"
+	      SrcPort		      LConn2
+	      Points		      [0, 0]
+	    }
+	  }
+	}
+	Branch {
+	  ConnectType		  "SRC_DEST"
+	  SrcBlock		  "Propotinal controller2"
+	  SrcPort		  LConn2
+	  Points		  [0, 0]
+	}
+      }
+      Branch {
+	ConnectType		"DEST_SRC"
+	DstBlock		"Integrator1"
+	DstPort			LConn2
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      149
+      SrcBlock		      "Simulink-PS\nConverter1"
+      SrcPort		      RConn1
+      Points		      [35, 0]
+      DstBlock		      "SPMT Switch"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      122
+      SrcBlock		      "Resistor"
+      SrcPort		      RConn1
+      Points		      [16, 0]
+      Branch {
+	ConnectType		"DEST_DEST"
+	SrcBlock		"Resistor1"
+	SrcPort			LConn1
+	Points			[-49, 0; 0, 75]
+      }
+      Branch {
+	ConnectType		"DEST_SRC"
+	DstBlock		"Op-Amp"
+	DstPort			LConn2
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      142
+      SrcBlock		      "Simulink-PS\nConverter"
+      SrcPort		      RConn1
+      DstBlock		      "Propotinal controller1"
+      DstPort		      LConn1
+    }
+    Line {
+      ZOrder		      146
+      SrcBlock		      "R Value"
+      SrcPort		      1
+      DstBlock		      "Simulink-PS\nConverter"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      148
+      SrcBlock		      "R Value1"
+      SrcPort		      1
+      DstBlock		      "Simulink-PS\nConverter1"
+      DstPort		      1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      154
+      SrcBlock		      "Integrator1"
+      SrcPort		      LConn1
+      Points		      [-85, 0; 0, -5]
+      DstBlock		      "Simulink-PS\nConverter2"
+      DstPort		      RConn1
+    }
+    Line {
+      ZOrder		      153
+      SrcBlock		      "R Value2"
+      SrcPort		      1
+      DstBlock		      "Simulink-PS\nConverter2"
+      DstPort		      1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      158
+      SrcBlock		      "Propotinal controller2"
+      SrcPort		      LConn1
+      DstBlock		      "Simulink-PS\nConverter3"
+      DstPort		      RConn1
+    }
+    Line {
+      ZOrder		      156
+      SrcBlock		      "R Value3"
+      SrcPort		      1
+      DstBlock		      "Simulink-PS\nConverter3"
+      DstPort		      1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      161
+      SrcBlock		      "Propotinal controller3"
+      SrcPort		      LConn1
+      DstBlock		      "Simulink-PS\nConverter4"
+      DstPort		      RConn1
+    }
+    Line {
+      ZOrder		      160
+      SrcBlock		      "R Value4"
+      SrcPort		      1
+      DstBlock		      "Simulink-PS\nConverter4"
+      DstPort		      1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      164
+      SrcBlock		      "Differentiator1"
+      SrcPort		      LConn1
+      DstBlock		      "Simulink-PS\nConverter5"
+      DstPort		      RConn1
+    }
+    Line {
+      ZOrder		      163
+      SrcBlock		      "R Value5"
+      SrcPort		      1
+      DstBlock		      "Simulink-PS\nConverter5"
+      DstPort		      1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      167
+      SrcBlock		      "Integrator"
+      SrcPort		      LConn1
+      DstBlock		      "Simulink-PS\nConverter6"
+      DstPort		      RConn1
+    }
+    Line {
+      ZOrder		      166
+      SrcBlock		      "R Value6"
+      SrcPort		      1
+      DstBlock		      "Simulink-PS\nConverter6"
+      DstPort		      1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      170
+      SrcBlock		      "Propotinal controller"
+      SrcPort		      LConn1
+      DstBlock		      "Simulink-PS\nConverter7"
+      DstPort		      RConn1
+    }
+    Line {
+      ZOrder		      169
+      SrcBlock		      "R Value7"
+      SrcPort		      1
+      DstBlock		      "Simulink-PS\nConverter7"
+      DstPort		      1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      174
+      SrcBlock		      "Differentiator"
+      SrcPort		      LConn1
+      DstBlock		      "Simulink-PS\nConverter8"
+      DstPort		      RConn1
+    }
+    Line {
+      ZOrder		      172
+      SrcBlock		      "R Value8"
+      SrcPort		      1
+      DstBlock		      "Simulink-PS\nConverter8"
+      DstPort		      1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      30
+      SrcBlock		      "Resistor5"
+      SrcPort		      LConn1
+      Points		      [-10, 0]
+      Branch {
+	ConnectType		"DEST_SRC"
+	DstBlock		"Resistor6"
+	DstPort			LConn1
+      }
+      Branch {
+	ConnectType		"DEST_DEST"
+	SrcBlock		"Op-Amp1"
+	SrcPort			LConn2
+	Points			[10, 0; 0, 60]
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      33
+      Points		      [465, 200; 0, -100; 65, 0]
+      DstBlock		      "Capacitor1"
+      DstPort		      RConn1
+      Branch {
+	ConnectType		"SRC_SRC"
+	DstBlock		"Resistor2"
+	DstPort			RConn1
+      }
+      Branch {
+	ConnectType		"SRC_DEST"
+	SrcBlock		"Resistor3"
+	SrcPort			LConn1
+	Points			[0, 0]
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      36
+      SrcBlock		      "Capacitor"
+      SrcPort		      LConn1
+      Points		      [0, -35]
+      Branch {
+	ConnectType		"DEST_SRC"
+	DstBlock		"Op-Amp1"
+	DstPort			LConn1
+      }
+      Branch {
+	ConnectType		"DEST_DEST"
+	SrcBlock		"Resistor3"
+	SrcPort			RConn1
+	Points			[5, 0]
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      178
+      SrcBlock		      "Capacitor1"
+      SrcPort		      LConn1
+      Points		      [81, 0; 0, 95]
+      Branch {
+	ConnectType		"DEST_DEST"
+	Points			[731, 195; -50, 0]
+	Branch {
+	  ConnectType		  "SRC_DEST"
+	  SrcBlock		  "Voltage Sensor"
+	  SrcPort		  LConn1
+	  Points		  [0, -75; -64, 0]
+	}
+	Branch {
+	  ConnectType		  "SRC_DEST"
+	  SrcBlock		  "Resistor"
+	  SrcPort		  LConn1
+	  Points		  [-9, 0; 0, -299; 1620, 0; 0, 314]
+	}
+      }
+      Branch {
+	ConnectType		"DEST_SRC"
+	Points			[0, 50]
+	DstBlock		"Resistor5"
+	DstPort			RConn1
+      }
+      Branch {
+	ConnectType		"DEST_SRC"
+	DstBlock		"Op-Amp1"
+	DstPort			RConn1
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      181
+      SrcBlock		      "Electrical Reference1"
+      SrcPort		      LConn1
+      Points		      [0, -1]
+      Branch {
+	ConnectType		"DEST_DEST"
+	Points			[291, 502; 0, -183; 249, 0]
+	Branch {
+	  ConnectType		  "SRC_DEST"
+	  SrcBlock		  "Solver\nConfiguration"
+	  SrcPort		  RConn1
+	  Points		  [9, 0; 0, -88; -153, 0]
+	}
+	Branch {
+	  ConnectType		  "SRC_DEST"
+	  SrcBlock		  "Controlled Voltage\nSource"
+	  SrcPort		  RConn2
+	  Points		  [0, 344; 1351, 0; 0, -132]
+	}
+      }
+      Branch {
+	ConnectType		"DEST_SRC"
+	DstBlock		"Capacitor"
+	DstPort			RConn1
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      182
+      SrcBlock		      "Electrical Reference2"
+      SrcPort		      LConn1
+      Points		      [0, -5]
+      Branch {
+	ConnectType		"DEST_DEST"
+	SrcBlock		"Voltage Sensor"
+	SrcPort			RConn2
+	Points			[0, 9; -134, 0; 0, -34; -76, 0]
+      }
+      Branch {
+	ConnectType		"DEST_SRC"
+	DstBlock		"Resistor6"
+	DstPort			RConn1
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      187
+      SrcBlock		      "Resistor7"
+      SrcPort		      RConn1
+      DstBlock		      "Electrical Reference"
+      DstPort		      LConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      188
+      SrcBlock		      "Op-Amp"
+      SrcPort		      LConn1
+      Points		      [-30, 0]
+      Branch {
+	ConnectType		"DEST_DEST"
+	SrcBlock		"Resistor8"
+	SrcPort			RConn1
+	Points			[55, 0]
+      }
+      Branch {
+	ConnectType		"DEST_SRC"
+	DstBlock		"Resistor7"
+	DstPort			LConn1
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      205
+      SrcBlock		      "Voltage Sensor"
+      SrcPort		      RConn1
+      Points		      [0, 40]
+      DstBlock		      "PS-Simulink\nConverter"
+      DstPort		      LConn1
+    }
+    Line {
+      ZOrder		      206
+      SrcBlock		      "PS-Simulink\nConverter"
+      SrcPort		      1
+      Points		      [19, 0; 0, 245; -38, 0; 0, 65]
+      DstBlock		      "Scope"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      215
+      SrcBlock		      "Step"
+      SrcPort		      1
+      Points		      [65, 0; 0, 35; 1, 0]
+      Branch {
+	ZOrder			217
+	Points			[0, 390]
+	DstBlock		"Scope"
+	DstPort			2
+      }
+      Branch {
+	ZOrder			216
+	DstBlock		"Simulink-PS\nConverter9"
+	DstPort			1
+      }
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      212
+      SrcBlock		      "Simulink-PS\nConverter9"
+      SrcPort		      RConn1
+      Points		      [40, 0]
+      DstBlock		      "Controlled Voltage\nSource"
+      DstPort		      RConn1
+    }
+    Line {
+      LineType		      "Connection"
+      ZOrder		      223
+      SrcBlock		      "Resistor8"
+      SrcPort		      LConn1
+      Points		      [-185, 0]
+      DstBlock		      "Controlled Voltage\nSource"
+      DstPort		      LConn1
+    }
+    Annotation {
+      SID		      "134"
+      Name		      "Second Order system"
+      Position		      [383, 60, 718, 385]
+      InternalMargins	      [0, 0, 0, 0]
+      FixedHeight	      on
+      FixedWidth	      on
+      ForegroundColor	      "[0.901961, 0.901961, 1.000000]"
+      BackgroundColor	      "[0.901961, 0.901961, 1.000000]"
+      DropShadow	      on
+      AnnotationType	      "area_annotation"
+      ZOrder		      467
+      FontSize		      12
+    }
+    Annotation {
+      SID		      "95"
+      Name		      "PID Controller"
+      Position		      [-346, 380, -81, 615]
+      InternalMargins	      [0, 0, 0, 0]
+      FixedHeight	      on
+      FixedWidth	      on
+      ForegroundColor	      "[0.901961, 0.901961, 1.000000]"
+      BackgroundColor	      "[0.901961, 0.901961, 1.000000]"
+      DropShadow	      on
+      AnnotationType	      "area_annotation"
+      ZOrder		      470
+      FontSize		      12
+    }
+    Annotation {
+      SID		      "94"
+      Name		      "PD controller"
+      Position		      [-346, 210, -91, 370]
+      InternalMargins	      [0, 0, 0, 0]
+      FixedHeight	      on
+      FixedWidth	      on
+      ForegroundColor	      "[0.901961, 0.901961, 1.000000]"
+      BackgroundColor	      "[0.901961, 0.901961, 1.000000]"
+      DropShadow	      on
+      AnnotationType	      "area_annotation"
+      ZOrder		      469
+      FontSize		      12
+    }
+    Annotation {
+      SID		      "93"
+      Name		      "Propotional Controller"
+      Position		      [-347, 125, -92, 200]
+      InternalMargins	      [0, 0, 0, 0]
+      FixedHeight	      on
+      FixedWidth	      on
+      ForegroundColor	      "[0.901961, 0.901961, 1.000000]"
+      BackgroundColor	      "[0.901961, 0.901961, 1.000000]"
+      DropShadow	      on
+      AnnotationType	      "area_annotation"
+      ZOrder		      468
+      FontSize		      12
+    }
+    Annotation {
+      SID		      "92"
+      Name		      "PI Controller"
+      Position		      [-348, -59, -93, 120]
+      InternalMargins	      [0, 0, 0, 0]
+      FixedHeight	      on
+      FixedWidth	      on
+      ForegroundColor	      "[0.901961, 0.901961, 1.000000]"
+      BackgroundColor	      "[0.901961, 0.901961, 1.000000]"
+      DropShadow	      on
+      AnnotationType	      "area_annotation"
+      ZOrder		      466
+      FontSize		      12
+    }
+  }
+}
